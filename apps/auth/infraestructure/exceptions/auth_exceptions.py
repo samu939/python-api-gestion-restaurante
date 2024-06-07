@@ -1,4 +1,4 @@
-from utils.app_exceptions import AppExceptionCase
+from core.infrastructure.utils.app_exceptions import AppExceptionCase
 
 
 class AuthExceptions:

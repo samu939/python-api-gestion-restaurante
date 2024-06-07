@@ -4,7 +4,7 @@ from uuid import UUID
 
 from apps.user.infrastructure.db_entity.user_in_db import roleEnum
 from config import ACCESS_TOKEN_EXPIRE_MINUTES, JWT_AUDIENCE
-from utils.schemas_base import BaseSchema
+from core.infrastructure.utils.schemas_base import BaseSchema
 
 
 class JWTMeta(BaseSchema):

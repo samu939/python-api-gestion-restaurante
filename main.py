@@ -7,7 +7,7 @@ from passlib.context import CryptContext
 import config
 from handlers import create_start_app_handler, create_stop_app_handler
 from routers import router
-from utils.app_exceptions import AppExceptionCase, app_exception_handler
+from core.infrastructure.utils.app_exceptions import AppExceptionCase, app_exception_handler
 
 
 def get_application():
