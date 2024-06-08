@@ -1,5 +1,11 @@
 GET_USER_BY_USERNAME = """
     SELECT us.id, us.name, us.username, us.password, us.role
     FROM users AS us
-    WHERE username = :username;
+    WHERE us.username = :username;
+"""
+
+GET_USER_BY_ID = """
+    SELECT us.id, us.name, us.username, us.password, us.role
+    FROM users AS us
+    WHERE us.id = :id;
 """

@@ -1,6 +1,6 @@
 from typing import TypeVar, Generic, Any
 from abc import ABC, abstractmethod
-from src.core.domain.entities.entity import Entity
+from core.domain.entities.entity import Entity
 
 D = TypeVar('D', bound=Entity[Any])
 P = TypeVar('P')

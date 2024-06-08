@@ -1,9 +1,9 @@
 from typing import Awaitable
-from src.apps.users.domain.user import User
-from src.apps.users.domain.repositories.user_repository import UserRepository
-from src.apps.users.domain.value_objects.user_id import UserId
-from src.core.application.services.application_service import ApplicationService
-from src.core.application.results.result_wrapper import Result
+from apps.user.domain.user import User
+from apps.user.domain.repositories.user_repository import UserRepository
+from apps.user.domain.value_objects.user_id import UserId
+from core.application.services.application_service import ApplicationService
+from core.application.results.result_wrapper import Result
 from ..errors.user_not_found import UserNotFoundApplicatonError
 
 class GetUserApplicationService(ApplicationService[UserId, User]):
