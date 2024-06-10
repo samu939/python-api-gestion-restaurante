@@ -1,16 +1,14 @@
 
 from apps.auth.application.dto.login_dto import loginDto
+from apps.auth.application.dto.login_response import AuthResponse
+from apps.auth.application.exceptions.auth_exceptions import AuthExceptions
 from apps.auth.application.token.token_generator import tokenGenerator
 from apps.user.domain.repositories.user_repository import UserRepository
 from core.application.results.result_wrapper import Result
 from core.application.services.application_service import ApplicationService
 from databases import Database
 from loguru import logger
-from apps.auth.infraestructure.exceptions.auth_exceptions import AuthExceptions
-from apps.auth.infraestructure.entities.token import (
-    AuthResponse,
 
-)
 from passlib.context import CryptContext
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

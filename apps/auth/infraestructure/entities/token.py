@@ -34,9 +34,4 @@ class AccessToken(BaseSchema):
     token_type: str
 
 
-class AuthResponse(AccessToken):
-    id: UUID
-    name: str
-    username: str
-    role: roleEnum
 
