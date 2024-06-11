@@ -2,7 +2,7 @@
 import bcrypt
 import jwt
 
-from apps.auth.infraestructure.exceptions.auth_exceptions import AuthExceptions
+from apps.auth.application.exceptions.auth_exceptions import AuthExceptions
 from apps.auth.infraestructure.entities.token import (
     JWTPayload
 )

@@ -17,16 +17,15 @@ services:
   #     - local-app-network
 
   db:
-    container_name: postgres_container
+    container_name: python_postgres_container
     image: postgres:14.3
     restart: always
     ports:
       - ${POSTGRES_PORT}:5432
-    environment:
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
+    env_file:
+      - ./.env
     volumes:
-      - /postgres:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data/
     
     
 #     networks:
@@ -36,5 +35,5 @@ services:
 # networks:
 #   local-app-network:
 
-# volumes:
-#   postgres_data:
+volumes:
+  postgres_data:

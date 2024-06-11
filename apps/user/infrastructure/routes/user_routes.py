@@ -5,10 +5,6 @@ from fastapi.security import OAuth2PasswordRequestForm
 from apps.auth.application.dto.login_dto import loginDto
 from apps.auth.application.services.login_service import loginService
 from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
-from apps.auth.infraestructure.entities.token import (
-    AuthResponse,
-)
-
 from apps.auth.infraestructure.jwt.jwt_generator import jwtGenerator
 from apps.user.application.services.get_user import GetUserApplicationService
 from apps.user.domain.user import User

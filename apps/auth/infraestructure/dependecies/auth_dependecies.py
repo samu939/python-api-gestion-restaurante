@@ -2,7 +2,7 @@ from databases import Database
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 
-from apps.auth.infraestructure.exceptions.auth_exceptions import AuthExceptions
+from apps.auth.application.exceptions.auth_exceptions import AuthExceptions
 from apps.auth.infraestructure.service.auth_services import AuthService
 from apps.user.infrastructure.db_entity.user_in_db import UserInDB
 from apps.user.infrastructure.mappers.user_mapper import UserMapper

@@ -2,11 +2,8 @@ from databases import Database
 from fastapi import APIRouter, Depends
 from fastapi.security import OAuth2PasswordRequestForm
 from apps.auth.application.dto.login_dto import loginDto
+from apps.auth.application.dto.login_response import AuthResponse
 from apps.auth.application.services.login_service import loginService
-from apps.auth.infraestructure.entities.token import (
-    AuthResponse,
-)
-
 from apps.auth.infraestructure.jwt.jwt_generator import jwtGenerator
 from apps.user.infrastructure.mappers.user_mapper import UserMapper
 from apps.user.infrastructure.repositories.db_user_repository import dbUserRepository
