@@ -1,4 +1,7 @@
 from enum import Enum
+from uuid import UUID
+
+from core.infrastructure.utils.schemas_base import BaseSchema
 
 class roleEnum (str,Enum):
     administrador = "administrador"
@@ -6,10 +9,9 @@ class roleEnum (str,Enum):
     chef = "chef"
     cliente = "cliente"
 
-class UserInDB:
-    def __init__(self, id: str, name: str, username: str, password: str, role: roleEnum) -> None:
-        self.id = id
-        self.name = name
-        self.password = password
-        self.role = role
-        self.username = username
+class UserInDB (BaseSchema):
+    id: UUID
+    name: str
+    password: str
+    role: roleEnum
+    username: str

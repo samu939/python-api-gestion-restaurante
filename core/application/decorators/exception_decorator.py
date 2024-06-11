@@ -1,4 +1,8 @@
 from typing import TypeVar, Generic
+
+from loguru import logger
+
+
 from ..services.application_service import ApplicationService
 from ..results.result_wrapper import Result
 
@@ -10,10 +14,7 @@ class ExceptionDecorator(ApplicationService[T, R], Generic[T, R]):
         self._service = service
 
     async def execute(self, input: T) -> Result[R]:
-        try:
             result = await self._service.execute(input)
             if result.is_error:
-                result.unwrap()
+                logger.info("error in service", result._error)
             return result
-        except Exception as e:
-            raise Exception(f'{e}')

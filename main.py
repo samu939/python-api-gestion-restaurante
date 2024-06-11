@@ -30,7 +30,7 @@ def get_application():
     app.add_event_handler("startup", create_start_app_handler(app))
     app.add_event_handler("shutdown", create_stop_app_handler(app))
 
-    @app.exception_handler(AppExceptionCase)
+    @app.exception_handler(Exception)
     async def custom_app_exception_handler(request, e):
         return await app_exception_handler(request, e)
 
