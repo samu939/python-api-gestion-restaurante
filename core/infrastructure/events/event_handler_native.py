@@ -1,6 +1,6 @@
 from typing import Awaitable, Callable
-from src.core.domain.events.domain_event import DomainEvent
-from src.core.application.events.event_handler import EventHandler
+from core.domain.events.domain_event import DomainEvent
+from core.application.events.event_handler import EventHandler
 
 class NativeEventHandler(EventHandler):
   _subscribers: dict[str, list[Callable[[DomainEvent], Awaitable[None]]]]

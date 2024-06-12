@@ -25,3 +25,10 @@ class DbIngredientsRepository (IngredientRepository):
         
         return self.ingredientMapper.from_persistence_to_domain(record)
     
+    async def save_ingredient(self, ingredient: Ingredient) -> Awaitable[None]:
+        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT
+        values = self.ingredientMapper.from_domain_to_persistence(ingredient)
+        await self.db.execute(query=INSERT_INGREDIENT, values=values)
+        
+        
+    

@@ -23,6 +23,7 @@ def create_ingredients_table():
         "ingredients",
         sa.Column("id", UUID, primary_key=True, default=uuid4()),
         sa.Column("name", sa.Text, nullable=False),
+        sa.Column("quantity", sa.Numeric, nullable=False),
     )
 
 

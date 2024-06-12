@@ -8,3 +8,6 @@ class IngredientRepository:
     @abstractmethod
     def get_ingredient_by_id(self, id: IngredientId) -> Awaitable[Optional[Ingredient]]:
         pass
+    @abstractmethod
+    def save_ingredient(self, ingredient: Ingredient) -> Awaitable[None]:
+        pass
