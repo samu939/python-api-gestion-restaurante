@@ -1,6 +1,7 @@
 
 
 
+from loguru import logger
 from apps.ingredients.domain.events.ingredient_created import IngredientCreatedEvent
 from apps.ingredients.domain.events.ingredient_quantity_down import IngredientQuantityDownEvent
 from apps.ingredients.domain.events.ingredient_quantity_up import IngredientQuantityUpEvent
@@ -34,6 +35,7 @@ class Ingredient (Aggregate[IngredientId]):
         
     def rest_quantity(self, quantity: IngredientQuantity) -> None:
         ingredient_quantity_down_event = IngredientQuantityDownEvent(self.id, quantity)
+        logger.info(quantity.value)
         before_quantity = self.quantity.value
         rest_quantity = quantity.value
         new_quantity = before_quantity - rest_quantity

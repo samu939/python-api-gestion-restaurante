@@ -25,6 +25,6 @@ class IngressIngredientApplicationService(ApplicationService[ModifyIngredientQua
                 error=IngredientsNotFoundApplicatonError(input)
             ) # type: ignore
         ingredient.add_quantity(IngredientQuantity(input.quantity))
-        self.event_handler.publish_events(ingredient.pull_events())
+        await self.event_handler.publish_events(ingredient.pull_events())
         await self.ingredient_repository.save_ingredient(ingredient)
         return Result[Ingredient].success(value=ingredient) # type: ignore

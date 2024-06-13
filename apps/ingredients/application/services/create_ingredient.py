@@ -18,6 +18,6 @@ class CreateIngredientApplicationService(ApplicationService[CreateIngredientDto,
 
     async def execute(self, input: CreateIngredientDto) -> Awaitable[Result[str]]:
         ingredient = Ingredient(IngredientId(str(uuid4())), IngredientName(input.name), IngredientQuantity(input.quantity))
-        self.event_handler.publish_events(ingredient.pull_events())
+        await self.event_handler.publish_events(ingredient.pull_events())
         ingredient = await self.ingredient_repository.save_ingredient(ingredient)
         return Result[str].success(value="ingrediente guardado") # type: ignore

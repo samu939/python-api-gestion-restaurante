@@ -15,6 +15,7 @@ from apps.ingredients.domain.ingredient import Ingredient
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.ingredients.infrastructure.db_entity.ingredient_in_db import IngredientInDB
 from apps.ingredients.infrastructure.entries.create_ingredient_entry import CreateIngredientEntry
+from apps.ingredients.infrastructure.entries.modify_quantity_entry import ModifyQuantityEntry
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
 from apps.ingredients.infrastructure.responses.ingredients_responses import GetIngredientResponse, SaveIngredientResponse
@@ -22,6 +23,7 @@ from apps.user.infrastructure.db_entity.user_in_db import UserInDB
 from core.application.decorators.exception_decorator import ExceptionDecorator
 from core.infrastructure.events.event_handler_native import NativeEventHandler
 from db.db_dependencies import get_database
+from loguru import logger
 
 ingredient_router = APIRouter(
     prefix="/ingredient",
@@ -55,14 +57,15 @@ async def createIngredient(
 @ingredient_router.post("/ingress/{id}", response_model=GetIngredientResponse, name="ingredient:ingress")
 async def ingressIngredient(
     id: UUID,
-    quantity: int,
+    quantity: ModifyQuantityEntry,
     db: Database = Depends(get_database),
     current_user: UserInDB = Depends(get_current_active_user),
 ):
+    logger.info(quantity)
     event_handler = NativeEventHandler()
     service = ExceptionDecorator(IngressIngredientApplicationService(DbIngredientsRepository(db,IngredientMapper()),event_handler)
     )
-    service_dto = ModifyIngredientQuantityDto(ingredient_id=id, quantity=quantity)
+    service_dto = ModifyIngredientQuantityDto(ingredient_id=id, quantity=quantity.quantity)
     response = (await service.execute(service_dto)).unwrap()
     return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value)
 
@@ -70,13 +73,13 @@ async def ingressIngredient(
 @ingredient_router.post("/Egress/{id}", response_model=GetIngredientResponse, name="ingredient:ingress")
 async def ingressIngredient(
     id: UUID,
-    quantity: int,
+    quantity: ModifyQuantityEntry,
     db: Database = Depends(get_database),
     current_user: UserInDB = Depends(get_current_active_user),
 ):
     event_handler = NativeEventHandler()
     service = ExceptionDecorator(EgressIngredientApplicationService(DbIngredientsRepository(db,IngredientMapper()),event_handler)
     )
-    service_dto = ModifyIngredientQuantityDto(ingredient_id=id, quantity=quantity)
+    service_dto = ModifyIngredientQuantityDto(ingredient_id=id, quantity=quantity.quantity)
     response = (await service.execute(service_dto)).unwrap()
     return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value)

@@ -6,4 +6,4 @@ from pydantic import BaseModel
 
 class ModifyIngredientQuantityDto(BaseModel):
     ingredient_id: UUID
-    quantity: int
+    quantity: float

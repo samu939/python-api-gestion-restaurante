@@ -15,6 +15,6 @@ class ExceptionDecorator(ApplicationService[T, R], Generic[T, R]):
 
     async def execute(self, input: T) -> Result[R]:
             result = await self._service.execute(input)
-            if result.is_error:
-                logger.info("error in service", result._error)
+            if result.is_error():
+                logger.info("error in service") 
             return result
