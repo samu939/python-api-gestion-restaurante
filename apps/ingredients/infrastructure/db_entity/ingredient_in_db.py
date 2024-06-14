@@ -6,3 +6,4 @@ class IngredientInDB (BaseSchema):
     id: UUID
     name: str
     quantity: float
+    store_id: UUID

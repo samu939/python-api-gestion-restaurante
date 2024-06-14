@@ -42,7 +42,7 @@ async def getIngredientById(
 
     service = ExceptionDecorator(GetIngredientApplicationService(ingredient_repository= DbIngredientsRepository(db,IngredientMapper())))
     response = (await service.execute(IngredientId(id))).unwrap()
-    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value)
+    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value, storeId=response.storeId.value)
 
 @ingredient_router.get("/getall", response_model=GetAllIngredientsResponse, name="ingredient:getAll")
 async def getIngredientById(
@@ -54,7 +54,7 @@ async def getIngredientById(
     response = (await service.execute(None)).unwrap()
     ingredients: list[GetIngredientResponse] = []
     for res in response:
-        ingredients.append(GetIngredientResponse(id=res.id.value, name=res.name.value, quantity=res.quantity.value))
+        ingredients.append(GetIngredientResponse(id=res.id.value, name=res.name.value, quantity=res.quantity.value, storeId=res.storeId.value))
     return GetAllIngredientsResponse(ingredients=ingredients)
 
 

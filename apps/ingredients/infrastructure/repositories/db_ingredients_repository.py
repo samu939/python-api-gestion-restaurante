@@ -7,6 +7,7 @@ from apps.ingredients.domain.ingredient import Ingredient
 from apps.ingredients.domain.repositories.ingredient_repository import IngredientRepository
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
+from apps.store.domain.value_objects.store_id import StoreId
 
 
 class DbIngredientsRepository (IngredientRepository):
@@ -19,7 +20,6 @@ class DbIngredientsRepository (IngredientRepository):
         from apps.ingredients.infrastructure.queries.ingredients_queries import GET_INGREDIENT_BY_ID
         values = {"id": id.value}
         record = await self.db.fetch_one(query=GET_INGREDIENT_BY_ID, values=values)
-
         if not record:
             return None
         
@@ -35,5 +35,10 @@ class DbIngredientsRepository (IngredientRepository):
         records = await self.db.fetch_all(query=GET_ALL_INGREDIENTS)
         return [self.ingredientMapper.from_persistence_to_domain(record) for record in records]
         
+    async def get_store_ingredients(self, id: StoreId) -> Awaitable[list[Ingredient]]:
+        from apps.ingredients.infrastructure.queries.ingredients_queries import GET_STORE_INGREDIENTS
+        values = {"id": id.value}
+        record = await self.db.fetch_all(query=GET_STORE_INGREDIENTS, values=values)
+        return [self.ingredientMapper.from_persistence_to_domain(record) for record in record]
         
     

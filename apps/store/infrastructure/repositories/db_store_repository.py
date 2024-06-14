@@ -5,6 +5,7 @@ from typing import Awaitable
 from uuid import UUID
 from databases import Database
 from loguru import logger
+from apps.ingredients.domain.ingredient import Ingredient
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.store.domain.repositories.store_repository import StoreRepository
 from apps.store.domain.store import Store
@@ -33,12 +34,8 @@ class DbStoreRepository (StoreRepository):
         
         return self.store_mapper.from_persistence_to_domain(record)
     
-    async def get_store_ingredients(self, id: StoreId) -> Awaitable[list[IngredientId]]:
-        from apps.store.infrastructure.queries.store_queries import GET_STORE_INGREDIENTS
-        values = {"id": id.value}
-        record = await self.db.fetch_all(query=GET_STORE_INGREDIENTS, values=values)
-        ingredients: list[IngredientId] = []
-        for rec in record:
-            ingredients.append (IngredientId(rec['id']))
-        
-        return ingredients
+    async def get_all_stores(self) -> Awaitable[list[Store]]:
+        from apps.store.infrastructure.queries.store_queries import GET_ALL_STORES
+        records = await self.db.fetch_all(query=GET_ALL_STORES)
+        return [self.store_mapper.from_persistence_to_domain(record) for record in records]
+    

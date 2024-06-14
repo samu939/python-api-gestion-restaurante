@@ -8,6 +8,7 @@ class GetIngredientResponse(BaseSchema):
     id: UUID
     name: str
     quantity: float
+    storeId: UUID | None 
     
 class SaveIngredientResponse(BaseSchema):
     response: str

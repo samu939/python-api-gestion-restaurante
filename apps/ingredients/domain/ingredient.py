@@ -8,22 +8,25 @@ from apps.ingredients.domain.events.ingredient_quantity_up import IngredientQuan
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.ingredients.domain.value_objects.ingredient_name import IngredientName
 from apps.ingredients.domain.value_objects.ingredient_quantity import IngredientQuantity
+from apps.store.domain.value_objects.store_id import StoreId
 from core.domain.aggregates.aggregate import Aggregate
 from core.domain.entities.entity import Entity
 
 
 class Ingredient (Aggregate[IngredientId]):
-    def __init__(self, id: IngredientId, name: IngredientName, quantity: IngredientQuantity) -> None:
+    def __init__(self, id: IngredientId, name: IngredientName, quantity: IngredientQuantity, store_id: StoreId) -> None:
         super().__init__(id)
         self.name = name
         self.quantity = quantity
-        self.on(IngredientCreatedEvent(id, name, quantity))
+        self.storeId= store_id
+        self.on(IngredientCreatedEvent(id, name, quantity, store_id))
 
     
     def validate_state(self) -> None:
         self.id.ensureValidState()
         self.name.ensureValidState()
         self.quantity.ensureValidState()
+        self.storeId.ensureValidState()
         
     def add_quantity(self, quantity: IngredientQuantity) -> None:
         ingredient_quantity_up_event = IngredientQuantityUpEvent(self.id, quantity)

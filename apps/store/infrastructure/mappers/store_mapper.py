@@ -17,6 +17,5 @@ class StoreMapper(Mapper[Store, dict[str, str]]):
     def from_persistence_to_domain(self, persistence_entity: dict[str, str]) -> Store:
         return Store(
             StoreId(persistence_entity['id']),
-            StoreName(persistence_entity['name']),
-            []
+            StoreName(persistence_entity['name'])
         )

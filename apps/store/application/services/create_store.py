@@ -15,7 +15,7 @@ class CreateStoreApplicationService(ApplicationService[CreateStoreDto, str]):
         self.event_handler = event_handler
 
     async def execute(self, input: CreateStoreDto) -> Awaitable[Result[str]]:
-        store = Store(StoreId(str(uuid4())), StoreName(input.name), [])
+        store = Store(StoreId(str(uuid4())), StoreName(input.name))
         await self.event_handler.publish_events(store.pull_events())
         store = await self.store_repository.save_store(store)
         return Result[str].success(value="almacen guardado") # type: ignore

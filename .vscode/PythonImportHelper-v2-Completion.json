@@ -211,6 +211,14 @@
         "documentation": {}
     },
     {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "uuid4",
         "importPath": "uuid",
         "description": "uuid",
@@ -440,6 +448,14 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1112,6 +1128,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseSchema",
+        "importPath": "core.infrastructure.utils.schemas_base",
+        "description": "core.infrastructure.utils.schemas_base",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.utils.schemas_base",
+        "documentation": {}
+    },
+    {
         "label": "AppExceptionCase",
         "importPath": "core.infrastructure.utils.app_exceptions",
         "description": "core.infrastructure.utils.app_exceptions",
@@ -1325,6 +1349,22 @@
         "description": "core.application.results.result_wrapper",
         "isExtraImport": true,
         "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
         "documentation": {}
     },
     {
@@ -2594,6 +2634,38 @@
         "documentation": {}
     },
     {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
         "label": "IngredientRepository",
         "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
         "description": "apps.ingredients.domain.repositories.ingredient_repository",
@@ -2831,6 +2903,126 @@
         "description": "apps.ingredients.application.errors.ingredients_not_found",
         "isExtraImport": true,
         "detail": "apps.ingredients.application.errors.ingredients_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
         "documentation": {}
     },
     {
@@ -3138,6 +3330,14 @@
         "documentation": {}
     },
     {
+        "label": "IngredientMapper",
+        "importPath": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "description": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "documentation": {}
+    },
+    {
         "label": "get_current_active_user",
         "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
@@ -3234,6 +3434,14 @@
         "documentation": {}
     },
     {
+        "label": "DbIngredientsRepository",
+        "importPath": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "description": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "documentation": {}
+    },
+    {
         "label": "GetAllIngredientsResponse",
         "importPath": "apps.ingredients.infrastructure.responses.ingredients_responses",
         "description": "apps.ingredients.infrastructure.responses.ingredients_responses",
@@ -3274,78 +3482,6 @@
         "documentation": {}
     },
     {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
-        "documentation": {}
-    },
-    {
         "label": "CreateStoreDto",
         "importPath": "apps.store.application.dto.create_store_dto",
         "description": "apps.store.application.dto.create_store_dto",
@@ -3386,6 +3522,30 @@
         "documentation": {}
     },
     {
+        "label": "StoreRepository",
+        "importPath": "apps.store.domain.repositories.store_repository",
+        "description": "apps.store.domain.repositories.store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.repositories.store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "Store",
+        "importPath": "apps.store.domain.store",
+        "description": "apps.store.domain.store",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.store",
+        "documentation": {}
+    },
+    {
+        "label": "Store",
+        "importPath": "apps.store.domain.store",
+        "description": "apps.store.domain.store",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.store",
+        "documentation": {}
+    },
+    {
         "label": "Store",
         "importPath": "apps.store.domain.store",
         "description": "apps.store.domain.store",
@@ -3463,6 +3623,46 @@
         "description": "apps.store.domain.value_objects.store_name",
         "isExtraImport": true,
         "detail": "apps.store.domain.value_objects.store_name",
+        "documentation": {}
+    },
+    {
+        "label": "GetStoreByIdResponseDto",
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "StoreIngredient",
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetStoreByIdResponseDto",
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "StoreIngredient",
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetStoreByIdResponseDto",
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
         "documentation": {}
     },
     {
@@ -3530,11 +3730,19 @@
         "documentation": {}
     },
     {
-        "label": "GetStoreResponse",
-        "importPath": "apps.store.infrastructure.responses.get_store_response",
-        "description": "apps.store.infrastructure.responses.get_store_response",
+        "label": "GetAllStoresResponse",
+        "importPath": "apps.store.infrastructure.responses.get_all_stores_response",
+        "description": "apps.store.infrastructure.responses.get_all_stores_response",
         "isExtraImport": true,
-        "detail": "apps.store.infrastructure.responses.get_store_response",
+        "detail": "apps.store.infrastructure.responses.get_all_stores_response",
+        "documentation": {}
+    },
+    {
+        "label": "StoreResponse",
+        "importPath": "apps.store.infrastructure.responses.get_all_stores_response",
+        "description": "apps.store.infrastructure.responses.get_all_stores_response",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.responses.get_all_stores_response",
         "documentation": {}
     },
     {
@@ -3543,6 +3751,14 @@
         "description": "apps.store.infrastructure.responses.save_store_response",
         "isExtraImport": true,
         "detail": "apps.store.infrastructure.responses.save_store_response",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllStoresApplicationService",
+        "importPath": "apps.store.application.services.get_all_stores",
+        "description": "apps.store.application.services.get_all_stores",
+        "isExtraImport": true,
+        "detail": "apps.store.application.services.get_all_stores",
         "documentation": {}
     },
     {
@@ -4567,7 +4783,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.domain.events.ingredient_created",
         "description": "apps.ingredients.domain.events.ingredient_created",
-        "peekOfCode": "class IngredientCreatedEvent(DomainEvent):\n    def __init__(self, ingredient_id: IngredientId, ingredient_name: IngredientName, ingredient_quantity: IngredientQuantity) -> None:\n        super().__init__()\n        self.ingredient_id = ingredient_id\n        self.ingredient_name = ingredient_name\n        self.ingredients_quantity = ingredient_quantity",
+        "peekOfCode": "class IngredientCreatedEvent(DomainEvent):\n    def __init__(self, ingredient_id: IngredientId, ingredient_name: IngredientName, ingredient_quantity: IngredientQuantity, store_id: StoreId) -> None:\n        super().__init__()\n        self.ingredient_id = ingredient_id\n        self.ingredient_name = ingredient_name\n        self.ingredients_quantity = ingredient_quantity\n        self.store_id = store_id",
         "detail": "apps.ingredients.domain.events.ingredient_created",
         "documentation": {}
     },
@@ -4657,7 +4873,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.domain.ingredient",
         "description": "apps.ingredients.domain.ingredient",
-        "peekOfCode": "class Ingredient (Aggregate[IngredientId]):\n    def __init__(self, id: IngredientId, name: IngredientName, quantity: IngredientQuantity) -> None:\n        super().__init__(id)\n        self.name = name\n        self.quantity = quantity\n        self.on(IngredientCreatedEvent(id, name, quantity))\n    def validate_state(self) -> None:\n        self.id.ensureValidState()\n        self.name.ensureValidState()\n        self.quantity.ensureValidState()",
+        "peekOfCode": "class Ingredient (Aggregate[IngredientId]):\n    def __init__(self, id: IngredientId, name: IngredientName, quantity: IngredientQuantity, store_id: StoreId) -> None:\n        super().__init__(id)\n        self.name = name\n        self.quantity = quantity\n        self.storeId= store_id\n        self.on(IngredientCreatedEvent(id, name, quantity, store_id))\n    def validate_state(self) -> None:\n        self.id.ensureValidState()\n        self.name.ensureValidState()",
         "detail": "apps.ingredients.domain.ingredient",
         "documentation": {}
     },
@@ -4666,7 +4882,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.infrastructure.db_entity.ingredient_in_db",
         "description": "apps.ingredients.infrastructure.db_entity.ingredient_in_db",
-        "peekOfCode": "class IngredientInDB (BaseSchema):\n    id: UUID\n    name: str\n    quantity: float",
+        "peekOfCode": "class IngredientInDB (BaseSchema):\n    id: UUID\n    name: str\n    quantity: float\n    store_id: UUID",
         "detail": "apps.ingredients.infrastructure.db_entity.ingredient_in_db",
         "documentation": {}
     },
@@ -4675,7 +4891,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.infrastructure.entries.create_ingredient_entry",
         "description": "apps.ingredients.infrastructure.entries.create_ingredient_entry",
-        "peekOfCode": "class CreateIngredientEntry (BaseModel):\n    name: str\n    quantity: float",
+        "peekOfCode": "class CreateIngredientEntry (BaseModel):\n    name: str\n    quantity: float\n    storeID: str",
         "detail": "apps.ingredients.infrastructure.entries.create_ingredient_entry",
         "documentation": {}
     },
@@ -4693,7 +4909,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
         "description": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
-        "peekOfCode": "class IngredientMapper(Mapper[Ingredient, dict[str, str]]):\n    def __init__(self) -> None:\n        super().__init__()\n    def from_domain_to_persistence(self, domain_entity: Ingredient) -> dict[str, str]:\n        return {\n            'id': domain_entity.id.value,\n            'name': domain_entity.name.value,\n            'quantity': domain_entity.quantity.value\n        }\n    def from_persistence_to_domain(self, persistence_entity: dict[str, str]) -> Ingredient:",
+        "peekOfCode": "class IngredientMapper(Mapper[Ingredient, dict[str, str]]):\n    def __init__(self) -> None:\n        super().__init__()\n    def from_domain_to_persistence(self, domain_entity: Ingredient) -> dict[str, str]:\n        return {\n            'id': domain_entity.id.value,\n            'name': domain_entity.name.value,\n            'quantity': domain_entity.quantity.value,\n            'store_id': domain_entity.storeId.value\n        }",
         "detail": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
         "documentation": {}
     },
@@ -4702,7 +4918,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "GET_INGREDIENT_BY_ID = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity\n    FROM ingredients AS ing\n    WHERE ing.id = :id;\n\"\"\"\nGET_ALL_INGREDIENTS = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity\n    FROM ingredients AS ing;\n\"\"\"\nINSERT_INGREDIENT = \"\"\"",
+        "peekOfCode": "GET_INGREDIENT_BY_ID = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity, ing.store_id\n    FROM ingredients AS ing\n    WHERE ing.id = :id;\n\"\"\"\nGET_ALL_INGREDIENTS = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity, ing.store_id\n    FROM ingredients AS ing;\n\"\"\"\nINSERT_INGREDIENT = \"\"\"",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },
@@ -4711,7 +4927,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "GET_ALL_INGREDIENTS = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity\n    FROM ingredients AS ing;\n\"\"\"\nINSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity)\n    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity;\n\"\"\"",
+        "peekOfCode": "GET_ALL_INGREDIENTS = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity, ing.store_id\n    FROM ingredients AS ing;\n\"\"\"\nINSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity, store_id)\n    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },
@@ -4720,7 +4936,16 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "INSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity)\n    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity;\n\"\"\"",
+        "peekOfCode": "INSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity, store_id)\n    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id\n\"\"\"",
+        "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
+        "documentation": {}
+    },
+    {
+        "label": "GET_STORE_INGREDIENTS",
+        "kind": 5,
+        "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
+        "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
+        "peekOfCode": "GET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id\n\"\"\"",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },
@@ -4738,7 +4963,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.infrastructure.responses.ingredients_responses",
         "description": "apps.ingredients.infrastructure.responses.ingredients_responses",
-        "peekOfCode": "class GetIngredientResponse(BaseSchema):\n    id: UUID\n    name: str\n    quantity: float\nclass SaveIngredientResponse(BaseSchema):\n    response: str\nclass GetAllIngredientsResponse(BaseSchema):\n    ingredients: list[GetIngredientResponse]",
+        "peekOfCode": "class GetIngredientResponse(BaseSchema):\n    id: UUID\n    name: str\n    quantity: float\n    storeId: UUID | None \nclass SaveIngredientResponse(BaseSchema):\n    response: str\nclass GetAllIngredientsResponse(BaseSchema):\n    ingredients: list[GetIngredientResponse]",
         "detail": "apps.ingredients.infrastructure.responses.ingredients_responses",
         "documentation": {}
     },
@@ -4779,6 +5004,24 @@
         "documentation": {}
     },
     {
+        "label": "StoreIngredien",
+        "kind": 6,
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "peekOfCode": "class StoreIngredient (BaseSchema):\n    id: UUID\n    name: str\n    quantity: float\nclass GetStoreByIdResponseDto (BaseSchema):\n    id: UUID\n    name: str\n    ingredients: list[StoreIngredient]",
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetStoreByIdResponseDt",
+        "kind": 6,
+        "importPath": "apps.store.application.dto.get_store_by_id_response_dto",
+        "description": "apps.store.application.dto.get_store_by_id_response_dto",
+        "peekOfCode": "class GetStoreByIdResponseDto (BaseSchema):\n    id: UUID\n    name: str\n    ingredients: list[StoreIngredient]",
+        "detail": "apps.store.application.dto.get_store_by_id_response_dto",
+        "documentation": {}
+    },
+    {
         "label": "StoreNotFoundApplicatonError",
         "kind": 6,
         "importPath": "apps.store.application.errors.store_not_found",
@@ -4792,8 +5035,17 @@
         "kind": 6,
         "importPath": "apps.store.application.services.create_store",
         "description": "apps.store.application.services.create_store",
-        "peekOfCode": "class CreateStoreApplicationService(ApplicationService[CreateStoreDto, str]):\n    def __init__(self, store_repository: StoreRepository, event_handler: EventHandler):\n        self.store_repository = store_repository\n        self.event_handler = event_handler\n    async def execute(self, input: CreateStoreDto) -> Awaitable[Result[str]]:\n        store = Store(StoreId(str(uuid4())), StoreName(input.name), [])\n        await self.event_handler.publish_events(store.pull_events())\n        store = await self.store_repository.save_store(store)\n        return Result[str].success(value=\"almacen guardado\") # type: ignore",
+        "peekOfCode": "class CreateStoreApplicationService(ApplicationService[CreateStoreDto, str]):\n    def __init__(self, store_repository: StoreRepository, event_handler: EventHandler):\n        self.store_repository = store_repository\n        self.event_handler = event_handler\n    async def execute(self, input: CreateStoreDto) -> Awaitable[Result[str]]:\n        store = Store(StoreId(str(uuid4())), StoreName(input.name))\n        await self.event_handler.publish_events(store.pull_events())\n        store = await self.store_repository.save_store(store)\n        return Result[str].success(value=\"almacen guardado\") # type: ignore",
         "detail": "apps.store.application.services.create_store",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllStoresApplicationService",
+        "kind": 6,
+        "importPath": "apps.store.application.services.get_all_stores",
+        "description": "apps.store.application.services.get_all_stores",
+        "peekOfCode": "class GetAllStoresApplicationService(ApplicationService[None, list[Store]]):\n    def __init__(self, store_repository: StoreRepository):\n        self.store_repository = store_repository\n    async def execute(self, input: None) -> Awaitable[Result[list[Store]]]:\n        stores = await self.store_repository.get_all_stores()\n        return Result[list[Store]].success(value=stores) # type: ignore",
+        "detail": "apps.store.application.services.get_all_stores",
         "documentation": {}
     },
     {
@@ -4801,7 +5053,7 @@
         "kind": 6,
         "importPath": "apps.store.application.services.get_store_by_id",
         "description": "apps.store.application.services.get_store_by_id",
-        "peekOfCode": "class GetStoreApplicationService(ApplicationService[StoreId, Store]):\n    def __init__(self, store_repository: StoreRepository):\n        self.store_repository = store_repository\n    async def execute(self, input: StoreId) -> Awaitable[Result[Store]]:\n        store = await self.store_repository.get_store_by_id(input)\n        if store is None:\n            return Result[Store].failure(\n                error=StoreNotFoundApplicatonError(input)\n            ) # type: ignore\n        store_ingredients = await self.store_repository.get_store_ingredients(input)",
+        "peekOfCode": "class GetStoreApplicationService(ApplicationService[StoreId, GetStoreByIdResponseDto]):\n    def __init__(self, store_repository: StoreRepository, ingredient_repository: IngredientRepository):\n        self.store_repository = store_repository\n        self.ingredient_repository = ingredient_repository\n    async def execute(self, input: StoreId) -> Awaitable[Result[GetStoreByIdResponseDto]]:\n        store = await self.store_repository.get_store_by_id(input)\n        if store is None:\n            return Result[GetStoreByIdResponseDto].failure(\n                error=StoreNotFoundApplicatonError(input)\n            ) # type: ignore",
         "detail": "apps.store.application.services.get_store_by_id",
         "documentation": {}
     },
@@ -4810,7 +5062,7 @@
         "kind": 6,
         "importPath": "apps.store.domain.events.store_created",
         "description": "apps.store.domain.events.store_created",
-        "peekOfCode": "class StoreCreatedEvent(DomainEvent):\n    def __init__(self, store_id: StoreId, store_name: StoreName, ingredients: List[IngredientId]) -> None:\n        super().__init__()\n        self.store_id = store_id\n        self.store_name = store_name\n        self.ingredients = ingredients",
+        "peekOfCode": "class StoreCreatedEvent(DomainEvent):\n    def __init__(self, store_id: StoreId, store_name: StoreName) -> None:\n        super().__init__()\n        self.store_id = store_id\n        self.store_name = store_name",
         "detail": "apps.store.domain.events.store_created",
         "documentation": {}
     },
@@ -4837,7 +5089,7 @@
         "kind": 6,
         "importPath": "apps.store.domain.repositories.store_repository",
         "description": "apps.store.domain.repositories.store_repository",
-        "peekOfCode": "class StoreRepository:\n    @abstractmethod\n    def get_store_by_id(self, id: StoreId) -> Awaitable[Optional[Store]]:\n        pass\n    @abstractmethod\n    def get_store_ingredients (self, id: StoreId) -> Awaitable [list[IngredientId]]:\n        pass\n    @abstractmethod\n    def save_store(self, store: Store) -> Awaitable[None]:\n        pass",
+        "peekOfCode": "class StoreRepository:\n    @abstractmethod\n    def get_store_by_id(self, id: StoreId) -> Awaitable[Optional[Store]]:\n        pass\n    @abstractmethod\n    def save_store(self, store: Store) -> Awaitable[None]:\n        pass\n    @abstractmethod\n    def get_all_stores(self) -> Awaitable[list[Store]]:\n        pass",
         "detail": "apps.store.domain.repositories.store_repository",
         "documentation": {}
     },
@@ -4864,7 +5116,7 @@
         "kind": 6,
         "importPath": "apps.store.domain.store",
         "description": "apps.store.domain.store",
-        "peekOfCode": "class Store (Aggregate[StoreId]):\n    def __init__(self, id: StoreId, name: StoreName, ingredients: list[IngredientId]) -> None:\n        super().__init__(id)\n        self.name = name\n        self.ingredients = ingredients\n        self.on(StoreCreatedEvent(id, name, ingredients))\n    def validate_state(self) -> None:\n        self.id.ensureValidState()\n        self.name.ensureValidState()\n    def add_ingredients (self, ingredients: list[IngredientId]) -> None:",
+        "peekOfCode": "class Store (Aggregate[StoreId]):\n    def __init__(self, id: StoreId, name: StoreName) -> None:\n        super().__init__(id)\n        self.name = name\n        self.on(StoreCreatedEvent(id, name))\n    def validate_state(self) -> None:\n        self.id.ensureValidState()\n        self.name.ensureValidState()",
         "detail": "apps.store.domain.store",
         "documentation": {}
     },
@@ -4900,7 +5152,7 @@
         "kind": 5,
         "importPath": "apps.store.infrastructure.queries.store_queries",
         "description": "apps.store.infrastructure.queries.store_queries",
-        "peekOfCode": "INSERT_STORE = \"\"\"\n    INSERT INTO store (id, name)\n    VALUES (:id, :name) ON CONFLICT (id) DO UPDATE SET name = :name;\n\"\"\"\nGET_STORE_BY_ID = \"\"\"\n    SELECT id, name FROM store WHERE id = :id\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id FROM ingredients WHERE store_id = :id\n\"\"\"",
+        "peekOfCode": "INSERT_STORE = \"\"\"\n    INSERT INTO store (id, name)\n    VALUES (:id, :name) ON CONFLICT (id) DO UPDATE SET name = :name;\n\"\"\"\nGET_STORE_BY_ID = \"\"\"\n    SELECT id, name FROM store WHERE id = :id\n\"\"\"\nGET_ALL_STORES = \"\"\"\n    SELECT id, name FROM store\n\"\"\"",
         "detail": "apps.store.infrastructure.queries.store_queries",
         "documentation": {}
     },
@@ -4909,16 +5161,16 @@
         "kind": 5,
         "importPath": "apps.store.infrastructure.queries.store_queries",
         "description": "apps.store.infrastructure.queries.store_queries",
-        "peekOfCode": "GET_STORE_BY_ID = \"\"\"\n    SELECT id, name FROM store WHERE id = :id\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id FROM ingredients WHERE store_id = :id\n\"\"\"",
+        "peekOfCode": "GET_STORE_BY_ID = \"\"\"\n    SELECT id, name FROM store WHERE id = :id\n\"\"\"\nGET_ALL_STORES = \"\"\"\n    SELECT id, name FROM store\n\"\"\"",
         "detail": "apps.store.infrastructure.queries.store_queries",
         "documentation": {}
     },
     {
-        "label": "GET_STORE_INGREDIENTS",
+        "label": "GET_ALL_STORES",
         "kind": 5,
         "importPath": "apps.store.infrastructure.queries.store_queries",
         "description": "apps.store.infrastructure.queries.store_queries",
-        "peekOfCode": "GET_STORE_INGREDIENTS = \"\"\"\n    SELECT id FROM ingredients WHERE store_id = :id\n\"\"\"",
+        "peekOfCode": "GET_ALL_STORES = \"\"\"\n    SELECT id, name FROM store\n\"\"\"",
         "detail": "apps.store.infrastructure.queries.store_queries",
         "documentation": {}
     },
@@ -4932,12 +5184,21 @@
         "documentation": {}
     },
     {
-        "label": "GetStoreRespons",
+        "label": "StoreRespons",
         "kind": 6,
-        "importPath": "apps.store.infrastructure.responses.get_store_response",
-        "description": "apps.store.infrastructure.responses.get_store_response",
-        "peekOfCode": "class GetStoreResponse (BaseModel):\n    id: UUID\n    name: str\n    ingredients: list[UUID]",
-        "detail": "apps.store.infrastructure.responses.get_store_response",
+        "importPath": "apps.store.infrastructure.responses.get_all_stores_response",
+        "description": "apps.store.infrastructure.responses.get_all_stores_response",
+        "peekOfCode": "class StoreResponse (BaseModel):\n    id: UUID\n    name: str\nclass GetAllStoresResponse (BaseModel):\n    stores: list[StoreResponse]",
+        "detail": "apps.store.infrastructure.responses.get_all_stores_response",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllStoresRespons",
+        "kind": 6,
+        "importPath": "apps.store.infrastructure.responses.get_all_stores_response",
+        "description": "apps.store.infrastructure.responses.get_all_stores_response",
+        "peekOfCode": "class GetAllStoresResponse (BaseModel):\n    stores: list[StoreResponse]",
+        "detail": "apps.store.infrastructure.responses.get_all_stores_response",
         "documentation": {}
     },
     {
@@ -4954,7 +5215,7 @@
         "kind": 5,
         "importPath": "apps.store.infrastructure.routes.store_routes",
         "description": "apps.store.infrastructure.routes.store_routes",
-        "peekOfCode": "store_router = APIRouter(\n    prefix=\"/store\",\n    tags=[\"store\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@store_router.get(\"/get/{id}\", response_model=GetStoreResponse, name=\"store:getById\")\nasync def getStoreById(\n    id: UUID,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user),",
+        "peekOfCode": "store_router = APIRouter(\n    prefix=\"/store\",\n    tags=[\"store\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@store_router.get(\"/get/{id}\", response_model=GetStoreByIdResponseDto, name=\"store:getById\")\nasync def getStoreById(\n    id: UUID,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user),",
         "detail": "apps.store.infrastructure.routes.store_routes",
         "documentation": {}
     },
