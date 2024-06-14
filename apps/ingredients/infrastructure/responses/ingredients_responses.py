@@ -11,3 +11,6 @@ class GetIngredientResponse(BaseSchema):
     
 class SaveIngredientResponse(BaseSchema):
     response: str
+    
+class GetAllIngredientsResponse(BaseSchema):
+    ingredients: list[GetIngredientResponse]
