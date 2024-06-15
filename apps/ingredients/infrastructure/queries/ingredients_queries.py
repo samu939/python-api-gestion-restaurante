@@ -11,7 +11,7 @@ GET_ALL_INGREDIENTS = """
 
 INSERT_INGREDIENT = """
     INSERT INTO ingredients (id, name, quantity, store_id)
-    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;
+    VALUES (:id, :name, :quantity, :store_id) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;
 """
 
 GET_STORE_INGREDIENTS = """

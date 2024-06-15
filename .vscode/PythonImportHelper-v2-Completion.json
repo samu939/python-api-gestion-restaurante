@@ -155,6 +155,22 @@
         "documentation": {}
     },
     {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "uuid4",
         "importPath": "uuid",
         "description": "uuid",
@@ -172,6 +188,14 @@
     },
     {
         "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
         "importPath": "uuid",
         "description": "uuid",
         "isExtraImport": true,
@@ -447,6 +471,14 @@
         "documentation": {}
     },
     {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -796,6 +828,14 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
         "documentation": {}
     },
     {
@@ -1357,6 +1397,22 @@
         "description": "core.application.results.result_wrapper",
         "isExtraImport": true,
         "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
         "documentation": {}
     },
     {
@@ -2346,6 +2402,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseConfig",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -2506,11 +2578,19 @@
         "documentation": {}
     },
     {
-        "label": "ApplicationError",
-        "importPath": "core.application.errors.application_errors",
-        "description": "core.application.errors.application_errors",
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
         "isExtraImport": true,
-        "detail": "core.application.errors.application_errors",
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
         "documentation": {}
     },
     {
@@ -2530,363 +2610,27 @@
         "documentation": {}
     },
     {
-        "label": "CreateIngredientDto",
-        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
-        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "label": "ApplicationError",
+        "importPath": "core.application.errors.application_errors",
+        "description": "core.application.errors.application_errors",
         "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "detail": "core.application.errors.application_errors",
         "documentation": {}
     },
     {
-        "label": "CreateIngredientDto",
-        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
-        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "label": "IngredientChangeStoreDto",
+        "importPath": "apps.ingredients.application.dto.ingredient_change_store_dto",
+        "description": "apps.ingredients.application.dto.ingredient_change_store_dto",
         "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "detail": "apps.ingredients.application.dto.ingredient_change_store_dto",
         "documentation": {}
     },
     {
-        "label": "CreateIngredientDto",
-        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
-        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "label": "IngredientChangeStoreDto",
+        "importPath": "apps.ingredients.application.dto.ingredient_change_store_dto",
+        "description": "apps.ingredients.application.dto.ingredient_change_store_dto",
         "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
-        "documentation": {}
-    },
-    {
-        "label": "CreateIngredientDto",
-        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
-        "description": "apps.ingredients.application.dto.create_ingredient_dto",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "Ingredient",
-        "importPath": "apps.ingredients.domain.ingredient",
-        "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientName",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
-        "description": "apps.ingredients.domain.value_objects.ingredient_name",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientName",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
-        "description": "apps.ingredients.domain.value_objects.ingredient_name",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientName",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
-        "description": "apps.ingredients.domain.value_objects.ingredient_name",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientName",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
-        "description": "apps.ingredients.domain.value_objects.ingredient_name",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientName",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
-        "description": "apps.ingredients.domain.value_objects.ingredient_name",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientName",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
-        "description": "apps.ingredients.domain.value_objects.ingredient_name",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "EventHandler",
-        "importPath": "core.application.events.event_handler",
-        "description": "core.application.events.event_handler",
-        "isExtraImport": true,
-        "detail": "core.application.events.event_handler",
-        "documentation": {}
-    },
-    {
-        "label": "EventHandler",
-        "importPath": "core.application.events.event_handler",
-        "description": "core.application.events.event_handler",
-        "isExtraImport": true,
-        "detail": "core.application.events.event_handler",
-        "documentation": {}
-    },
-    {
-        "label": "EventHandler",
-        "importPath": "core.application.events.event_handler",
-        "description": "core.application.events.event_handler",
-        "isExtraImport": true,
-        "detail": "core.application.events.event_handler",
-        "documentation": {}
-    },
-    {
-        "label": "EventHandler",
-        "importPath": "core.application.events.event_handler",
-        "description": "core.application.events.event_handler",
-        "isExtraImport": true,
-        "detail": "core.application.events.event_handler",
-        "documentation": {}
-    },
-    {
-        "label": "EventHandler",
-        "importPath": "core.application.events.event_handler",
-        "description": "core.application.events.event_handler",
-        "isExtraImport": true,
-        "detail": "core.application.events.event_handler",
-        "documentation": {}
-    },
-    {
-        "label": "ModifyIngredientQuantityDto",
-        "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "description": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "documentation": {}
-    },
-    {
-        "label": "ModifyIngredientQuantityDto",
-        "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "description": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "documentation": {}
-    },
-    {
-        "label": "ModifyIngredientQuantityDto",
-        "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "description": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "detail": "apps.ingredients.application.dto.ingredient_change_store_dto",
         "documentation": {}
     },
     {
@@ -2906,11 +2650,259 @@
         "documentation": {}
     },
     {
-        "label": "StoreId",
-        "importPath": "apps.store.domain.value_objects.store_id",
-        "description": "apps.store.domain.value_objects.store_id",
+        "label": "IngredientsNotFoundApplicatonError",
+        "importPath": "apps.ingredients.application.errors.ingredients_not_found",
+        "description": "apps.ingredients.application.errors.ingredients_not_found",
         "isExtraImport": true,
-        "detail": "apps.store.domain.value_objects.store_id",
+        "detail": "apps.ingredients.application.errors.ingredients_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
         "documentation": {}
     },
     {
@@ -3023,6 +3015,190 @@
         "description": "apps.store.domain.value_objects.store_id",
         "isExtraImport": true,
         "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "CreateIngredientDto",
+        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
+        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateIngredientDto",
+        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
+        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateIngredientDto",
+        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
+        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateIngredientDto",
+        "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
+        "description": "apps.ingredients.application.dto.create_ingredient_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientName",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
+        "description": "apps.ingredients.domain.value_objects.ingredient_name",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientName",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
+        "description": "apps.ingredients.domain.value_objects.ingredient_name",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientName",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
+        "description": "apps.ingredients.domain.value_objects.ingredient_name",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientName",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
+        "description": "apps.ingredients.domain.value_objects.ingredient_name",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientName",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
+        "description": "apps.ingredients.domain.value_objects.ingredient_name",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientName",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_name",
+        "description": "apps.ingredients.domain.value_objects.ingredient_name",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_name",
+        "documentation": {}
+    },
+    {
+        "label": "ModifyIngredientQuantityDto",
+        "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "description": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "documentation": {}
+    },
+    {
+        "label": "ModifyIngredientQuantityDto",
+        "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "description": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "documentation": {}
+    },
+    {
+        "label": "ModifyIngredientQuantityDto",
+        "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "description": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
+        "documentation": {}
+    },
+    {
+        "label": "DomainEvent",
+        "importPath": "core.domain.events.domain_event",
+        "description": "core.domain.events.domain_event",
+        "isExtraImport": true,
+        "detail": "core.domain.events.domain_event",
         "documentation": {}
     },
     {
@@ -3226,6 +3402,14 @@
         "documentation": {}
     },
     {
+        "label": "IngredientChangedStoreEvent",
+        "importPath": "apps.ingredients.domain.events.ingredient_changed_store",
+        "description": "apps.ingredients.domain.events.ingredient_changed_store",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.events.ingredient_changed_store",
+        "documentation": {}
+    },
+    {
         "label": "IngredientCreatedEvent",
         "importPath": "apps.ingredients.domain.events.ingredient_created",
         "description": "apps.ingredients.domain.events.ingredient_created",
@@ -3362,6 +3546,14 @@
         "documentation": {}
     },
     {
+        "label": "ChangeIngredientStoreApplicationService",
+        "importPath": "apps.ingredients.application.services.change_ingredient_store",
+        "description": "apps.ingredients.application.services.change_ingredient_store",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.services.change_ingredient_store",
+        "documentation": {}
+    },
+    {
         "label": "CreateIngredientApplicationService",
         "importPath": "apps.ingredients.application.services.create_ingredient",
         "description": "apps.ingredients.application.services.create_ingredient",
@@ -3423,6 +3615,14 @@
         "description": "apps.ingredients.infrastructure.entries.modify_quantity_entry",
         "isExtraImport": true,
         "detail": "apps.ingredients.infrastructure.entries.modify_quantity_entry",
+        "documentation": {}
+    },
+    {
+        "label": "ModifyStoreEntry",
+        "importPath": "apps.ingredients.infrastructure.entries.modify_store_entry",
+        "description": "apps.ingredients.infrastructure.entries.modify_store_entry",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.entries.modify_store_entry",
         "documentation": {}
     },
     {
@@ -4716,6 +4916,15 @@
         "documentation": {}
     },
     {
+        "label": "IngredientChangeStoreDto",
+        "kind": 6,
+        "importPath": "apps.ingredients.application.dto.ingredient_change_store_dto",
+        "description": "apps.ingredients.application.dto.ingredient_change_store_dto",
+        "peekOfCode": "class IngredientChangeStoreDto(BaseModel):\n    store_id: UUID\n    ingredient_id: UUID",
+        "detail": "apps.ingredients.application.dto.ingredient_change_store_dto",
+        "documentation": {}
+    },
+    {
         "label": "ModifyIngredientQuantityDto",
         "kind": 6,
         "importPath": "apps.ingredients.application.dto.modify_ingredient_quantity_dto",
@@ -4734,6 +4943,15 @@
         "documentation": {}
     },
     {
+        "label": "ChangeIngredientStoreApplicationService",
+        "kind": 6,
+        "importPath": "apps.ingredients.application.services.change_ingredient_store",
+        "description": "apps.ingredients.application.services.change_ingredient_store",
+        "peekOfCode": "class ChangeIngredientStoreApplicationService(ApplicationService[IngredientChangeStoreDto, Ingredient]):\n    def __init__(self, ingredient_repository: IngredientRepository, event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n    async def execute(self, input: IngredientChangeStoreDto) -> Awaitable[Result[str]]:\n        ingredient = await self.ingredient_repository.get_ingredient_by_id(IngredientId(input.ingredient_id))\n        if ingredient is None:\n            return Result[Ingredient].failure(\n                error=IngredientsNotFoundApplicatonError(input)\n            ) # type: ignore",
+        "detail": "apps.ingredients.application.services.change_ingredient_store",
+        "documentation": {}
+    },
+    {
         "label": "CreateIngredientApplicationService",
         "kind": 6,
         "importPath": "apps.ingredients.application.services.create_ingredient",
@@ -4747,7 +4965,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.application.services.egress_ingredient",
         "description": "apps.ingredients.application.services.egress_ingredient",
-        "peekOfCode": "class EgressIngredientApplicationService(ApplicationService[ModifyIngredientQuantityDto, Ingredient]):\n    def __init__(self, ingredient_repository: IngredientRepository, event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n    async def execute(self, input: ModifyIngredientQuantityDto) -> Awaitable[Result[str]]:\n        ingredient = await self.ingredient_repository.get_ingredient_by_id(IngredientId(input.ingredient_id))\n        if ingredient is None:\n            return Result[Ingredient].failure(\n                error=IngredientsNotFoundApplicatonError(input)\n            ) # type: ignore",
+        "peekOfCode": "class EgressIngredientApplicationService(ApplicationService[ModifyIngredientQuantityDto, Ingredient]):\n    def __init__(self, ingredient_repository: IngredientRepository, event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n    async def execute(self, input: ModifyIngredientQuantityDto) -> Awaitable[Result[Ingredient]]:\n        ingredient = await self.ingredient_repository.get_ingredient_by_id(IngredientId(input.ingredient_id))\n        if ingredient is None:\n            return Result[Ingredient].failure(\n                error=IngredientsNotFoundApplicatonError(input)\n            ) # type: ignore",
         "detail": "apps.ingredients.application.services.egress_ingredient",
         "documentation": {}
     },
@@ -4774,8 +4992,17 @@
         "kind": 6,
         "importPath": "apps.ingredients.application.services.ingress_ingredient",
         "description": "apps.ingredients.application.services.ingress_ingredient",
-        "peekOfCode": "class IngressIngredientApplicationService(ApplicationService[ModifyIngredientQuantityDto, Ingredient]):\n    def __init__(self, ingredient_repository: IngredientRepository, event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n    async def execute(self, input: ModifyIngredientQuantityDto) -> Awaitable[Result[str]]:\n        ingredient = await self.ingredient_repository.get_ingredient_by_id(IngredientId(input.ingredient_id))\n        if ingredient is None:\n            return Result[Ingredient].failure(\n                error=IngredientsNotFoundApplicatonError(input)\n            ) # type: ignore",
+        "peekOfCode": "class IngressIngredientApplicationService(ApplicationService[ModifyIngredientQuantityDto, Ingredient]):\n    def __init__(self, ingredient_repository: IngredientRepository, event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n    async def execute(self, input: ModifyIngredientQuantityDto) -> Awaitable[Result[Ingredient]]:\n        ingredient = await self.ingredient_repository.get_ingredient_by_id(IngredientId(input.ingredient_id))\n        if ingredient is None:\n            return Result[Ingredient].failure(\n                error=IngredientsNotFoundApplicatonError(input)\n            ) # type: ignore",
         "detail": "apps.ingredients.application.services.ingress_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientChangedStoreEvent",
+        "kind": 6,
+        "importPath": "apps.ingredients.domain.events.ingredient_changed_store",
+        "description": "apps.ingredients.domain.events.ingredient_changed_store",
+        "peekOfCode": "class IngredientChangedStoreEvent(DomainEvent):\n    def __init__(self, ingredient_id: IngredientId, store_id: StoreId) -> None:\n        super().__init__()\n        self.ingredient_id = ingredient_id\n        self.store_id = store_id",
+        "detail": "apps.ingredients.domain.events.ingredient_changed_store",
         "documentation": {}
     },
     {
@@ -4905,6 +5132,15 @@
         "documentation": {}
     },
     {
+        "label": "ModifyStoreEntr",
+        "kind": 6,
+        "importPath": "apps.ingredients.infrastructure.entries.modify_store_entry",
+        "description": "apps.ingredients.infrastructure.entries.modify_store_entry",
+        "peekOfCode": "class ModifyStoreEntry (BaseModel):\n    store_id: UUID",
+        "detail": "apps.ingredients.infrastructure.entries.modify_store_entry",
+        "documentation": {}
+    },
+    {
         "label": "IngredientMapper",
         "kind": 6,
         "importPath": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
@@ -4927,7 +5163,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "GET_ALL_INGREDIENTS = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity, ing.store_id\n    FROM ingredients AS ing;\n\"\"\"\nINSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity, store_id)\n    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id",
+        "peekOfCode": "GET_ALL_INGREDIENTS = \"\"\"\n    SELECT ing.id, ing.name, ing.quantity, ing.store_id\n    FROM ingredients AS ing;\n\"\"\"\nINSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity, store_id)\n    VALUES (:id, :name, :quantity, :store_id) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },
@@ -4936,7 +5172,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "INSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity, store_id)\n    VALUES (:id, :name, :quantity) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id\n\"\"\"",
+        "peekOfCode": "INSERT_INGREDIENT = \"\"\"\n    INSERT INTO ingredients (id, name, quantity, store_id)\n    VALUES (:id, :name, :quantity, :store_id) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;\n\"\"\"\nGET_STORE_INGREDIENTS = \"\"\"\n    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id\n\"\"\"",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },

@@ -2,6 +2,7 @@
 
 
 from loguru import logger
+from apps.ingredients.domain.events.ingredient_changed_store import IngredientChangedStoreEvent
 from apps.ingredients.domain.events.ingredient_created import IngredientCreatedEvent
 from apps.ingredients.domain.events.ingredient_quantity_down import IngredientQuantityDownEvent
 from apps.ingredients.domain.events.ingredient_quantity_up import IngredientQuantityUpEvent
@@ -28,12 +29,19 @@ class Ingredient (Aggregate[IngredientId]):
         self.quantity.ensureValidState()
         self.storeId.ensureValidState()
         
+    def change_store (self, store_id: StoreId) -> None:
+        ingredient_changed_store_event = IngredientChangedStoreEvent(self.id, store_id)
+        self.storeId = store_id
+        self.validate_state()
+        self.on(ingredient_changed_store_event)
+        
     def add_quantity(self, quantity: IngredientQuantity) -> None:
         ingredient_quantity_up_event = IngredientQuantityUpEvent(self.id, quantity)
         before_quantity = self.quantity.value
         added_quantity = quantity.value
         new_quantity = before_quantity + added_quantity
         self.quantity = IngredientQuantity(new_quantity)
+        self.validate_state()
         self.on(ingredient_quantity_up_event)
         
     def rest_quantity(self, quantity: IngredientQuantity) -> None:
@@ -43,4 +51,5 @@ class Ingredient (Aggregate[IngredientId]):
         rest_quantity = quantity.value
         new_quantity = before_quantity - rest_quantity
         self.quantity = IngredientQuantity(new_quantity)
+        self.validate_state()
         self.on(ingredient_quantity_down_event)

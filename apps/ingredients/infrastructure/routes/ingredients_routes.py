@@ -7,7 +7,9 @@ from apps.auth.application.services.login_service import loginService
 from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
 from apps.auth.infraestructure.jwt.jwt_generator import jwtGenerator
 from apps.ingredients.application.dto.create_ingredient_dto import CreateIngredientDto
+from apps.ingredients.application.dto.ingredient_change_store_dto import IngredientChangeStoreDto
 from apps.ingredients.application.dto.modify_ingredient_quantity_dto import ModifyIngredientQuantityDto
+from apps.ingredients.application.services.change_ingredient_store import ChangeIngredientStoreApplicationService
 from apps.ingredients.application.services.create_ingredient import CreateIngredientApplicationService
 from apps.ingredients.application.services.egress_ingredient import EgressIngredientApplicationService
 from apps.ingredients.application.services.get_all_ingredients import GetAllIngredientsApplicationService
@@ -18,6 +20,7 @@ from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.ingredients.infrastructure.db_entity.ingredient_in_db import IngredientInDB
 from apps.ingredients.infrastructure.entries.create_ingredient_entry import CreateIngredientEntry
 from apps.ingredients.infrastructure.entries.modify_quantity_entry import ModifyQuantityEntry
+from apps.ingredients.infrastructure.entries.modify_store_entry import ModifyStoreEntry
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
 from apps.ingredients.infrastructure.responses.ingredients_responses import GetAllIngredientsResponse, GetIngredientResponse, SaveIngredientResponse
@@ -83,10 +86,10 @@ async def ingressIngredient(
     )
     service_dto = ModifyIngredientQuantityDto(ingredient_id=id, quantity=quantity.quantity)
     response = (await service.execute(service_dto)).unwrap()
-    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value)
+    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value, storeId=response.storeId.value)
 
 
-@ingredient_router.post("/egress/{id}", response_model=GetIngredientResponse, name="ingredient:ingress")
+@ingredient_router.post("/egress/{id}", response_model=GetIngredientResponse, name="ingredient:egress")
 async def ingressIngredient(
     id: UUID,
     quantity: ModifyQuantityEntry,
@@ -98,4 +101,18 @@ async def ingressIngredient(
     )
     service_dto = ModifyIngredientQuantityDto(ingredient_id=id, quantity=quantity.quantity)
     response = (await service.execute(service_dto)).unwrap()
-    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value)
+    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value, storeId=response.storeId.value)
+
+@ingredient_router.post("/changestore/{id}", response_model=GetIngredientResponse, name="ingredient:changeStore")
+async def ingressIngredient(
+    id: UUID,
+    store_id: ModifyStoreEntry,
+    db: Database = Depends(get_database),
+    current_user: UserInDB = Depends(get_current_active_user),
+):
+    event_handler = NativeEventHandler()
+    service = ExceptionDecorator(ChangeIngredientStoreApplicationService(DbIngredientsRepository(db,IngredientMapper()),event_handler)
+    )
+    service_dto = IngredientChangeStoreDto(ingredient_id=id, store_id=store_id.store_id)
+    response = (await service.execute(service_dto)).unwrap()
+    return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value, storeId=response.storeId.value)

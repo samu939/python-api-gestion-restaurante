@@ -18,7 +18,7 @@ class EgressIngredientApplicationService(ApplicationService[ModifyIngredientQuan
         self.ingredient_repository = ingredient_repository
         self.event_handler = event_handler
 
-    async def execute(self, input: ModifyIngredientQuantityDto) -> Awaitable[Result[str]]:
+    async def execute(self, input: ModifyIngredientQuantityDto) -> Awaitable[Result[Ingredient]]:
         ingredient = await self.ingredient_repository.get_ingredient_by_id(IngredientId(input.ingredient_id))
         if ingredient is None:
             return Result[Ingredient].failure(
