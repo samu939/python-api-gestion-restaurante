@@ -27,9 +27,18 @@ class DbIngredientsRepository (IngredientRepository):
         return self.ingredientMapper.from_persistence_to_domain(record)
     
     async def save_ingredient(self, ingredient: Ingredient) -> Awaitable[None]:
-        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT
+        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT, INSERT_INGREDIENT_INTO_STORE
         values = self.ingredientMapper.from_domain_to_persistence(ingredient)
-        await self.db.execute(query=INSERT_INGREDIENT, values=values)
+        
+        await self.db.execute(query=INSERT_INGREDIENT, values= {
+            'id': values['id'],
+            'name': values['name']
+        })
+        await self.db.execute(query=INSERT_INGREDIENT_INTO_STORE, values={
+            'ingredient_id': values['id'],
+            'store_id': values['store_id'],
+            'quantity': values['quantity']
+        })
         
     async def get_all_ingredients(self) -> Awaitable[list[Ingredient]]:
         from apps.ingredients.infrastructure.queries.ingredients_queries import GET_ALL_INGREDIENTS

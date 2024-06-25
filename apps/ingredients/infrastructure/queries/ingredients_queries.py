@@ -12,10 +12,14 @@ GET_ALL_INGREDIENTS = """
 """
 
 INSERT_INGREDIENT = """
-    INSERT INTO ingredients (id, name, quantity, store_id)
-    VALUES (:id, :name, :quantity, :store_id) ON CONFLICT (id) DO UPDATE SET name = :name, quantity = :quantity, store_id = :store_id;
+    INSERT INTO ingredient (id, name)
+    VALUES (:id, :name);
 """
 
 GET_STORE_INGREDIENTS = """
     SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id
+"""
+
+INSERT_INGREDIENT_INTO_STORE = """
+    INSERT INTO ingredient_store(fk_ingredient, fk_store, quantity) values(:ingredient_id, :store_id, :quantity)
 """

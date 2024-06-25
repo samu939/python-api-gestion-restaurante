@@ -63,12 +63,13 @@ async def getIngredientById(
 
 @ingredient_router.post("/create", response_model=SaveIngredientResponse, name="ingredient:create")
 async def createIngredient(
-    ingredient: CreateIngredientEntry,
+    new_ingredient: CreateIngredientEntry,
     db: Database = Depends(get_database),
     current_user: UserInDB = Depends(get_current_active_user),
 ):
     event_handler = NativeEventHandler()
-    ingredient = CreateIngredientDto(**ingredient.dict())
+    print(new_ingredient)
+    ingredient = CreateIngredientDto(**new_ingredient.dict())
     service = ExceptionDecorator(CreateIngredientApplicationService(DbIngredientsRepository(db,IngredientMapper()), event_handler))
     
     return SaveIngredientResponse(response=((await service.execute(ingredient)).unwrap()))
