@@ -34,6 +34,7 @@ class dbUserRepository (UserRepository):
         from apps.user.infrastructure.queries.user_queries import GET_USER_BY_USERNAME
 
         values = {"username": username}
+
         record = await self.db.fetch_one(query=GET_USER_BY_USERNAME, values=values)
 
         if not record:

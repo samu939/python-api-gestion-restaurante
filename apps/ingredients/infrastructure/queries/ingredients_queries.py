@@ -5,8 +5,9 @@ GET_INGREDIENT_BY_ID = """
     WHERE ing.id = :id;
 """
 GET_ALL_INGREDIENTS = """
-    SELECT ing.id, ing.name, ing.quantity, ing.store_id
-    FROM ingredients AS ing;
+    SELECT ing.id, ing.name, ing_store.quantity, ing_store.fk_store as store_id
+    FROM ingredient AS ing, ingredient_store AS ing_store
+	WHERE ing.id = ing_store.fk_ingredient
 """
 
 INSERT_INGREDIENT = """
