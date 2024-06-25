@@ -23,3 +23,8 @@ GET_STORE_INGREDIENTS = """
 INSERT_INGREDIENT_INTO_STORE = """
     INSERT INTO ingredient_store(fk_ingredient, fk_store, quantity) values(:ingredient_id, :store_id, :quantity)
 """
+
+SEARCH_BY_NAME = """
+    SELECT * FROM ingredient
+    WHERE LOWER(name) = LOWER(:name)
+"""

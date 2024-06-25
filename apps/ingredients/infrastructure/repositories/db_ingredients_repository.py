@@ -23,19 +23,27 @@ class DbIngredientsRepository (IngredientRepository):
         record = await self.db.fetch_one(query=GET_INGREDIENT_BY_ID, values=values)
         if not record:
             return None
-        print('Hay record', record.name)
+        
         return self.ingredientMapper.from_persistence_to_domain(record)
     
     async def save_ingredient(self, ingredient: Ingredient) -> Awaitable[None]:
-        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT, INSERT_INGREDIENT_INTO_STORE
+        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT, INSERT_INGREDIENT_INTO_STORE, SEARCH_BY_NAME
         values = self.ingredientMapper.from_domain_to_persistence(ingredient)
-        
-        await self.db.execute(query=INSERT_INGREDIENT, values= {
-            'id': values['id'],
-            'name': values['name']
-        })
+
+        ingredient_in_db = await self.db.fetch_one(query=SEARCH_BY_NAME, values={'name': values['name']})
+
+        if (not ingredient_in_db):
+            await self.db.execute(query=INSERT_INGREDIENT, values= {
+                'id': values['id'],
+                'name': values['name']
+            })
+            await self.db.execute(query=INSERT_INGREDIENT_INTO_STORE, values={
+                'ingredient_id': values['id'],
+                'store_id': values['store_id'],
+                'quantity': values['quantity']
+            })
         await self.db.execute(query=INSERT_INGREDIENT_INTO_STORE, values={
-            'ingredient_id': values['id'],
+            'ingredient_id': ingredient_in_db.id,
             'store_id': values['store_id'],
             'quantity': values['quantity']
         })
