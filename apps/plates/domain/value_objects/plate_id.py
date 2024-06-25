@@ -1,5 +1,5 @@
 from uuid import UUID
-from apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception import IngredientIdNotValid
+from apps.plates.domain.exceptions.plate_id_not_valid_exception import PlateIdNotValid
 from core.domain.value_objects.value_object import ValueObject
 
 

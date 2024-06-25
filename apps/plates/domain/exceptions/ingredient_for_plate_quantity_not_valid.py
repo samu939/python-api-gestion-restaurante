@@ -1,7 +1,7 @@
 from core.domain.exceptions.domain_exception import DomainException
 
 
-class PlateIdNotValid(DomainException):
+class IngredientForPlateQuantityNotValid(DomainException):
         def __init__(self): 
-            msg = "Id del plato no válido"
+            msg = "cantidad del ingrediente no valida"
             super().__init__(self,  msg, 400, self.__class__.__name__)
