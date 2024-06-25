@@ -28,3 +28,15 @@ SEARCH_BY_NAME = """
     SELECT * FROM ingredient
     WHERE LOWER(name) = LOWER(:name)
 """
+
+SEARCH_ING_STORE_RELATION = """
+    SELECT * FROM ingredient_store
+    WHERE fk_ingredient = :fk_ingredient
+    AND fk_store = :fk_store
+"""
+
+UPDATE_QUANTITY = """
+    UPDATE ingredient_store
+    SET quantity = :quantity 
+    WHERE id = :id
+"""

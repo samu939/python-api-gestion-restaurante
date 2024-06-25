@@ -1,6 +1,3 @@
-
-
-
 from typing import Awaitable
 from databases import Database
 from apps.ingredients.domain.ingredient import Ingredient
@@ -27,7 +24,7 @@ class DbIngredientsRepository (IngredientRepository):
         return self.ingredientMapper.from_persistence_to_domain(record)
     
     async def save_ingredient(self, ingredient: Ingredient) -> Awaitable[None]:
-        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT, INSERT_INGREDIENT_INTO_STORE, SEARCH_BY_NAME
+        from apps.ingredients.infrastructure.queries.ingredients_queries import INSERT_INGREDIENT, INSERT_INGREDIENT_INTO_STORE, SEARCH_BY_NAME, SEARCH_ING_STORE_RELATION, UPDATE_QUANTITY
         values = self.ingredientMapper.from_domain_to_persistence(ingredient)
 
         ingredient_in_db = await self.db.fetch_one(query=SEARCH_BY_NAME, values={'name': values['name']})
@@ -42,6 +39,21 @@ class DbIngredientsRepository (IngredientRepository):
                 'store_id': values['store_id'],
                 'quantity': values['quantity']
             })
+
+            return
+        
+        ingredient_store_relation_in_db = await self.db.fetch_one(SEARCH_ING_STORE_RELATION, values={
+            'fk_ingredient': ingredient_in_db.id,
+            'fk_store': values['store_id'],
+        })
+
+        if (ingredient_store_relation_in_db):
+            await self.db.execute(query=UPDATE_QUANTITY, values={
+                'id': ingredient_store_relation_in_db.id,
+                'quantity': values['quantity']
+            })
+            return
+
         await self.db.execute(query=INSERT_INGREDIENT_INTO_STORE, values={
             'ingredient_id': ingredient_in_db.id,
             'store_id': values['store_id'],
