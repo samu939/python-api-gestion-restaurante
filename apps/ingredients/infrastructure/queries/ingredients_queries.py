@@ -17,7 +17,11 @@ INSERT_INGREDIENT = """
 """
 
 GET_STORE_INGREDIENTS = """
-    SELECT id, name, quantity, store_id FROM ingredients WHERE store_id = :id
+    SELECT ing.id, ing.name, ing_store.quantity, store.id as store_id
+    FROM ingredient ing, store, ingredient_store ing_store
+    WHERE ing_store.fk_ingredient = ing.id
+    AND ing_store.fk_store = store.id
+    AND store.id = :id
 """
 
 INSERT_INGREDIENT_INTO_STORE = """

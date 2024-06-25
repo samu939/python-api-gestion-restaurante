@@ -26,7 +26,7 @@ class DbStoreRepository (StoreRepository):
         
     async def get_store_by_id(self, id: StoreId) -> Awaitable[Store | None]:
         from apps.store.infrastructure.queries.store_queries import GET_STORE_BY_ID
-        values = {"id": id.value}
+        values = {"id": str(id.value)}
         record = await self.db.fetch_one(query=GET_STORE_BY_ID, values=values)
 
         if not record:

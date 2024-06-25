@@ -67,7 +67,7 @@ class DbIngredientsRepository (IngredientRepository):
         
     async def get_store_ingredients(self, id: StoreId) -> Awaitable[list[Ingredient]]:
         from apps.ingredients.infrastructure.queries.ingredients_queries import GET_STORE_INGREDIENTS
-        values = {"id": id.value}
+        values = {"id": str(id.value)}
         record = await self.db.fetch_all(query=GET_STORE_INGREDIENTS, values=values)
         return [self.ingredientMapper.from_persistence_to_domain(record) for record in record]
         
