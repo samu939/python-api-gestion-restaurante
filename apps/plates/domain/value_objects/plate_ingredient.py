@@ -1,3 +1,4 @@
+from uuid import UUID
 from core.domain.value_objects.value_object import ValueObject
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.plates.domain.value_objects.ingredient_for_plate_quantity import IngredientForPlateQuantity
@@ -8,17 +9,20 @@ from apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception import
 class PlateIngredient(ValueObject[dict]):
     
     def __init__(self, value: dict):
-        self.ensure_valid_state(value)
         super().__init__(value)
+        self.ensureValidState()
     
-    def ensure_valid_state(self, value: dict):
-        if not isinstance(value, dict):
+    def equals(self, other: ValueObject[dict]) -> bool:
+        return self.value == other.value    
+    
+    def ensureValidState(self):
+        if not isinstance(self.value, dict):
             raise PlateIngredientNotValid
-        if 'ingredient_id' not in value or 'quantity' not in value:
+        if 'ingredient_id' not in self.value or 'quantity' not in self.value:
             raise IngredientIdNotValid
-        if not isinstance(value['ingredient_id'], IngredientId):
+        if not isinstance(self.value['ingredient_id'], IngredientId):
             raise IngredientIdNotValid
-        if not isinstance(value['quantity'], IngredientForPlateQuantity):
+        if not isinstance(self.value['quantity'], IngredientForPlateQuantity):
             raise IngredientForPlateQuantityNotValid
 
     def __str__(self):

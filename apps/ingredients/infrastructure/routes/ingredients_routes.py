@@ -48,7 +48,7 @@ async def getIngredientById(
     return GetIngredientResponse(id=response.id.value, name=response.name.value, quantity=response.quantity.value, storeId=response.storeId.value)
 
 @ingredient_router.get("/getall", response_model=GetAllIngredientsResponse, name="ingredient:getAll")
-async def getIngredientById(
+async def getIngredients(
     db: Database = Depends(get_database),
     current_user: UserInDB = Depends(get_current_active_user),
 ):
