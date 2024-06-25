@@ -18,11 +18,12 @@ class DbIngredientsRepository (IngredientRepository):
         
     async def get_ingredient_by_id(self, id: IngredientId) -> Awaitable[Ingredient | None]:
         from apps.ingredients.infrastructure.queries.ingredients_queries import GET_INGREDIENT_BY_ID
-        values = {"id": id.value}
+        values = {"id": str(id.value)}
+        print(values)
         record = await self.db.fetch_one(query=GET_INGREDIENT_BY_ID, values=values)
         if not record:
             return None
-        
+        print('Hay record', record.name)
         return self.ingredientMapper.from_persistence_to_domain(record)
     
     async def save_ingredient(self, ingredient: Ingredient) -> Awaitable[None]:
