@@ -1,8 +1,11 @@
+from uuid import UUID
 from databases import Database
 from fastapi import APIRouter, Depends
 
 from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.plates.application.get_plate_by_id_application_service import GetPlateByIdApplicationService
 from apps.plates.application.services.get_all_plates_application_service import GetAllPlatesApplicationService
+from apps.plates.domain.value_objects.plate_id import PlateId
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.plates.infrastructure.repositories.db_plates_repository import DbPlatesRepository
 from apps.plates.infrastructure.responses.plates_responses import GetPlatesIngredientResponse
@@ -35,3 +38,16 @@ async def getPlates(
                                             quantity=ingredient.value['quantity'].value) for ingredient in plate.ingredients]))
     
     return GetAllPlatesResponse(plates=plates)
+
+@plates_router.get("get/{id}", response_model=GetPlateResponse, name="plate:getById")
+async def getPlateById(
+    id: UUID,
+    db: Database = Depends(get_database),
+    current_user: UserInDB = Depends(get_current_active_user)
+):
+    service = ExceptionDecorator(GetPlateByIdApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper())))
+    response = (await service.execute(PlateId(id))).unwrap()
+    return GetPlateResponse(id=response.id.value, name=response.name.value, description=response.description.value,
+                            price=response.price.value, ingredients=[
+                                           GetPlatesIngredientResponse(id=ingredient.value['ingredient_id'].value, 
+                                            quantity=ingredient.value['quantity'].value) for ingredient in response.ingredients])
