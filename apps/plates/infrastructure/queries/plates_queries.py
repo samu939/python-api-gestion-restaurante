@@ -27,3 +27,10 @@ GET_PLATE_BY_ID = """
         GROUP BY
             plate.id
 """
+
+INSERT_NEW_PLATE = """
+    INSERT INTO plate("id" ,"name", description, price) values(:id, :name, :description, :price);
+"""
+INSERT_NEW_PLATE_INGREDIENTS = """
+    INSERT INTO ingredient_plate(quantity, fk_plate, fk_ingredient) values(:quantity, :plate_id, :ingredient_id);
+"""

@@ -4,7 +4,7 @@ from core.infrastructure.utils.schemas_base import BaseSchema
 
 class GetPlatesIngredientResponse(BaseSchema):
     id: UUID
-    quantity: int
+    quantity: float
 
 
 
@@ -17,3 +17,6 @@ class GetPlateResponse(BaseSchema):
 
 class GetAllPlatesResponse(BaseSchema):
     plates: list[GetPlateResponse]
+
+class SavePlateResponse(BaseSchema):
+    response: str

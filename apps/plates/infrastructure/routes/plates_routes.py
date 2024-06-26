@@ -3,15 +3,19 @@ from databases import Database
 from fastapi import APIRouter, Depends
 
 from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.ingredients.infrastructure.dtos.create_plate_dto import CreatePlateDto
 from apps.plates.application.get_plate_by_id_application_service import GetPlateByIdApplicationService
+from apps.plates.application.services.create_plate_application_service import CreatePlateApplicationService
 from apps.plates.application.services.get_all_plates_application_service import GetAllPlatesApplicationService
 from apps.plates.domain.value_objects.plate_id import PlateId
+from apps.plates.infrastructure.entries.create_plate_entry import CreatePlateEntry
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.plates.infrastructure.repositories.db_plates_repository import DbPlatesRepository
-from apps.plates.infrastructure.responses.plates_responses import GetPlatesIngredientResponse
+from apps.plates.infrastructure.responses.plates_responses import GetPlatesIngredientResponse, SavePlateResponse
 from apps.plates.infrastructure.responses.plates_responses import GetAllPlatesResponse, GetPlateResponse
 from apps.user.infrastructure.db_entity.user_in_db import UserInDB
 from core.application.decorators.exception_decorator import ExceptionDecorator
+from core.infrastructure.events.event_handler_native import NativeEventHandler
 from db.db_dependencies import get_database
 
 
@@ -51,3 +55,16 @@ async def getPlateById(
                             price=response.price.value, ingredients=[
                                            GetPlatesIngredientResponse(id=ingredient.value['ingredient_id'].value, 
                                             quantity=ingredient.value['quantity'].value) for ingredient in response.ingredients])
+
+@plates_router.post("/create", response_model=SavePlateResponse, name="plate:create")
+async def createPlate(
+    new_plate: CreatePlateEntry,
+    db: Database = Depends(get_database),
+    current_user: UserInDB = Depends(get_current_active_user)
+):
+    event_handler = NativeEventHandler()
+    print(new_plate)
+    plate = CreatePlateDto(**new_plate.dict())
+    service = ExceptionDecorator(CreatePlateApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()), event_handler=event_handler))
+
+    return SavePlateResponse(response=((await service.execute(plate)).unwrap()))

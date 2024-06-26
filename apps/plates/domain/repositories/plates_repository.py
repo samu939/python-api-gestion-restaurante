@@ -12,4 +12,7 @@ class PlateRepository:
     @abstractmethod
     def get_all_plates(self) -> Awaitable[list[Plate]]:
         pass
+    @abstractmethod
+    def save_plate(self, plate: Plate) -> Awaitable[None]:
+        pass
     

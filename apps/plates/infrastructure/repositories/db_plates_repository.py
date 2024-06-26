@@ -28,3 +28,21 @@ class DbPlatesRepository(PlateRepository):
 
         return self.plates_mapper.from_persistence_to_domain(record)
 
+    async def save_plate(self, plate: Plate) -> Awaitable[None]:
+        from apps.plates.infrastructure.queries.plates_queries import INSERT_NEW_PLATE, INSERT_NEW_PLATE_INGREDIENTS
+
+        res = await self.db.execute(query=INSERT_NEW_PLATE, values={
+            'id': plate.id.value,
+            'name': plate.name.value,
+            'description': plate.description.value,
+            'price': plate.price.value
+        })
+
+        print(res)
+
+        for ingredient in plate.ingredients:
+            await self.db.execute(query=INSERT_NEW_PLATE_INGREDIENTS, values={
+                'plate_id': plate.id.value,
+                'ingredient_id': str(ingredient.value['ingredient_id'].value),
+                'quantity': ingredient.value['quantity'].value
+            })
