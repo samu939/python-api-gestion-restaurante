@@ -10,3 +10,7 @@ class CreatePlateEntry (BaseModel):
     description: str
     price: float
     ingredients: list[IngredientsForPlateEntry]
+
+class CookPlateEntry (BaseModel):
+    plate_id: UUID
+    quantity: int
