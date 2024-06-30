@@ -17,3 +17,6 @@ class GetMenuResponse(BaseSchema):
 
 class GetAllMenusResponse(BaseSchema):
     menus: list[GetMenuResponse]
+
+class SaveMenuResponse(BaseSchema):
+    response: str

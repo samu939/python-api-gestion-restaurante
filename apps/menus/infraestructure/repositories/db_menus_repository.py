@@ -1,8 +1,8 @@
 
-from tkinter import Menu
 from typing import Awaitable
 from databases import Database
 
+from apps.menus.domain.menu import Menu
 from apps.menus.domain.repositories.menu_repository import MenuRepository
 from apps.menus.domain.value_objects.menu_id import MenuId
 from apps.menus.infraestructure.mappers.menus_mapper import MenuMapper
@@ -23,3 +23,17 @@ class DbMenusRepository(MenuRepository):
         from apps.menus.infraestructure.queries.menus_queries import GET_MENU_BY_ID
         record = await self.db.fetch_one(query=GET_MENU_BY_ID, values={'id': str(id.value)})
         return self.menus_mapper.from_persistence_to_domain(record)
+    
+    async def save_menu(self, menu: Menu) -> Awaitable[None]:
+        from apps.menus.infraestructure.queries.menus_queries import INSERT_MENU, INSERT_PLATE_MENU
+        res = await self.db.execute(query=INSERT_MENU, values={
+            'id': str(menu.id.value),
+            'name': menu.name.value
+        })
+
+        for plate in menu.plates:
+            await self.db.execute(query=INSERT_PLATE_MENU, values={
+            'menu_id': str(menu.id.value),
+            'plate_id': str(plate.value)
+        })
+        
