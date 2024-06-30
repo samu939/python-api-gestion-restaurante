@@ -20,9 +20,7 @@ class MenuMapper(Mapper[Menu, dict[str, str]]):
         plates: list[PlateId] = []
 
         for plate in json.loads(persistence_menu['plates']):
-            plates.append({
-                'plate_id': PlateId(plate['plate_id']),
-            })
+            plates.append(PlateId(plate['plate_id']))
 
         return Menu(
             MenuId(persistence_menu['id']),
