@@ -5,6 +5,8 @@ from apps.plates.domain.value_objects.plate_id import PlateId
 
 
 class Menu:
-    id: MenuId
-    name: MenuName
-    plates: list[PlateId]
+
+    def __init__(self, id: MenuId, name: MenuName, plates: list[PlateId]) -> None:
+        self.id = id
+        self.name = name
+        self.plates = plates
