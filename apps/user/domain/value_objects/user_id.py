@@ -7,3 +7,7 @@ class UserId(ValueObject[UUID]):
 
     def equals(self, other: 'UserId') -> bool:
         return self.value == other.value
+    
+    def ensureValidState(self) -> None:
+        if not self.value:
+            raise ValueError("User id not valid")
