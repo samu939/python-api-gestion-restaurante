@@ -259,6 +259,70 @@
         "documentation": {}
     },
     {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "UUID",
         "importPath": "uuid",
         "description": "uuid",
@@ -656,6 +720,38 @@
     },
     {
         "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1496,6 +1592,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseSchema",
+        "importPath": "core.infrastructure.utils.schemas_base",
+        "description": "core.infrastructure.utils.schemas_base",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.utils.schemas_base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSchema",
+        "importPath": "core.infrastructure.utils.schemas_base",
+        "description": "core.infrastructure.utils.schemas_base",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.utils.schemas_base",
+        "documentation": {}
+    },
+    {
         "label": "AppExceptionCase",
         "importPath": "core.infrastructure.utils.app_exceptions",
         "description": "core.infrastructure.utils.app_exceptions",
@@ -1784,11 +1896,19 @@
         "documentation": {}
     },
     {
-        "label": "ApplicationService",
-        "importPath": "core.application.services.application_service",
-        "description": "core.application.services.application_service",
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
         "isExtraImport": true,
-        "detail": "core.application.services.application_service",
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
         "documentation": {}
     },
     {
@@ -1925,6 +2045,38 @@
         "description": "core.application.services.application_service",
         "isExtraImport": true,
         "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "databases",
+        "description": "databases",
+        "isExtraImport": true,
+        "detail": "databases",
         "documentation": {}
     },
     {
@@ -2144,6 +2296,14 @@
         "documentation": {}
     },
     {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -2257,6 +2417,14 @@
     },
     {
         "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
         "importPath": "apps.user.infrastructure.db_entity.user_in_db",
         "description": "apps.user.infrastructure.db_entity.user_in_db",
         "isExtraImport": true,
@@ -2345,6 +2513,22 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2664,6 +2848,30 @@
         "documentation": {}
     },
     {
+        "label": "get_database",
+        "importPath": "db.db_dependencies",
+        "description": "db.db_dependencies",
+        "isExtraImport": true,
+        "detail": "db.db_dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -2680,6 +2888,14 @@
         "documentation": {}
     },
     {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -2688,7 +2904,7 @@
         "documentation": {}
     },
     {
-        "label": "timedelta",
+        "label": "date",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -2921,6 +3137,14 @@
         "documentation": {}
     },
     {
+        "label": "ExceptionDecorator",
+        "importPath": "core.application.decorators.exception_decorator",
+        "description": "core.application.decorators.exception_decorator",
+        "isExtraImport": true,
+        "detail": "core.application.decorators.exception_decorator",
+        "documentation": {}
+    },
+    {
         "label": "bcrypt",
         "kind": 6,
         "isExtraImport": true,
@@ -2931,6 +3155,22 @@
     },
     {
         "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -3858,6 +4098,14 @@
         "documentation": {}
     },
     {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
         "label": "CreateIngredientDto",
         "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
         "description": "apps.ingredients.application.dto.create_ingredient_dto",
@@ -4562,6 +4810,22 @@
         "documentation": {}
     },
     {
+        "label": "IngredientMapper",
+        "importPath": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "description": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_active_user",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
         "label": "get_current_active_user",
         "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
@@ -4714,6 +4978,14 @@
         "documentation": {}
     },
     {
+        "label": "DbIngredientsRepository",
+        "importPath": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "description": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "documentation": {}
+    },
+    {
         "label": "GetAllIngredientsResponse",
         "importPath": "apps.ingredients.infrastructure.responses.ingredients_responses",
         "description": "apps.ingredients.infrastructure.responses.ingredients_responses",
@@ -4770,603 +5042,35 @@
         "documentation": {}
     },
     {
-        "label": "CreateOrderDto",
-        "importPath": "apps.order.application.dto.create_order_dto",
-        "description": "apps.order.application.dto.create_order_dto",
+        "label": "NativeEventHandler",
+        "importPath": "core.infrastructure.events.event_handler_native",
+        "description": "core.infrastructure.events.event_handler_native",
         "isExtraImport": true,
-        "detail": "apps.order.application.dto.create_order_dto",
+        "detail": "core.infrastructure.events.event_handler_native",
         "documentation": {}
     },
     {
-        "label": "CreateOrderDto",
-        "importPath": "apps.order.application.dto.create_order_dto",
-        "description": "apps.order.application.dto.create_order_dto",
+        "label": "NotificationRepository",
+        "importPath": "apps.notifications.application.notification_repository",
+        "description": "apps.notifications.application.notification_repository",
         "isExtraImport": true,
-        "detail": "apps.order.application.dto.create_order_dto",
+        "detail": "apps.notifications.application.notification_repository",
         "documentation": {}
     },
     {
-        "label": "CreateOrderDto",
-        "importPath": "apps.order.application.dto.create_order_dto",
-        "description": "apps.order.application.dto.create_order_dto",
+        "label": "NotificationRepository",
+        "importPath": "apps.notifications.application.notification_repository",
+        "description": "apps.notifications.application.notification_repository",
         "isExtraImport": true,
-        "detail": "apps.order.application.dto.create_order_dto",
+        "detail": "apps.notifications.application.notification_repository",
         "documentation": {}
     },
     {
-        "label": "Order",
-        "importPath": "apps.order.domain.order",
-        "description": "apps.order.domain.order",
+        "label": "NotificationRepository",
+        "importPath": "apps.notifications.application.notification_repository",
+        "description": "apps.notifications.application.notification_repository",
         "isExtraImport": true,
-        "detail": "apps.order.domain.order",
-        "documentation": {}
-    },
-    {
-        "label": "Order",
-        "importPath": "apps.order.domain.order",
-        "description": "apps.order.domain.order",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.order",
-        "documentation": {}
-    },
-    {
-        "label": "Order",
-        "importPath": "apps.order.domain.order",
-        "description": "apps.order.domain.order",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.order",
-        "documentation": {}
-    },
-    {
-        "label": "Order",
-        "importPath": "apps.order.domain.order",
-        "description": "apps.order.domain.order",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.order",
-        "documentation": {}
-    },
-    {
-        "label": "Order",
-        "importPath": "apps.order.domain.order",
-        "description": "apps.order.domain.order",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.order",
-        "documentation": {}
-    },
-    {
-        "label": "Order",
-        "importPath": "apps.order.domain.order",
-        "description": "apps.order.domain.order",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.order",
-        "documentation": {}
-    },
-    {
-        "label": "OrderRepository",
-        "importPath": "apps.order.domain.repositories.order_repository",
-        "description": "apps.order.domain.repositories.order_repository",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.repositories.order_repository",
-        "documentation": {}
-    },
-    {
-        "label": "OrderRepository",
-        "importPath": "apps.order.domain.repositories.order_repository",
-        "description": "apps.order.domain.repositories.order_repository",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.repositories.order_repository",
-        "documentation": {}
-    },
-    {
-        "label": "OrderRepository",
-        "importPath": "apps.order.domain.repositories.order_repository",
-        "description": "apps.order.domain.repositories.order_repository",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.repositories.order_repository",
-        "documentation": {}
-    },
-    {
-        "label": "OrderRepository",
-        "importPath": "apps.order.domain.repositories.order_repository",
-        "description": "apps.order.domain.repositories.order_repository",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.repositories.order_repository",
-        "documentation": {}
-    },
-    {
-        "label": "OrderDate",
-        "importPath": "apps.order.domain.value_objects.order_date",
-        "description": "apps.order.domain.value_objects.order_date",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_date",
-        "documentation": {}
-    },
-    {
-        "label": "OrderDate",
-        "importPath": "apps.order.domain.value_objects.order_date",
-        "description": "apps.order.domain.value_objects.order_date",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_date",
-        "documentation": {}
-    },
-    {
-        "label": "OrderDate",
-        "importPath": "apps.order.domain.value_objects.order_date",
-        "description": "apps.order.domain.value_objects.order_date",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_date",
-        "documentation": {}
-    },
-    {
-        "label": "OrderDate",
-        "importPath": "apps.order.domain.value_objects.order_date",
-        "description": "apps.order.domain.value_objects.order_date",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_date",
-        "documentation": {}
-    },
-    {
-        "label": "OrderDate",
-        "importPath": "apps.order.domain.value_objects.order_date",
-        "description": "apps.order.domain.value_objects.order_date",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_date",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderId",
-        "importPath": "apps.order.domain.value_objects.order_id",
-        "description": "apps.order.domain.value_objects.order_id",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_id",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlate",
-        "importPath": "apps.order.domain.value_objects.order_plate",
-        "description": "apps.order.domain.value_objects.order_plate",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlate",
-        "importPath": "apps.order.domain.value_objects.order_plate",
-        "description": "apps.order.domain.value_objects.order_plate",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlate",
-        "importPath": "apps.order.domain.value_objects.order_plate",
-        "description": "apps.order.domain.value_objects.order_plate",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlate",
-        "importPath": "apps.order.domain.value_objects.order_plate",
-        "description": "apps.order.domain.value_objects.order_plate",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlate",
-        "importPath": "apps.order.domain.value_objects.order_plate",
-        "description": "apps.order.domain.value_objects.order_plate",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlateQuantity",
-        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
-        "description": "apps.order.domain.value_objects.order_plate_quantity",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlateQuantity",
-        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
-        "description": "apps.order.domain.value_objects.order_plate_quantity",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPlateQuantity",
-        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
-        "description": "apps.order.domain.value_objects.order_plate_quantity",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_plate_quantity",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPrice",
-        "importPath": "apps.order.domain.value_objects.order_price",
-        "description": "apps.order.domain.value_objects.order_price",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_price",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPrice",
-        "importPath": "apps.order.domain.value_objects.order_price",
-        "description": "apps.order.domain.value_objects.order_price",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_price",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPrice",
-        "importPath": "apps.order.domain.value_objects.order_price",
-        "description": "apps.order.domain.value_objects.order_price",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_price",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPrice",
-        "importPath": "apps.order.domain.value_objects.order_price",
-        "description": "apps.order.domain.value_objects.order_price",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_price",
-        "documentation": {}
-    },
-    {
-        "label": "OrderPrice",
-        "importPath": "apps.order.domain.value_objects.order_price",
-        "description": "apps.order.domain.value_objects.order_price",
-        "isExtraImport": true,
-        "detail": "apps.order.domain.value_objects.order_price",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateRepository",
-        "importPath": "apps.plates.domain.repositories.plates_repository",
-        "description": "apps.plates.domain.repositories.plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.repositories.plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "PlateId",
-        "importPath": "apps.plates.domain.value_objects.plate_id",
-        "description": "apps.plates.domain.value_objects.plate_id",
-        "isExtraImport": true,
-        "detail": "apps.plates.domain.value_objects.plate_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
-        "documentation": {}
-    },
-    {
-        "label": "UserId",
-        "importPath": "apps.user.domain.value_objects.user_id",
-        "description": "apps.user.domain.value_objects.user_id",
-        "isExtraImport": true,
-        "detail": "apps.user.domain.value_objects.user_id",
+        "detail": "apps.notifications.application.notification_repository",
         "documentation": {}
     },
     {
@@ -5383,6 +5087,958 @@
         "description": "apps.order.application.dto.get_all_user_orders_dto",
         "isExtraImport": true,
         "detail": "apps.order.application.dto.get_all_user_orders_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserOrdersDto",
+        "importPath": "apps.order.application.dto.get_all_user_orders_dto",
+        "description": "apps.order.application.dto.get_all_user_orders_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.get_all_user_orders_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsDto",
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsDto",
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsResponse",
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Notification",
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsResponse",
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationDto",
+        "importPath": "apps.notifications.application.dto.save_notification_dto",
+        "description": "apps.notifications.application.dto.save_notification_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.save_notification_dto",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationDto",
+        "importPath": "apps.notifications.application.dto.save_notification_dto",
+        "description": "apps.notifications.application.dto.save_notification_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.save_notification_dto",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationDto",
+        "importPath": "apps.notifications.application.dto.save_notification_dto",
+        "description": "apps.notifications.application.dto.save_notification_dto",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.dto.save_notification_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateOrderDto",
+        "importPath": "apps.order.application.dto.create_order_dto",
+        "description": "apps.order.application.dto.create_order_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.create_order_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateOrderDto",
+        "importPath": "apps.order.application.dto.create_order_dto",
+        "description": "apps.order.application.dto.create_order_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.create_order_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateOrderDto",
+        "importPath": "apps.order.application.dto.create_order_dto",
+        "description": "apps.order.application.dto.create_order_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.create_order_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreateOrderDto",
+        "importPath": "apps.order.application.dto.create_order_dto",
+        "description": "apps.order.application.dto.create_order_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.create_order_dto",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDate",
+        "importPath": "apps.order.domain.value_objects.order_date",
+        "description": "apps.order.domain.value_objects.order_date",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_date",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDate",
+        "importPath": "apps.order.domain.value_objects.order_date",
+        "description": "apps.order.domain.value_objects.order_date",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_date",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDate",
+        "importPath": "apps.order.domain.value_objects.order_date",
+        "description": "apps.order.domain.value_objects.order_date",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_date",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDate",
+        "importPath": "apps.order.domain.value_objects.order_date",
+        "description": "apps.order.domain.value_objects.order_date",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_date",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDate",
+        "importPath": "apps.order.domain.value_objects.order_date",
+        "description": "apps.order.domain.value_objects.order_date",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_date",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDate",
+        "importPath": "apps.order.domain.value_objects.order_date",
+        "description": "apps.order.domain.value_objects.order_date",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_date",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderId",
+        "importPath": "apps.order.domain.value_objects.order_id",
+        "description": "apps.order.domain.value_objects.order_id",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_id",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlate",
+        "importPath": "apps.order.domain.value_objects.order_plate",
+        "description": "apps.order.domain.value_objects.order_plate",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlate",
+        "importPath": "apps.order.domain.value_objects.order_plate",
+        "description": "apps.order.domain.value_objects.order_plate",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlate",
+        "importPath": "apps.order.domain.value_objects.order_plate",
+        "description": "apps.order.domain.value_objects.order_plate",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlate",
+        "importPath": "apps.order.domain.value_objects.order_plate",
+        "description": "apps.order.domain.value_objects.order_plate",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlate",
+        "importPath": "apps.order.domain.value_objects.order_plate",
+        "description": "apps.order.domain.value_objects.order_plate",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlate",
+        "importPath": "apps.order.domain.value_objects.order_plate",
+        "description": "apps.order.domain.value_objects.order_plate",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlateQuantity",
+        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
+        "description": "apps.order.domain.value_objects.order_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlateQuantity",
+        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
+        "description": "apps.order.domain.value_objects.order_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlateQuantity",
+        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
+        "description": "apps.order.domain.value_objects.order_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPlateQuantity",
+        "importPath": "apps.order.domain.value_objects.order_plate_quantity",
+        "description": "apps.order.domain.value_objects.order_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPrice",
+        "importPath": "apps.order.domain.value_objects.order_price",
+        "description": "apps.order.domain.value_objects.order_price",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_price",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPrice",
+        "importPath": "apps.order.domain.value_objects.order_price",
+        "description": "apps.order.domain.value_objects.order_price",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_price",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPrice",
+        "importPath": "apps.order.domain.value_objects.order_price",
+        "description": "apps.order.domain.value_objects.order_price",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_price",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPrice",
+        "importPath": "apps.order.domain.value_objects.order_price",
+        "description": "apps.order.domain.value_objects.order_price",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_price",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPrice",
+        "importPath": "apps.order.domain.value_objects.order_price",
+        "description": "apps.order.domain.value_objects.order_price",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_price",
+        "documentation": {}
+    },
+    {
+        "label": "OrderPrice",
+        "importPath": "apps.order.domain.value_objects.order_price",
+        "description": "apps.order.domain.value_objects.order_price",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.value_objects.order_price",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationInDB",
+        "importPath": "apps.notifications.application.notification_in_db",
+        "description": "apps.notifications.application.notification_in_db",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.notification_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationInDB",
+        "importPath": "apps.notifications.application.notification_in_db",
+        "description": "apps.notifications.application.notification_in_db",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.notification_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsApplicationService",
+        "importPath": "apps.notifications.application.services.get_all_user_notifications_application_service",
+        "description": "apps.notifications.application.services.get_all_user_notifications_application_service",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.services.get_all_user_notifications_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "DbPlatesRepository",
+        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DbPlatesRepository",
+        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DbPlatesRepository",
+        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateApplicationService",
+        "importPath": "apps.plates.application.services.cook_plate_application_service",
+        "description": "apps.plates.application.services.cook_plate_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.cook_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateApplicationService",
+        "importPath": "apps.plates.application.services.cook_plate_application_service",
+        "description": "apps.plates.application.services.cook_plate_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.cook_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateApplicationService",
+        "importPath": "apps.plates.application.services.cook_plate_application_service",
+        "description": "apps.plates.application.services.cook_plate_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.cook_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationApplicationService",
+        "importPath": "apps.notifications.application.services.save_notification_application_service",
+        "description": "apps.notifications.application.services.save_notification_application_service",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.services.save_notification_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationApplicationService",
+        "importPath": "apps.notifications.application.services.save_notification_application_service",
+        "description": "apps.notifications.application.services.save_notification_application_service",
+        "isExtraImport": true,
+        "detail": "apps.notifications.application.services.save_notification_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "DbNotificationRepository",
+        "importPath": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "description": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "isExtraImport": true,
+        "detail": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DbNotificationRepository",
+        "importPath": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "description": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "isExtraImport": true,
+        "detail": "apps.notifications.infrastructure.repositories.db_notification_repository",
         "documentation": {}
     },
     {
@@ -5688,86 +6344,6 @@
         "description": "apps.order.infrastructure.responses.order_responses",
         "isExtraImport": true,
         "detail": "apps.order.infrastructure.responses.order_responses",
-        "documentation": {}
-    },
-    {
-        "label": "CookPlateDto",
-        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "documentation": {}
-    },
-    {
-        "label": "CookPlateDto",
-        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "documentation": {}
-    },
-    {
-        "label": "CookPlateDto",
-        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
-        "documentation": {}
-    },
-    {
-        "label": "PlateMapper",
-        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
-        "description": "apps.plates.infrastructure.mappers.plates_mapper",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "PlateMapper",
-        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
-        "description": "apps.plates.infrastructure.mappers.plates_mapper",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "PlateMapper",
-        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
-        "description": "apps.plates.infrastructure.mappers.plates_mapper",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "DbPlatesRepository",
-        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
-        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "DbPlatesRepository",
-        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
-        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
-        "isExtraImport": true,
-        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
-        "documentation": {}
-    },
-    {
-        "label": "CookPlateApplicationService",
-        "importPath": "apps.plates.application.services.cook_plate_application_service",
-        "description": "apps.plates.application.services.cook_plate_application_service",
-        "isExtraImport": true,
-        "detail": "apps.plates.application.services.cook_plate_application_service",
-        "documentation": {}
-    },
-    {
-        "label": "CookPlateApplicationService",
-        "importPath": "apps.plates.application.services.cook_plate_application_service",
-        "description": "apps.plates.application.services.cook_plate_application_service",
-        "isExtraImport": true,
-        "detail": "apps.plates.application.services.cook_plate_application_service",
         "documentation": {}
     },
     {
@@ -6798,6 +7374,14 @@
         "documentation": {}
     },
     {
+        "label": "notifications_router",
+        "importPath": "apps.notifications.infrastructure.routes.notification_routes",
+        "description": "apps.notifications.infrastructure.routes.notification_routes",
+        "isExtraImport": true,
+        "detail": "apps.notifications.infrastructure.routes.notification_routes",
+        "documentation": {}
+    },
+    {
         "label": "alter_ingredients_table",
         "kind": 2,
         "importPath": "alembic.versions.43d70d079518_alter_table_ingredient_quantity_int_",
@@ -7704,6 +8288,114 @@
         "description": "apps.ingredients.infrastructure.routes.ingredients_routes",
         "peekOfCode": "ingredient_router = APIRouter(\n    prefix=\"/ingredient\",\n    tags=[\"ingredient\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@ingredient_router.get(\"/get/{id}\", response_model=GetIngredientResponse, name=\"ingredient:getById\")\nasync def getIngredientById(\n    id: UUID,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user),",
         "detail": "apps.ingredients.infrastructure.routes.ingredients_routes",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsDto",
+        "kind": 6,
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "peekOfCode": "class GetAllUserNotificationsDto(BaseModel):\n    user_id: UUID",
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Notification",
+        "kind": 6,
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "peekOfCode": "class Notification(BaseSchema):\n    id: UUID\n    message: str\n    date: str\n    target_user: UUID\nclass GetAllUserNotificationsResponse(BaseSchema):\n    notifications: list[Notification]",
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsResponse",
+        "kind": 6,
+        "importPath": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "description": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "peekOfCode": "class GetAllUserNotificationsResponse(BaseSchema):\n    notifications: list[Notification]",
+        "detail": "apps.notifications.application.dto.get_all_user_notifications_reponse_dto",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationDt",
+        "kind": 6,
+        "importPath": "apps.notifications.application.dto.save_notification_dto",
+        "description": "apps.notifications.application.dto.save_notification_dto",
+        "peekOfCode": "class SaveNotificationDto (BaseModel):\n    message: str\n    target_user: UUID",
+        "detail": "apps.notifications.application.dto.save_notification_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllUserNotificationsApplicationService",
+        "kind": 6,
+        "importPath": "apps.notifications.application.services.get_all_user_notifications_application_service",
+        "description": "apps.notifications.application.services.get_all_user_notifications_application_service",
+        "peekOfCode": "class GetAllUserNotificationsApplicationService(ApplicationService[GetAllUserNotificationsDto, GetAllUserNotificationsResponse]):\n    def __init__(self, notification_repository: NotificationRepository) -> None:\n        self.notification_repository = notification_repository\n    async def execute(self, input: GetAllUserNotificationsDto) -> Awaitable[Result[list[GetAllUserNotificationsResponse]]]:\n        notis = await self.notification_repository.get_all_notifications_by_user(input.user_id)\n        noti = []\n        for notification in notis:\n            noti.append(Notification(id=notification.id, message=notification.message, date=notification.date.__str__(), target_user=notification.target_user))\n        return Result[list[GetAllUserNotificationsResponse]].success(value=GetAllUserNotificationsResponse(notifications=noti))",
+        "detail": "apps.notifications.application.services.get_all_user_notifications_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "SaveNotificationApplicationService",
+        "kind": 6,
+        "importPath": "apps.notifications.application.services.save_notification_application_service",
+        "description": "apps.notifications.application.services.save_notification_application_service",
+        "peekOfCode": "class SaveNotificationApplicationService(ApplicationService[SaveNotificationDto, str]):\n    def __init__(self, notification_repository: NotificationRepository) -> None:\n        self.notification_repository = notification_repository\n    async def execute(self, input: SaveNotificationDto) -> Awaitable[Result[str]]:\n        await self.notification_repository.save_notification(str(uuid4()),input.message, input.target_user)\n        return Result[str].success(value=\"Orden guardada\") # type: ignore",
+        "detail": "apps.notifications.application.services.save_notification_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationInDB",
+        "kind": 6,
+        "importPath": "apps.notifications.application.notification_in_db",
+        "description": "apps.notifications.application.notification_in_db",
+        "peekOfCode": "class NotificationInDB(BaseSchema):\n    id: UUID\n    message: str\n    date: date\n    target_user: UUID",
+        "detail": "apps.notifications.application.notification_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "NotificationRepository",
+        "kind": 6,
+        "importPath": "apps.notifications.application.notification_repository",
+        "description": "apps.notifications.application.notification_repository",
+        "peekOfCode": "class NotificationRepository:\n    @abstractmethod\n    def get_all_notifications_by_user(self, user_id: str) -> Awaitable[list[NotificationInDB]]:\n        pass\n    @abstractmethod\n    def save_notification(self,id:UUID, message: str, target_user: UUID) -> Awaitable[None]:\n        pass",
+        "detail": "apps.notifications.application.notification_repository",
+        "documentation": {}
+    },
+    {
+        "label": "GET_ALL_USER_NOTIFICATIONS",
+        "kind": 5,
+        "importPath": "apps.notifications.infrastructure.queries.notification_queries",
+        "description": "apps.notifications.infrastructure.queries.notification_queries",
+        "peekOfCode": "GET_ALL_USER_NOTIFICATIONS = \"\"\"\n    SELECT n.id, n.message, n.date, n.target_user FROM notifications as n WHERE target_user = :user_id\n\"\"\"\nSAVE_NOTIFICATION = \"\"\"\n    INSERT INTO notifications (id, message, target_user) VALUES (:id, :message, :target_user)\n\"\"\"",
+        "detail": "apps.notifications.infrastructure.queries.notification_queries",
+        "documentation": {}
+    },
+    {
+        "label": "SAVE_NOTIFICATION",
+        "kind": 5,
+        "importPath": "apps.notifications.infrastructure.queries.notification_queries",
+        "description": "apps.notifications.infrastructure.queries.notification_queries",
+        "peekOfCode": "SAVE_NOTIFICATION = \"\"\"\n    INSERT INTO notifications (id, message, target_user) VALUES (:id, :message, :target_user)\n\"\"\"",
+        "detail": "apps.notifications.infrastructure.queries.notification_queries",
+        "documentation": {}
+    },
+    {
+        "label": "DbNotificationRepositor",
+        "kind": 6,
+        "importPath": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "description": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "peekOfCode": "class DbNotificationRepository (NotificationRepository):\n    def __init__ (self, db):\n        self.db = db\n    async def get_all_notifications_by_user(self, user_id: str) -> list[NotificationInDB]:\n        from apps.notifications.infrastructure.queries.notification_queries import GET_ALL_USER_NOTIFICATIONS\n        notifications = await self.db.fetch_all(GET_ALL_USER_NOTIFICATIONS, {\"user_id\": str(user_id)})\n        return [NotificationInDB( id=notification['id'], \n                                 message=notification['message'], \n                                 date=notification['date'], \n                                 target_user=notification['target_user'] ) for notification in notifications]",
+        "detail": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "documentation": {}
+    },
+    {
+        "label": "notifications_router",
+        "kind": 5,
+        "importPath": "apps.notifications.infrastructure.routes.notification_routes",
+        "description": "apps.notifications.infrastructure.routes.notification_routes",
+        "peekOfCode": "notifications_router = APIRouter(\n    prefix=\"/notifications\",\n    tags=[\"notification\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@notifications_router.get(\"/getall/{user_id}\", response_model=GetAllUserNotificationsResponse, name=\"notification:getAll\")\nasync def getNotifications(\n    user_id: UUID,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user)",
+        "detail": "apps.notifications.infrastructure.routes.notification_routes",
         "documentation": {}
     },
     {
@@ -9412,7 +10104,7 @@
         "kind": 5,
         "importPath": "routers",
         "description": "routers",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth_router)\nrouter.include_router(user_router)\nrouter.include_router(ingredient_router)\nrouter.include_router(plates_router)\nrouter.include_router(store_router)\nrouter.include_router(orders_router)",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth_router)\nrouter.include_router(user_router)\nrouter.include_router(ingredient_router)\nrouter.include_router(plates_router)\nrouter.include_router(store_router)\nrouter.include_router(orders_router)\nrouter.include_router(notifications_router)",
         "detail": "routers",
         "documentation": {}
     }

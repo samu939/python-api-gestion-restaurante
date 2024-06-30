@@ -6,6 +6,7 @@ from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_a
 
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
+from apps.notifications.application.dto.save_notification_dto import SaveNotificationDto
 from apps.order.application.dto.create_order_dto import CreateOrderDto
 from apps.order.application.dto.get_all_user_orders_dto import GetAllUserOrdersDto
 from apps.order.application.dto.get_order_by_id_dto import GetOrderByIdDto
@@ -28,6 +29,10 @@ from apps.plates.infrastructure.repositories.db_plates_repository import DbPlate
 from apps.order.domain.events.order_created import OrderCreatedEvent
 from apps.plates.application.services.cook_plate_application_service import (
     CookPlateApplicationService)
+from apps.notifications.application.services.save_notification_application_service import (
+    SaveNotificationApplicationService)
+from apps.notifications.infrastructure.repositories.db_notification_repository import (
+    DbNotificationRepository)
 
 
 orders_router = APIRouter(
@@ -48,12 +53,14 @@ async def createOrder(
         service = CookPlateApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()), 
                                               ingredients_repository= DbIngredientsRepository(db, IngredientMapper()), 
                                               event_handler=event_handler)
+        noti_service = SaveNotificationApplicationService(notification_repository= DbNotificationRepository(db))
         errors = []
         for plate in event.order_plates:
             result = await service.execute(CookPlateDto(plate_id=plate.value['plate_id'], quantity=plate.value['quantity']))
             if result.is_error():
-                id = plate.value['plate_id'].value
-                errors.append(f'plato {id} no se pudo cocinar')
+                await noti_service.execute(SaveNotificationDto(message=f'plato {plate.value["plate_id"].value} no se pudo cocinar', target_user=current_user.id))
+            else: 
+                await noti_service.execute(SaveNotificationDto(message=f'plato {plate.value["plate_id"].value} cocinado, cantidad: {plate.value["quantity"].value}', target_user=current_user.id))
         print(errors)
         return errors
     unsuscribe = event_handler.subscribe(
