@@ -1,0 +1,1572 @@
+[
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateId",
+        "importPath": "apps.plates.domain.value_objects.plate_id",
+        "description": "apps.plates.domain.value_objects.plate_id",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationError",
+        "importPath": "core.application.errors.application_errors",
+        "description": "core.application.errors.application_errors",
+        "isExtraImport": true,
+        "detail": "core.application.errors.application_errors",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientId",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_id",
+        "description": "apps.ingredients.domain.value_objects.ingredient_id",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_id",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNotFoundApplicatonError",
+        "importPath": "apps.plates.application.errors.plate_not_found",
+        "description": "apps.plates.application.errors.plate_not_found",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.errors.plate_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNotFoundApplicatonError",
+        "importPath": "apps.plates.application.errors.plate_not_found",
+        "description": "apps.plates.application.errors.plate_not_found",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.errors.plate_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateDto",
+        "importPath": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "description": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.dtos.create_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "Plate",
+        "importPath": "apps.plates.domain.plate",
+        "description": "apps.plates.domain.plate",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantity",
+        "importPath": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "description": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantity",
+        "importPath": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "description": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantity",
+        "importPath": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "description": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantity",
+        "importPath": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "description": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.ingredient_for_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescription",
+        "importPath": "apps.plates.domain.value_objects.plate_description",
+        "description": "apps.plates.domain.value_objects.plate_description",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_description",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescription",
+        "importPath": "apps.plates.domain.value_objects.plate_description",
+        "description": "apps.plates.domain.value_objects.plate_description",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_description",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescription",
+        "importPath": "apps.plates.domain.value_objects.plate_description",
+        "description": "apps.plates.domain.value_objects.plate_description",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_description",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescription",
+        "importPath": "apps.plates.domain.value_objects.plate_description",
+        "description": "apps.plates.domain.value_objects.plate_description",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_description",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescription",
+        "importPath": "apps.plates.domain.value_objects.plate_description",
+        "description": "apps.plates.domain.value_objects.plate_description",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_description",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredient",
+        "importPath": "apps.plates.domain.value_objects.plate_ingredient",
+        "description": "apps.plates.domain.value_objects.plate_ingredient",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredient",
+        "importPath": "apps.plates.domain.value_objects.plate_ingredient",
+        "description": "apps.plates.domain.value_objects.plate_ingredient",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredient",
+        "importPath": "apps.plates.domain.value_objects.plate_ingredient",
+        "description": "apps.plates.domain.value_objects.plate_ingredient",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredient",
+        "importPath": "apps.plates.domain.value_objects.plate_ingredient",
+        "description": "apps.plates.domain.value_objects.plate_ingredient",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredient",
+        "importPath": "apps.plates.domain.value_objects.plate_ingredient",
+        "description": "apps.plates.domain.value_objects.plate_ingredient",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "PlateName",
+        "importPath": "apps.plates.domain.value_objects.plate_name",
+        "description": "apps.plates.domain.value_objects.plate_name",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_name",
+        "documentation": {}
+    },
+    {
+        "label": "PlateName",
+        "importPath": "apps.plates.domain.value_objects.plate_name",
+        "description": "apps.plates.domain.value_objects.plate_name",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_name",
+        "documentation": {}
+    },
+    {
+        "label": "PlateName",
+        "importPath": "apps.plates.domain.value_objects.plate_name",
+        "description": "apps.plates.domain.value_objects.plate_name",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_name",
+        "documentation": {}
+    },
+    {
+        "label": "PlateName",
+        "importPath": "apps.plates.domain.value_objects.plate_name",
+        "description": "apps.plates.domain.value_objects.plate_name",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_name",
+        "documentation": {}
+    },
+    {
+        "label": "PlateName",
+        "importPath": "apps.plates.domain.value_objects.plate_name",
+        "description": "apps.plates.domain.value_objects.plate_name",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_name",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePrice",
+        "importPath": "apps.plates.domain.value_objects.plate_price",
+        "description": "apps.plates.domain.value_objects.plate_price",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_price",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePrice",
+        "importPath": "apps.plates.domain.value_objects.plate_price",
+        "description": "apps.plates.domain.value_objects.plate_price",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_price",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePrice",
+        "importPath": "apps.plates.domain.value_objects.plate_price",
+        "description": "apps.plates.domain.value_objects.plate_price",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_price",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePrice",
+        "importPath": "apps.plates.domain.value_objects.plate_price",
+        "description": "apps.plates.domain.value_objects.plate_price",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_price",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePrice",
+        "importPath": "apps.plates.domain.value_objects.plate_price",
+        "description": "apps.plates.domain.value_objects.plate_price",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_price",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "EventHandler",
+        "importPath": "core.application.events.event_handler",
+        "description": "core.application.events.event_handler",
+        "isExtraImport": true,
+        "detail": "core.application.events.event_handler",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "DomainEvent",
+        "importPath": "core.domain.events.domain_event",
+        "description": "core.domain.events.domain_event",
+        "isExtraImport": true,
+        "detail": "core.domain.events.domain_event",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "importPath": "core.domain.exceptions.domain_exception",
+        "description": "core.domain.exceptions.domain_exception",
+        "isExtraImport": true,
+        "detail": "core.domain.exceptions.domain_exception",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantityNotValid",
+        "importPath": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "description": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantityNotValid",
+        "importPath": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "description": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "ValueObject",
+        "importPath": "core.domain.value_objects.value_object",
+        "description": "core.domain.value_objects.value_object",
+        "isExtraImport": true,
+        "detail": "core.domain.value_objects.value_object",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescriptionNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_description_not_valid_exception",
+        "description": "apps.plates.domain.exceptions.plate_description_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_description_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIdNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_id_not_valid_exception",
+        "description": "apps.plates.domain.exceptions.plate_id_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_id_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredientNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_ingredient_not_valid",
+        "description": "apps.plates.domain.exceptions.plate_ingredient_not_valid",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_ingredient_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientIdNotValid",
+        "importPath": "apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception",
+        "description": "apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNameNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_name_not_valid_exception",
+        "description": "apps.plates.domain.exceptions.plate_name_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_name_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePriceNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_price_not_valid",
+        "description": "apps.plates.domain.exceptions.plate_price_not_valid",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_price_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePriceNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_price_not_valid",
+        "description": "apps.plates.domain.exceptions.plate_price_not_valid",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_price_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "PlateQuantityNotValid",
+        "importPath": "apps.plates.domain.exceptions.plate_quantity_not_valid_exception",
+        "description": "apps.plates.domain.exceptions.plate_quantity_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.exceptions.plate_quantity_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "PlateCreatedEvent",
+        "importPath": "apps.plates.domain.events.plate_created",
+        "description": "apps.plates.domain.events.plate_created",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.events.plate_created",
+        "documentation": {}
+    },
+    {
+        "label": "Aggregate",
+        "importPath": "core.domain.aggregates.aggregate",
+        "description": "core.domain.aggregates.aggregate",
+        "isExtraImport": true,
+        "detail": "core.domain.aggregates.aggregate",
+        "documentation": {}
+    },
+    {
+        "label": "PlateQuantity",
+        "importPath": "apps.plates.domain.value_objects.plate_quantity",
+        "description": "apps.plates.domain.value_objects.plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "PlateQuantity",
+        "importPath": "apps.plates.domain.value_objects.plate_quantity",
+        "description": "apps.plates.domain.value_objects.plate_quantity",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.value_objects.plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Mapper",
+        "importPath": "core.application.mappers.mapper",
+        "description": "core.application.mappers.mapper",
+        "isExtraImport": true,
+        "detail": "core.application.mappers.mapper",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "databases",
+        "description": "databases",
+        "isExtraImport": true,
+        "detail": "databases",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "databases",
+        "description": "databases",
+        "isExtraImport": true,
+        "detail": "databases",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSchema",
+        "importPath": "core.infrastructure.utils.schemas_base",
+        "description": "core.infrastructure.utils.schemas_base",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.utils.schemas_base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSchema",
+        "importPath": "core.infrastructure.utils.schemas_base",
+        "description": "core.infrastructure.utils.schemas_base",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.utils.schemas_base",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_active_user",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateApplicationService",
+        "importPath": "apps.plates.application.services.cook_plate_application_service",
+        "description": "apps.plates.application.services.cook_plate_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.cook_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientMapper",
+        "importPath": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "description": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "DbIngredientsRepository",
+        "importPath": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "description": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "documentation": {}
+    },
+    {
+        "label": "GetPlateByIdApplicationService",
+        "importPath": "apps.plates.application.services.get_plate_by_id_application_service",
+        "description": "apps.plates.application.services.get_plate_by_id_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.get_plate_by_id_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateApplicationService",
+        "importPath": "apps.plates.application.services.create_plate_application_service",
+        "description": "apps.plates.application.services.create_plate_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.create_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllPlatesApplicationService",
+        "importPath": "apps.plates.application.services.get_all_plates_application_service",
+        "description": "apps.plates.application.services.get_all_plates_application_service",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.services.get_all_plates_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateEntry",
+        "importPath": "apps.plates.infrastructure.entries.create_plate_entry",
+        "description": "apps.plates.infrastructure.entries.create_plate_entry",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.entries.create_plate_entry",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateEntry",
+        "importPath": "apps.plates.infrastructure.entries.create_plate_entry",
+        "description": "apps.plates.infrastructure.entries.create_plate_entry",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.entries.create_plate_entry",
+        "documentation": {}
+    },
+    {
+        "label": "DbPlatesRepository",
+        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "GetPlatesIngredientResponse",
+        "importPath": "apps.plates.infrastructure.responses.plates_responses",
+        "description": "apps.plates.infrastructure.responses.plates_responses",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "SavePlateResponse",
+        "importPath": "apps.plates.infrastructure.responses.plates_responses",
+        "description": "apps.plates.infrastructure.responses.plates_responses",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllPlatesResponse",
+        "importPath": "apps.plates.infrastructure.responses.plates_responses",
+        "description": "apps.plates.infrastructure.responses.plates_responses",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "GetPlateResponse",
+        "importPath": "apps.plates.infrastructure.responses.plates_responses",
+        "description": "apps.plates.infrastructure.responses.plates_responses",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "ExceptionDecorator",
+        "importPath": "core.application.decorators.exception_decorator",
+        "description": "core.application.decorators.exception_decorator",
+        "isExtraImport": true,
+        "detail": "core.application.decorators.exception_decorator",
+        "documentation": {}
+    },
+    {
+        "label": "NativeEventHandler",
+        "importPath": "core.infrastructure.events.event_handler_native",
+        "description": "core.infrastructure.events.event_handler_native",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.events.event_handler_native",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "db.db_dependencies",
+        "description": "db.db_dependencies",
+        "isExtraImport": true,
+        "detail": "db.db_dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNotFoundApplicatonError",
+        "kind": 6,
+        "importPath": "application.errors.plate_not_found",
+        "description": "application.errors.plate_not_found",
+        "peekOfCode": "class PlateNotFoundApplicatonError(ApplicationError):\n    def __init__(self, plate_id: PlateId):\n        super().__init__(f\"plato con el id {plate_id.value} no fue encontrado\", 404, self.__class__.__name__)",
+        "detail": "application.errors.plate_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateApplicationService",
+        "kind": 6,
+        "importPath": "application.services.cook_plate_application_service",
+        "description": "application.services.cook_plate_application_service",
+        "peekOfCode": "class CookPlateApplicationService(ApplicationService[CookPlateDto, str]):\n    def __init__(self, plates_repository: PlateRepository, ingredients_repository: IngredientRepository, event_handler: EventHandler) -> None:\n        self.plates_repository = plates_repository\n        self.ingredients_repository = ingredients_repository\n        self.event_handler = event_handler\n    async def execute(self, input: CookPlateDto) -> Awaitable[Result[str]]:\n        plate = await self.plates_repository.get_plate_by_id(input.plate_id)\n        if not plate:\n            raise PlateNotFoundApplicatonError\n        plate_ingredients: list[Ingredient] = []",
+        "detail": "application.services.cook_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateApplicationService",
+        "kind": 6,
+        "importPath": "application.services.create_plate_application_service",
+        "description": "application.services.create_plate_application_service",
+        "peekOfCode": "class CreatePlateApplicationService(ApplicationService[CreatePlateDto, str]):\n    def __init__(self, plates_repository: PlateRepository, event_handler: EventHandler) -> None:\n        self.plates_repository = plates_repository\n        self.event_handler = event_handler\n    async def execute(self, input: CreatePlateDto) -> Awaitable[Result[str]]:\n        domain_plate_ingredients = []\n        for ingredient in input.ingredients:\n            domain_plate_ingredients.append(PlateIngredient({\n                'ingredient_id': IngredientId(ingredient.id),\n                'quantity': IngredientForPlateQuantity(ingredient.quantity)",
+        "detail": "application.services.create_plate_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllPlatesApplicationService",
+        "kind": 6,
+        "importPath": "application.services.get_all_plates_application_service",
+        "description": "application.services.get_all_plates_application_service",
+        "peekOfCode": "class GetAllPlatesApplicationService(ApplicationService[None, list[Plate]]):\n    def __init__(self, plates_repository: PlateRepository) -> None:\n        self.plates_repository = plates_repository\n    async def execute(self, input: None) -> Awaitable[Result[list[Plate]]]:\n        plates = await self.plates_repository.get_all_plates()\n        return Result[list[Plate]].success(value=plates)",
+        "detail": "application.services.get_all_plates_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "GetPlateByIdApplicationService",
+        "kind": 6,
+        "importPath": "application.services.get_plate_by_id_application_service",
+        "description": "application.services.get_plate_by_id_application_service",
+        "peekOfCode": "class GetPlateByIdApplicationService(ApplicationService[None, Plate]):\n    def __init__(self, plates_repository: PlateRepository) -> None:\n        self.plates_repository = plates_repository\n    async def execute(self, input: PlateId) -> Awaitable[Result[Plate]]:\n        plate = await self.plates_repository.get_plate_by_id(input)\n        if plate is None:\n            return Result[Plate].failure(\n                error=PlateNotFoundApplicatonError(input)\n            )\n        return Result[Plate].success(value=plate)",
+        "detail": "application.services.get_plate_by_id_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "PlateCreatedEvent",
+        "kind": 6,
+        "importPath": "domain.events.plate_created",
+        "description": "domain.events.plate_created",
+        "peekOfCode": "class PlateCreatedEvent(DomainEvent):\n    def __init__(self, id: PlateId, plate_name: PlateName, plate_description: PlateDescription, plate_price: PlatePrice ,plate_ingredients: list[PlateIngredient]) -> None:\n        super().__init__()\n        self.id = id\n        self.plate_name = plate_name\n        self.plate_description = plate_description\n        self.plate_price = plate_price\n        self.plate_ingredients = plate_ingredients",
+        "detail": "domain.events.plate_created",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantityNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "description": "domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "peekOfCode": "class IngredientForPlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad del ingrediente no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.ingredient_for_plate_quantity_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescriptionNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.plate_description_not_valid_exception",
+        "description": "domain.exceptions.plate_description_not_valid_exception",
+        "peekOfCode": "class PlateDescriptionNotValid(DomainException):\n        def __init__(self): \n            msg = \"Descripción del plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.plate_description_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIdNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.plate_id_not_valid_exception",
+        "description": "domain.exceptions.plate_id_not_valid_exception",
+        "peekOfCode": "class PlateIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.plate_id_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredientNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.plate_ingredient_not_valid",
+        "description": "domain.exceptions.plate_ingredient_not_valid",
+        "peekOfCode": "class PlateIngredientNotValid(DomainException):\n        def __init__(self): \n            msg = \"Ingrediente para el plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.plate_ingredient_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNameNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.plate_name_not_valid_exception",
+        "description": "domain.exceptions.plate_name_not_valid_exception",
+        "peekOfCode": "class PlateNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.plate_name_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePriceNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.plate_price_not_valid",
+        "description": "domain.exceptions.plate_price_not_valid",
+        "peekOfCode": "class PlatePriceNotValid(DomainException):\n        def __init__(self): \n            msg = \"precio del plato no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.plate_price_not_valid",
+        "documentation": {}
+    },
+    {
+        "label": "PlateQuantityNotValid",
+        "kind": 6,
+        "importPath": "domain.exceptions.plate_quantity_not_valid_exception",
+        "description": "domain.exceptions.plate_quantity_not_valid_exception",
+        "peekOfCode": "class PlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"Debe existir una cantidad de platos\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "detail": "domain.exceptions.plate_quantity_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "PlateRepository",
+        "kind": 6,
+        "importPath": "domain.repositories.plates_repository",
+        "description": "domain.repositories.plates_repository",
+        "peekOfCode": "class PlateRepository:\n    @abstractmethod\n    def get_plate_by_id(self, id: PlateId) -> Awaitable[Optional[Plate]]:\n        pass\n    @abstractmethod\n    def get_all_plates(self) -> Awaitable[list[Plate]]:\n        pass\n    @abstractmethod\n    def save_plate(self, plate: Plate) -> Awaitable[None]:\n        pass",
+        "detail": "domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientForPlateQuantit",
+        "kind": 6,
+        "importPath": "domain.value_objects.ingredient_for_plate_quantity",
+        "description": "domain.value_objects.ingredient_for_plate_quantity",
+        "peekOfCode": "class IngredientForPlateQuantity (ValueObject[float]):\n    def __init__ (self, value: float):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[float]) -> bool:\n        return self.value == other.value    \n    def ensureValidState (self):\n        if (self.value == None or self.value < 0):\n            raise IngredientForPlateQuantityNotValid()",
+        "detail": "domain.value_objects.ingredient_for_plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "PlateDescriptio",
+        "kind": 6,
+        "importPath": "domain.value_objects.plate_description",
+        "description": "domain.value_objects.plate_description",
+        "peekOfCode": "class PlateDescription (ValueObject[str]):\n    def __init__ (self, value: str):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[str]) -> bool:\n        return self.value.strip() == other.value.strip()    \n    def ensureValidState (self):\n        if (self.value == None):\n            raise PlateDescriptionNotValid()",
+        "detail": "domain.value_objects.plate_description",
+        "documentation": {}
+    },
+    {
+        "label": "PlateI",
+        "kind": 6,
+        "importPath": "domain.value_objects.plate_id",
+        "description": "domain.value_objects.plate_id",
+        "peekOfCode": "class PlateId (ValueObject[UUID]):\n    def __init__ (self, value: UUID):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[UUID]) -> bool:\n        return self.value == other.value    \n    def ensureValidState (self):\n        if (self.value == None):\n            raise PlateIdNotValid()",
+        "detail": "domain.value_objects.plate_id",
+        "documentation": {}
+    },
+    {
+        "label": "PlateIngredient",
+        "kind": 6,
+        "importPath": "domain.value_objects.plate_ingredient",
+        "description": "domain.value_objects.plate_ingredient",
+        "peekOfCode": "class PlateIngredient(ValueObject[dict]):\n    def __init__(self, value: dict):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[dict]) -> bool:\n        return self.value == other.value    \n    def ensureValidState(self):\n        if not isinstance(self.value, dict):\n            raise PlateIngredientNotValid\n        if 'ingredient_id' not in self.value or 'quantity' not in self.value:",
+        "detail": "domain.value_objects.plate_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNam",
+        "kind": 6,
+        "importPath": "domain.value_objects.plate_name",
+        "description": "domain.value_objects.plate_name",
+        "peekOfCode": "class PlateName (ValueObject[str]):\n    def __init__ (self, value: str):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[str]) -> bool:\n        return self.value.strip() == other.value.strip()    \n    def ensureValidState (self):\n        if (self.value == None):\n            raise PlateNameNotValid()",
+        "detail": "domain.value_objects.plate_name",
+        "documentation": {}
+    },
+    {
+        "label": "PlatePric",
+        "kind": 6,
+        "importPath": "domain.value_objects.plate_price",
+        "description": "domain.value_objects.plate_price",
+        "peekOfCode": "class PlatePrice (ValueObject[float]):\n    def __init__ (self, value: float):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[float]) -> bool:\n        return self.value.strip() == other.value.strip()    \n    def ensureValidState (self):\n        if (self.value == None):\n            raise PlatePriceNotValid()",
+        "detail": "domain.value_objects.plate_price",
+        "documentation": {}
+    },
+    {
+        "label": "PlateQuantit",
+        "kind": 6,
+        "importPath": "domain.value_objects.plate_quantity",
+        "description": "domain.value_objects.plate_quantity",
+        "peekOfCode": "class PlateQuantity (ValueObject[int]):\n    def __init__ (self, value: int):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[int]) -> bool:\n        return self.value.strip() == other.value.strip()    \n    def ensureValidState (self):\n        if (self.value == None or self.value <= 0):\n            raise PlateQuantityNotValid()",
+        "detail": "domain.value_objects.plate_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "Plat",
+        "kind": 6,
+        "importPath": "domain.plate",
+        "description": "domain.plate",
+        "peekOfCode": "class Plate (Aggregate[PlateId]):\n    def __init__(self, id: PlateId, name: PlateName, plate_description: PlateDescription, price: PlatePrice, ingredients: list[PlateIngredient]) -> None:\n        super().__init__(id)\n        self.name = name\n        self.description = plate_description\n        self.price = price\n        self.ingredients = ingredients\n        self.on(PlateCreatedEvent(id, name, plate_description, price, ingredients))\n    def validate_state(self) -> None:\n        self.id.ensureValidState()",
+        "detail": "domain.plate",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateDto",
+        "kind": 6,
+        "importPath": "infrastructure.dtos.cook_plate_dto",
+        "description": "infrastructure.dtos.cook_plate_dto",
+        "peekOfCode": "class CookPlateDto:\n    def __init__(self, plate_id: PlateId ,quantity: PlateQuantity) -> None:\n        self.plate_id = plate_id \n        self.quantity = quantity",
+        "detail": "infrastructure.dtos.cook_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientsForPlat",
+        "kind": 6,
+        "importPath": "infrastructure.dtos.create_plate_dto",
+        "description": "infrastructure.dtos.create_plate_dto",
+        "peekOfCode": "class IngredientsForPlate (BaseModel):\n    id: UUID\n    quantity: float\nclass CreatePlateDto (BaseModel):\n    name: str\n    description: str\n    price: float\n    ingredients: list[IngredientsForPlate]",
+        "detail": "infrastructure.dtos.create_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateDt",
+        "kind": 6,
+        "importPath": "infrastructure.dtos.create_plate_dto",
+        "description": "infrastructure.dtos.create_plate_dto",
+        "peekOfCode": "class CreatePlateDto (BaseModel):\n    name: str\n    description: str\n    price: float\n    ingredients: list[IngredientsForPlate]",
+        "detail": "infrastructure.dtos.create_plate_dto",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientsForPlateEntr",
+        "kind": 6,
+        "importPath": "infrastructure.entries.create_plate_entry",
+        "description": "infrastructure.entries.create_plate_entry",
+        "peekOfCode": "class IngredientsForPlateEntry (BaseModel):\n    id: UUID\n    quantity: float\nclass CreatePlateEntry (BaseModel):\n    name: str\n    description: str\n    price: float\n    ingredients: list[IngredientsForPlateEntry]\nclass CookPlateEntry (BaseModel):\n    plate_id: UUID",
+        "detail": "infrastructure.entries.create_plate_entry",
+        "documentation": {}
+    },
+    {
+        "label": "CreatePlateEntr",
+        "kind": 6,
+        "importPath": "infrastructure.entries.create_plate_entry",
+        "description": "infrastructure.entries.create_plate_entry",
+        "peekOfCode": "class CreatePlateEntry (BaseModel):\n    name: str\n    description: str\n    price: float\n    ingredients: list[IngredientsForPlateEntry]\nclass CookPlateEntry (BaseModel):\n    plate_id: UUID\n    quantity: int",
+        "detail": "infrastructure.entries.create_plate_entry",
+        "documentation": {}
+    },
+    {
+        "label": "CookPlateEntr",
+        "kind": 6,
+        "importPath": "infrastructure.entries.create_plate_entry",
+        "description": "infrastructure.entries.create_plate_entry",
+        "peekOfCode": "class CookPlateEntry (BaseModel):\n    plate_id: UUID\n    quantity: int",
+        "detail": "infrastructure.entries.create_plate_entry",
+        "documentation": {}
+    },
+    {
+        "label": "PlateMapper",
+        "kind": 6,
+        "importPath": "infrastructure.mappers.plates_mapper",
+        "description": "infrastructure.mappers.plates_mapper",
+        "peekOfCode": "class PlateMapper(Mapper[Plate, dict[str, str]]):\n    def __init__(self) -> None:\n        super().__init__()\n    def from_domain_to_persistence(self, domain_entity: Plate):\n        pass\n    def from_persistence_to_domain(self, persistence_entity: dict[str, str]) -> Plate:\n        ingredients = []\n        for ingredient in json.loads(persistence_entity['ingredients']):\n            ingredients.append({\n                'ingredient_id': IngredientId(ingredient['ingredient_id']),",
+        "detail": "infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "GET_ALL_PLATES",
+        "kind": 5,
+        "importPath": "infrastructure.queries.plates_queries",
+        "description": "infrastructure.queries.plates_queries",
+        "peekOfCode": "GET_ALL_PLATES = \"\"\"\n    SELECT\n            plate.id,\n            plate.name,\n            plate.description,\n            plate.price,\n            json_agg(json_build_object('ingredient_id', ingredient_plate.fk_ingredient, 'quantity', ingredient_plate.quantity)) AS ingredients\n        FROM\n            plate\n        JOIN",
+        "detail": "infrastructure.queries.plates_queries",
+        "documentation": {}
+    },
+    {
+        "label": "GET_PLATE_BY_ID",
+        "kind": 5,
+        "importPath": "infrastructure.queries.plates_queries",
+        "description": "infrastructure.queries.plates_queries",
+        "peekOfCode": "GET_PLATE_BY_ID = \"\"\"\n    SELECT\n            plate.id,\n            plate.name,\n            plate.description,\n            plate.price,\n            json_agg(json_build_object('ingredient_id', ingredient_plate.fk_ingredient, 'ingredient_name', ingredient.name, 'quantity', ingredient_plate.quantity)) AS ingredients\n        FROM plate, ingredient_plate, ingredient\n        WHERE ingredient_plate.fk_ingredient = ingredient.id\n\t\tAND ingredient_plate.fk_plate = plate.id",
+        "detail": "infrastructure.queries.plates_queries",
+        "documentation": {}
+    },
+    {
+        "label": "INSERT_NEW_PLATE",
+        "kind": 5,
+        "importPath": "infrastructure.queries.plates_queries",
+        "description": "infrastructure.queries.plates_queries",
+        "peekOfCode": "INSERT_NEW_PLATE = \"\"\"\n    INSERT INTO plate(\"id\" ,\"name\", description, price) values(:id, :name, :description, :price);\n\"\"\"\nINSERT_NEW_PLATE_INGREDIENTS = \"\"\"\n    INSERT INTO ingredient_plate(quantity, fk_plate, fk_ingredient) values(:quantity, :plate_id, :ingredient_id);\n\"\"\"",
+        "detail": "infrastructure.queries.plates_queries",
+        "documentation": {}
+    },
+    {
+        "label": "INSERT_NEW_PLATE_INGREDIENTS",
+        "kind": 5,
+        "importPath": "infrastructure.queries.plates_queries",
+        "description": "infrastructure.queries.plates_queries",
+        "peekOfCode": "INSERT_NEW_PLATE_INGREDIENTS = \"\"\"\n    INSERT INTO ingredient_plate(quantity, fk_plate, fk_ingredient) values(:quantity, :plate_id, :ingredient_id);\n\"\"\"",
+        "detail": "infrastructure.queries.plates_queries",
+        "documentation": {}
+    },
+    {
+        "label": "DbPlatesRepository",
+        "kind": 6,
+        "importPath": "infrastructure.repositories.db_plates_repository",
+        "description": "infrastructure.repositories.db_plates_repository",
+        "peekOfCode": "class DbPlatesRepository(PlateRepository):\n    def __init__(self, db: Database, plates_mapper: PlateMapper) -> None:\n        self.db = db\n        self.plates_mapper = plates_mapper\n        super().__init__()\n    async def get_all_plates(self) -> Awaitable[list[Plate]]:\n        from apps.plates.infrastructure.queries.plates_queries import GET_ALL_PLATES\n        records = await self.db.fetch_all(query=GET_ALL_PLATES)\n        return [self.plates_mapper.from_persistence_to_domain(record) for record in records]\n    async def get_plate_by_id(self, id: PlateId) -> Awaitable[Plate | None]:",
+        "detail": "infrastructure.repositories.db_plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "GetPlatesIngredientResponse",
+        "kind": 6,
+        "importPath": "infrastructure.responses.plates_responses",
+        "description": "infrastructure.responses.plates_responses",
+        "peekOfCode": "class GetPlatesIngredientResponse(BaseSchema):\n    id: UUID\n    quantity: float\nclass GetPlateResponse(BaseSchema):\n    id: UUID\n    name: str\n    description: str\n    price: float\n    ingredients: list[GetPlatesIngredientResponse]\nclass GetAllPlatesResponse(BaseSchema):",
+        "detail": "infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "GetPlateResponse",
+        "kind": 6,
+        "importPath": "infrastructure.responses.plates_responses",
+        "description": "infrastructure.responses.plates_responses",
+        "peekOfCode": "class GetPlateResponse(BaseSchema):\n    id: UUID\n    name: str\n    description: str\n    price: float\n    ingredients: list[GetPlatesIngredientResponse]\nclass GetAllPlatesResponse(BaseSchema):\n    plates: list[GetPlateResponse]\nclass SavePlateResponse(BaseSchema):\n    response: str",
+        "detail": "infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "GetAllPlatesResponse",
+        "kind": 6,
+        "importPath": "infrastructure.responses.plates_responses",
+        "description": "infrastructure.responses.plates_responses",
+        "peekOfCode": "class GetAllPlatesResponse(BaseSchema):\n    plates: list[GetPlateResponse]\nclass SavePlateResponse(BaseSchema):\n    response: str",
+        "detail": "infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "SavePlateResponse",
+        "kind": 6,
+        "importPath": "infrastructure.responses.plates_responses",
+        "description": "infrastructure.responses.plates_responses",
+        "peekOfCode": "class SavePlateResponse(BaseSchema):\n    response: str",
+        "detail": "infrastructure.responses.plates_responses",
+        "documentation": {}
+    },
+    {
+        "label": "plates_router",
+        "kind": 5,
+        "importPath": "infrastructure.routes.plates_routes",
+        "description": "infrastructure.routes.plates_routes",
+        "peekOfCode": "plates_router = APIRouter(\n    prefix=\"/plates\",\n    tags=[\"plate\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@plates_router.get(\"/getall\", response_model=GetAllPlatesResponse, name=\"plate:getAll\")\nasync def getPlates(\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user)\n):",
+        "detail": "infrastructure.routes.plates_routes",
+        "documentation": {}
+    },
+    {
+        "label": "Ingredien",
+        "kind": 6,
+        "importPath": "infrastructure.db_entity",
+        "description": "infrastructure.db_entity",
+        "peekOfCode": "class Ingredient (BaseSchema):\n    id: UUID\n    name: str\n    quantity: int\nclass PlateInDB (BaseSchema):\n    id: UUID\n    name: str\n    description: str\n    price: UUID\n    ingredients: list[Ingredient]",
+        "detail": "infrastructure.db_entity",
+        "documentation": {}
+    },
+    {
+        "label": "PlateInD",
+        "kind": 6,
+        "importPath": "infrastructure.db_entity",
+        "description": "infrastructure.db_entity",
+        "peekOfCode": "class PlateInDB (BaseSchema):\n    id: UUID\n    name: str\n    description: str\n    price: UUID\n    ingredients: list[Ingredient]",
+        "detail": "infrastructure.db_entity",
+        "documentation": {}
+    }
+]

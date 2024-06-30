@@ -23,7 +23,6 @@ class DbPlatesRepository(PlateRepository):
     
     async def get_plate_by_id(self, id: PlateId) -> Awaitable[Plate | None]:
         from apps.plates.infrastructure.queries.plates_queries import GET_PLATE_BY_ID
-        
         record = await self.db.fetch_one(query=GET_PLATE_BY_ID, values={'id': str(id.value)})
 
         if (not record):
