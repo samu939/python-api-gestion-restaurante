@@ -12,3 +12,11 @@ GET_MENU_BY_ID = """
     AND menu.id = :id
     GROUP BY menu.id
 """
+
+INSERT_MENU = """
+    INSERT INTO menu(id, name) values(:id, :name)
+"""
+
+INSERT_PLATE_MENU = """
+    INSERT INTO menu_plate(fk_plate, fk_menu) values(:plate_id , :menu_id)
+"""
