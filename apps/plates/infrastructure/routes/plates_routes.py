@@ -48,7 +48,7 @@ async def getPlates(
     
     return GetAllPlatesResponse(plates=plates)
 
-@plates_router.get("get/{id}", response_model=GetPlateResponse, name="plate:getById")
+@plates_router.get("/get/{id}", response_model=GetPlateResponse, name="plate:getById")
 async def getPlateById(
     id: UUID,
     db: Database = Depends(get_database),

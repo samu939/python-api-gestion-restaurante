@@ -18,6 +18,7 @@ from apps.plates.domain.value_objects.plate_price import PlatePrice
 from core.application.events.event_handler import EventHandler
 from core.application.results.result_wrapper import Result
 from core.application.services.application_service import ApplicationService
+from core.domain.exceptions.domain_exception import DomainException
 
 
 class CookPlateApplicationService(ApplicationService[CookPlateDto, str]):
@@ -28,22 +29,26 @@ class CookPlateApplicationService(ApplicationService[CookPlateDto, str]):
 
     async def execute(self, input: CookPlateDto) -> Awaitable[Result[str]]:
 
-        plate = await self.plates_repository.get_plate_by_id(input.plate_id)
+        try:
+            plate = await self.plates_repository.get_plate_by_id(input.plate_id)
         
-        if not plate:
-            raise PlateNotFoundApplicatonError
+            if not plate:
+                raise PlateNotFoundApplicatonError
 
-        plate_ingredients: list[Ingredient] = []
-        
-        for ingredient in plate.ingredients:
-            plate_ingredients.append({
-                'ingredient': await self.ingredients_repository.get_ingredient_by_id(ingredient.value['ingredient_id']),
-                'quantity': IngredientQuantity(ingredient.value['quantity'].value * input.quantity.value)
-            })    
-        
-        for item in plate_ingredients:
-            item['ingredient'].rest_quantity(item['quantity'])
-            await self.ingredients_repository.save_ingredient(item['ingredient'])
+            plate_ingredients: list[Ingredient] = []
             
+            for ingredient in plate.ingredients:
+                plate_ingredients.append({
+                    'ingredient': await self.ingredients_repository.get_ingredient_by_id(ingredient.value['ingredient_id']),
+                    'quantity': IngredientQuantity(ingredient.value['quantity'].value * input.quantity.value)
+                })    
+            
+            for item in plate_ingredients:
+                item['ingredient'].rest_quantity(item['quantity'])
+                await self.ingredients_repository.save_ingredient(item['ingredient'])
+                
+            
+            return Result[str].success(value="Platos cocinandose") # type: ignore
         
-        return Result[str].success(value="Platos cocinandose") # type: ignore
+        except DomainException as error:
+            return Result[DomainException].failure(error=error)
