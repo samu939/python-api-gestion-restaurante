@@ -331,6 +331,14 @@
         "documentation": {}
     },
     {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "uuid4",
         "importPath": "uuid",
         "description": "uuid",
@@ -791,46 +799,6 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Awaitable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Awaitable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Awaitable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Awaitable",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "Awaitable",
         "importPath": "typing",
         "description": "typing",
@@ -848,6 +816,70 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1608,6 +1640,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseSchema",
+        "importPath": "core.infrastructure.utils.schemas_base",
+        "description": "core.infrastructure.utils.schemas_base",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.utils.schemas_base",
+        "documentation": {}
+    },
+    {
         "label": "AppExceptionCase",
         "importPath": "core.infrastructure.utils.app_exceptions",
         "description": "core.infrastructure.utils.app_exceptions",
@@ -1752,6 +1792,38 @@
         "documentation": {}
     },
     {
+        "label": "UserRepository",
+        "importPath": "apps.user.domain.repositories.user_repository",
+        "description": "apps.user.domain.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
         "label": "Result",
         "importPath": "core.application.results.result_wrapper",
         "description": "core.application.results.result_wrapper",
@@ -2069,6 +2141,38 @@
         "description": "core.application.services.application_service",
         "isExtraImport": true,
         "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "databases",
+        "description": "databases",
+        "isExtraImport": true,
+        "detail": "databases",
         "documentation": {}
     },
     {
@@ -2480,6 +2584,14 @@
         "documentation": {}
     },
     {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
         "label": "roleEnum",
         "importPath": "apps.user.infrastructure.db_entity.user_in_db",
         "description": "apps.user.infrastructure.db_entity.user_in_db",
@@ -2513,6 +2625,22 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -2768,6 +2896,22 @@
         "documentation": {}
     },
     {
+        "label": "UserMapper",
+        "importPath": "apps.user.infrastructure.mappers.user_mapper",
+        "description": "apps.user.infrastructure.mappers.user_mapper",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.mappers.user_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "dbUserRepository",
+        "importPath": "apps.user.infrastructure.repositories.db_user_repository",
+        "description": "apps.user.infrastructure.repositories.db_user_repository",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.repositories.db_user_repository",
+        "documentation": {}
+    },
+    {
         "label": "dbUserRepository",
         "importPath": "apps.user.infrastructure.repositories.db_user_repository",
         "description": "apps.user.infrastructure.repositories.db_user_repository",
@@ -2789,6 +2933,14 @@
         "description": "apps.user.infrastructure.repositories.db_user_repository",
         "isExtraImport": true,
         "detail": "apps.user.infrastructure.repositories.db_user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_database",
+        "importPath": "db.db_dependencies",
+        "description": "db.db_dependencies",
+        "isExtraImport": true,
+        "detail": "db.db_dependencies",
         "documentation": {}
     },
     {
@@ -2920,6 +3072,14 @@
         "documentation": {}
     },
     {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -2944,7 +3104,39 @@
         "documentation": {}
     },
     {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -3145,6 +3337,14 @@
         "documentation": {}
     },
     {
+        "label": "ExceptionDecorator",
+        "importPath": "core.application.decorators.exception_decorator",
+        "description": "core.application.decorators.exception_decorator",
+        "isExtraImport": true,
+        "detail": "core.application.decorators.exception_decorator",
+        "documentation": {}
+    },
+    {
         "label": "bcrypt",
         "kind": 6,
         "isExtraImport": true,
@@ -3155,6 +3355,22 @@
     },
     {
         "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -3706,11 +3922,11 @@
         "documentation": {}
     },
     {
-        "label": "IngredientRepository",
-        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
-        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "label": "Ingredient",
+        "importPath": "apps.ingredients.domain.ingredient",
+        "description": "apps.ingredients.domain.ingredient",
         "isExtraImport": true,
-        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "detail": "apps.ingredients.domain.ingredient",
         "documentation": {}
     },
     {
@@ -3786,11 +4002,19 @@
         "documentation": {}
     },
     {
-        "label": "IngredientQuantity",
-        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
-        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
         "isExtraImport": true,
-        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
         "documentation": {}
     },
     {
@@ -3871,6 +4095,22 @@
         "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
         "isExtraImport": true,
         "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientQuantity",
+        "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.value_objects.ingredient_quantity",
+        "documentation": {}
+    },
+    {
+        "label": "StoreId",
+        "importPath": "apps.store.domain.value_objects.store_id",
+        "description": "apps.store.domain.value_objects.store_id",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.value_objects.store_id",
         "documentation": {}
     },
     {
@@ -4818,6 +5058,22 @@
         "documentation": {}
     },
     {
+        "label": "IngredientMapper",
+        "importPath": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "description": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.mappers.ingredient_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_active_user",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
         "label": "get_current_active_user",
         "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
@@ -4943,6 +5199,14 @@
         "description": "apps.ingredients.infrastructure.entries.modify_store_entry",
         "isExtraImport": true,
         "detail": "apps.ingredients.infrastructure.entries.modify_store_entry",
+        "documentation": {}
+    },
+    {
+        "label": "DbIngredientsRepository",
+        "importPath": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "description": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.infrastructure.repositories.db_ingredients_repository",
         "documentation": {}
     },
     {
@@ -5162,11 +5426,19 @@
         "documentation": {}
     },
     {
-        "label": "OrderRepository",
-        "importPath": "apps.order.domain.repositories.order_repository",
-        "description": "apps.order.domain.repositories.order_repository",
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
         "isExtraImport": true,
-        "detail": "apps.order.domain.repositories.order_repository",
+        "detail": "apps.order.domain.order",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "apps.order.domain.order",
+        "description": "apps.order.domain.order",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.order",
         "documentation": {}
     },
     {
@@ -5207,6 +5479,46 @@
         "description": "apps.order.domain.repositories.order_repository",
         "isExtraImport": true,
         "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "OrderRepository",
+        "importPath": "apps.order.domain.repositories.order_repository",
+        "description": "apps.order.domain.repositories.order_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.domain.repositories.order_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
+        "documentation": {}
+    },
+    {
+        "label": "UserId",
+        "importPath": "apps.user.domain.value_objects.user_id",
+        "description": "apps.user.domain.value_objects.user_id",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.value_objects.user_id",
         "documentation": {}
     },
     {
@@ -5738,6 +6050,14 @@
         "documentation": {}
     },
     {
+        "label": "PlateRepository",
+        "importPath": "apps.plates.domain.repositories.plates_repository",
+        "description": "apps.plates.domain.repositories.plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
         "label": "PlateId",
         "importPath": "apps.plates.domain.value_objects.plate_id",
         "description": "apps.plates.domain.value_objects.plate_id",
@@ -5962,6 +6282,22 @@
         "documentation": {}
     },
     {
+        "label": "PlateMapper",
+        "importPath": "apps.plates.infrastructure.mappers.plates_mapper",
+        "description": "apps.plates.infrastructure.mappers.plates_mapper",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.mappers.plates_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "DbPlatesRepository",
+        "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "description": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "isExtraImport": true,
+        "detail": "apps.plates.infrastructure.repositories.db_plates_repository",
+        "documentation": {}
+    },
+    {
         "label": "DbPlatesRepository",
         "importPath": "apps.plates.infrastructure.repositories.db_plates_repository",
         "description": "apps.plates.infrastructure.repositories.db_plates_repository",
@@ -6039,6 +6375,46 @@
         "description": "apps.notifications.infrastructure.repositories.db_notification_repository",
         "isExtraImport": true,
         "detail": "apps.notifications.infrastructure.repositories.db_notification_repository",
+        "documentation": {}
+    },
+    {
+        "label": "GetOrderPlateByIdResponse",
+        "importPath": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "description": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetOrdersByRangeResponse",
+        "importPath": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "description": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetSellsInRangeDto",
+        "importPath": "apps.order.application.dto.get_sells_in_range_dto",
+        "description": "apps.order.application.dto.get_sells_in_range_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.get_sells_in_range_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetSellsInRangeDto",
+        "importPath": "apps.order.application.dto.get_sells_in_range_dto",
+        "description": "apps.order.application.dto.get_sells_in_range_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.get_sells_in_range_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetSellsInRangeDto",
+        "importPath": "apps.order.application.dto.get_sells_in_range_dto",
+        "description": "apps.order.application.dto.get_sells_in_range_dto",
+        "isExtraImport": true,
+        "detail": "apps.order.application.dto.get_sells_in_range_dto",
         "documentation": {}
     },
     {
@@ -6211,6 +6587,14 @@
         "documentation": {}
     },
     {
+        "label": "OrderMapper",
+        "importPath": "apps.order.infrastructure.mappers.orders_mapper",
+        "description": "apps.order.infrastructure.mappers.orders_mapper",
+        "isExtraImport": true,
+        "detail": "apps.order.infrastructure.mappers.orders_mapper",
+        "documentation": {}
+    },
+    {
         "label": "Plate",
         "importPath": "apps.plates.domain.plate",
         "description": "apps.plates.domain.plate",
@@ -6304,6 +6688,14 @@
         "description": "apps.order.infrastructure.entries.create_order_entry",
         "isExtraImport": true,
         "detail": "apps.order.infrastructure.entries.create_order_entry",
+        "documentation": {}
+    },
+    {
+        "label": "DbOrdersRepository",
+        "importPath": "apps.order.infrastructure.repositories.db_orders_repository",
+        "description": "apps.order.infrastructure.repositories.db_orders_repository",
+        "isExtraImport": true,
+        "detail": "apps.order.infrastructure.repositories.db_orders_repository",
         "documentation": {}
     },
     {
@@ -6731,6 +7123,110 @@
         "documentation": {}
     },
     {
+        "label": "FPDF",
+        "importPath": "fpdf",
+        "description": "fpdf",
+        "isExtraImport": true,
+        "detail": "fpdf",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "starlette.responses",
+        "description": "starlette.responses",
+        "isExtraImport": true,
+        "detail": "starlette.responses",
+        "documentation": {}
+    },
+    {
+        "label": "GetOrdersInRangeApplicationService",
+        "importPath": "apps.order.application.services.get_orders_in_range_application_service",
+        "description": "apps.order.application.services.get_orders_in_range_application_service",
+        "isExtraImport": true,
+        "detail": "apps.order.application.services.get_orders_in_range_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "OrdersInRangeDtoEntry",
+        "importPath": "apps.reports.infrastructure.dto.orders_in_range_dto_entry",
+        "description": "apps.reports.infrastructure.dto.orders_in_range_dto_entry",
+        "isExtraImport": true,
+        "detail": "apps.reports.infrastructure.dto.orders_in_range_dto_entry",
+        "documentation": {}
+    },
+    {
+        "label": "GetStoresIngredientsApplicationService",
+        "importPath": "apps.store.application.services.get_store_ingredients",
+        "description": "apps.store.application.services.get_store_ingredients",
+        "isExtraImport": true,
+        "detail": "apps.store.application.services.get_store_ingredients",
+        "documentation": {}
+    },
+    {
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "DbStoreRepository",
+        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
+        "description": "apps.store.infrastructure.repositories.db_store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.repositories.db_store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DbStoreRepository",
+        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
+        "description": "apps.store.infrastructure.repositories.db_store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.repositories.db_store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "GetSellsInRangeApplicationService",
+        "importPath": "apps.order.application.services.get_sells_in_range_application_service",
+        "description": "apps.order.application.services.get_sells_in_range_application_service",
+        "isExtraImport": true,
+        "detail": "apps.order.application.services.get_sells_in_range_application_service",
+        "documentation": {}
+    },
+    {
         "label": "CreateStoreDto",
         "importPath": "apps.store.application.dto.create_store_dto",
         "description": "apps.store.application.dto.create_store_dto",
@@ -6923,22 +7419,6 @@
         "documentation": {}
     },
     {
-        "label": "StoreMapper",
-        "importPath": "apps.store.infrastructure.mappers.store_mapper",
-        "description": "apps.store.infrastructure.mappers.store_mapper",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.mappers.store_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "StoreMapper",
-        "importPath": "apps.store.infrastructure.mappers.store_mapper",
-        "description": "apps.store.infrastructure.mappers.store_mapper",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.mappers.store_mapper",
-        "documentation": {}
-    },
-    {
         "label": "CreateStoreApplicationService",
         "importPath": "apps.store.application.services.create_store",
         "description": "apps.store.application.services.create_store",
@@ -6968,14 +7448,6 @@
         "description": "apps.store.infrastructure.entries.create_store_entry",
         "isExtraImport": true,
         "detail": "apps.store.infrastructure.entries.create_store_entry",
-        "documentation": {}
-    },
-    {
-        "label": "DbStoreRepository",
-        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
-        "description": "apps.store.infrastructure.repositories.db_store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.repositories.db_store_repository",
         "documentation": {}
     },
     {
@@ -7080,22 +7552,6 @@
         "description": "apps.user.infrastructure.responses.user_responses",
         "isExtraImport": true,
         "detail": "apps.user.infrastructure.responses.user_responses",
-        "documentation": {}
-    },
-    {
-        "label": "JSONResponse",
-        "importPath": "starlette.responses",
-        "description": "starlette.responses",
-        "isExtraImport": true,
-        "detail": "starlette.responses",
-        "documentation": {}
-    },
-    {
-        "label": "JSONResponse",
-        "importPath": "starlette.responses",
-        "description": "starlette.responses",
-        "isExtraImport": true,
-        "detail": "starlette.responses",
         "documentation": {}
     },
     {
@@ -7379,6 +7835,14 @@
         "description": "apps.notifications.infrastructure.routes.notification_routes",
         "isExtraImport": true,
         "detail": "apps.notifications.infrastructure.routes.notification_routes",
+        "documentation": {}
+    },
+    {
+        "label": "report_router",
+        "importPath": "apps.reports.infrastructure.routes.reports_routes",
+        "description": "apps.reports.infrastructure.routes.reports_routes",
+        "isExtraImport": true,
+        "detail": "apps.reports.infrastructure.routes.reports_routes",
         "documentation": {}
     },
     {
@@ -8426,6 +8890,24 @@
         "documentation": {}
     },
     {
+        "label": "GetOrderPlateByIdResponse",
+        "kind": 6,
+        "importPath": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "description": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "peekOfCode": "class GetOrderPlateByIdResponse(BaseSchema):\n    id: UUID\n    name: str\n    quantity: float\nclass GetOrdersByRangeResponse(BaseSchema):\n    id: UUID\n    date: str\n    user: str\n    price: float\n    plates: list[GetOrderPlateByIdResponse]",
+        "detail": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetOrdersByRangeResponse",
+        "kind": 6,
+        "importPath": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "description": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "peekOfCode": "class GetOrdersByRangeResponse(BaseSchema):\n    id: UUID\n    date: str\n    user: str\n    price: float\n    plates: list[GetOrderPlateByIdResponse]",
+        "detail": "apps.order.application.dto.get_orders_by_range_response_dto",
+        "documentation": {}
+    },
+    {
         "label": "GetOrderByIdDt",
         "kind": 6,
         "importPath": "apps.order.application.dto.get_order_by_id_dto",
@@ -8450,6 +8932,15 @@
         "description": "apps.order.application.dto.get_order_by_id_response_dto",
         "peekOfCode": "class GetOrderByIdResponse(BaseSchema):\n    id: UUID\n    date: str\n    user_id: UUID\n    price: float\n    plates: list[GetOrderPlateByIdResponse]",
         "detail": "apps.order.application.dto.get_order_by_id_response_dto",
+        "documentation": {}
+    },
+    {
+        "label": "GetSellsInRangeDt",
+        "kind": 6,
+        "importPath": "apps.order.application.dto.get_sells_in_range_dto",
+        "description": "apps.order.application.dto.get_sells_in_range_dto",
+        "peekOfCode": "class GetSellsInRangeDto (BaseModel):\n    begin: date\n    end: date",
+        "detail": "apps.order.application.dto.get_sells_in_range_dto",
         "documentation": {}
     },
     {
@@ -8480,12 +8971,30 @@
         "documentation": {}
     },
     {
+        "label": "GetOrdersInRangeApplicationService",
+        "kind": 6,
+        "importPath": "apps.order.application.services.get_orders_in_range_application_service",
+        "description": "apps.order.application.services.get_orders_in_range_application_service",
+        "peekOfCode": "class GetOrdersInRangeApplicationService(ApplicationService[GetSellsInRangeDto, list[GetOrdersByRangeResponse]]):\n    def __init__(self, orders_repository: OrderRepository, plates_repository: PlateRepository, user_repository: UserRepository) -> None:\n        self.order_repository = orders_repository\n        self.plates_repository = plates_repository\n        self.user_repository = user_repository\n    async def execute(self, input: GetSellsInRangeDto) -> Awaitable[Result[list[GetOrdersByRangeResponse]]]:\n        orders = await self.order_repository.get_orders_in_range(input.begin, input.end)\n        result_orders = []\n        for order in orders:\n            plates = []",
+        "detail": "apps.order.application.services.get_orders_in_range_application_service",
+        "documentation": {}
+    },
+    {
         "label": "GetOrderByIdApplicationService",
         "kind": 6,
         "importPath": "apps.order.application.services.get_order_by_id_application_service",
         "description": "apps.order.application.services.get_order_by_id_application_service",
         "peekOfCode": "class GetOrderByIdApplicationService(ApplicationService[GetOrderByIdDto, GetOrderByIdResponse]):\n    def __init__(self, orders_repository: OrderRepository, plates_repository: PlateRepository) -> None:\n        self.orders_repository = orders_repository\n        self.plates_repository = plates_repository\n    async def execute(self, input: GetOrderByIdDto) -> Awaitable[Result[GetOrderByIdResponse]]:\n        order = await self.orders_repository.get_order_by_id(OrderId(input.id))\n        if not order:\n            return Result[GetOrderByIdResponse].failure(error= OrderNotFoundApplicatonError(input.id))\n        plates = []\n        for plate in order.plates:",
         "detail": "apps.order.application.services.get_order_by_id_application_service",
+        "documentation": {}
+    },
+    {
+        "label": "GetSellsInRangeApplicationService",
+        "kind": 6,
+        "importPath": "apps.order.application.services.get_sells_in_range_application_service",
+        "description": "apps.order.application.services.get_sells_in_range_application_service",
+        "peekOfCode": "class GetSellsInRangeApplicationService(ApplicationService[GetSellsInRangeDto, float]):\n    def __init__(self, orders_repository: OrderRepository) -> None:\n        self.order_repository = orders_repository\n    async def execute(self, input: GetSellsInRangeDto) -> Awaitable[Result[float]]:\n        order = await self.order_repository.get_orders_in_range(input.begin, input.end)\n        total = 0\n        for o in order:\n            total += o.price.value\n        return Result[float].success(value=total)",
+        "detail": "apps.order.application.services.get_sells_in_range_application_service",
         "documentation": {}
     },
     {
@@ -8656,6 +9165,15 @@
         "importPath": "apps.order.infrastructure.queries.order_queries",
         "description": "apps.order.infrastructure.queries.order_queries",
         "peekOfCode": "GET_ORDER_BY_ID = \"\"\"\n    SELECT\n            o.id,\n            o.final_price as price,\n            json_agg(json_build_object('plate_id', od.fk_plate, 'quantity', od.quantity)) AS plates,\n            o.order_date as date,\n            o.fk_user as user_id\n        FROM\n            \"order\" as o, order_detail as od\n        where ",
+        "detail": "apps.order.infrastructure.queries.order_queries",
+        "documentation": {}
+    },
+    {
+        "label": "GET_ORDERS_BY_RANGE",
+        "kind": 5,
+        "importPath": "apps.order.infrastructure.queries.order_queries",
+        "description": "apps.order.infrastructure.queries.order_queries",
+        "peekOfCode": "GET_ORDERS_BY_RANGE = \"\"\"\n    SELECT\n            o.id,\n            o.final_price as price,\n            json_agg(json_build_object('plate_id', od.fk_plate, 'quantity', od.quantity)) AS plates,\n            o.order_date as date,\n            o.fk_user as user_id\n        FROM\n            \"order\" as o, order_detail as od\n        where ",
         "detail": "apps.order.infrastructure.queries.order_queries",
         "documentation": {}
     },
@@ -9101,6 +9619,24 @@
         "documentation": {}
     },
     {
+        "label": "OrdersInRangeDtoEntr",
+        "kind": 6,
+        "importPath": "apps.reports.infrastructure.dto.orders_in_range_dto_entry",
+        "description": "apps.reports.infrastructure.dto.orders_in_range_dto_entry",
+        "peekOfCode": "class OrdersInRangeDtoEntry (BaseModel):\n    from_date: date\n    to_date: date",
+        "detail": "apps.reports.infrastructure.dto.orders_in_range_dto_entry",
+        "documentation": {}
+    },
+    {
+        "label": "report_router",
+        "kind": 5,
+        "importPath": "apps.reports.infrastructure.routes.reports_routes",
+        "description": "apps.reports.infrastructure.routes.reports_routes",
+        "peekOfCode": "report_router = APIRouter(\n    prefix=\"/reports\",\n    tags=[\"reports\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@report_router.get(\"/anualsells/{year}\", name=\"report\")\nasync def AnualSellsReport(\n    year: int,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user)",
+        "detail": "apps.reports.infrastructure.routes.reports_routes",
+        "documentation": {}
+    },
+    {
         "label": "CreateStoreDt",
         "kind": 6,
         "importPath": "apps.store.application.dto.create_store_dto",
@@ -9161,6 +9697,15 @@
         "description": "apps.store.application.services.get_store_by_id",
         "peekOfCode": "class GetStoreApplicationService(ApplicationService[StoreId, GetStoreByIdResponseDto]):\n    def __init__(self, store_repository: StoreRepository, ingredient_repository: IngredientRepository):\n        self.store_repository = store_repository\n        self.ingredient_repository = ingredient_repository\n    async def execute(self, input: StoreId) -> Awaitable[Result[GetStoreByIdResponseDto]]:\n        store = await self.store_repository.get_store_by_id(input)\n        if store is None:\n            return Result[GetStoreByIdResponseDto].failure(\n                error=StoreNotFoundApplicatonError(input)\n            ) # type: ignore",
         "detail": "apps.store.application.services.get_store_by_id",
+        "documentation": {}
+    },
+    {
+        "label": "GetStoresIngredientsApplicationService",
+        "kind": 6,
+        "importPath": "apps.store.application.services.get_store_ingredients",
+        "description": "apps.store.application.services.get_store_ingredients",
+        "peekOfCode": "class GetStoresIngredientsApplicationService(ApplicationService[StoreId, list[Ingredient]]):\n    def __init__(self, ingredient_repository: IngredientRepository):\n        self.ingredient_repository = ingredient_repository\n    async def execute(self, input: StoreId) -> Awaitable[Result[list[Ingredient]]]:\n        ingredients = await self.ingredient_repository.get_store_ingredients(input)\n        return Result[list[Ingredient]].success(value=ingredients) # type: ignore",
+        "detail": "apps.store.application.services.get_store_ingredients",
         "documentation": {}
     },
     {
@@ -10104,7 +10649,7 @@
         "kind": 5,
         "importPath": "routers",
         "description": "routers",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth_router)\nrouter.include_router(user_router)\nrouter.include_router(ingredient_router)\nrouter.include_router(plates_router)\nrouter.include_router(store_router)\nrouter.include_router(orders_router)\nrouter.include_router(notifications_router)",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth_router)\nrouter.include_router(user_router)\nrouter.include_router(ingredient_router)\nrouter.include_router(plates_router)\nrouter.include_router(store_router)\nrouter.include_router(orders_router)\nrouter.include_router(notifications_router)\nrouter.include_router(report_router)",
         "detail": "routers",
         "documentation": {}
     }

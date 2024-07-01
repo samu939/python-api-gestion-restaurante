@@ -11,3 +11,4 @@ GET_STORE_BY_ID = """
 GET_ALL_STORES = """
     SELECT id, name FROM store
 """
+    

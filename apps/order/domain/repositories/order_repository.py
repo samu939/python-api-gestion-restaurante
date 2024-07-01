@@ -1,4 +1,5 @@
 from abc import abstractmethod
+from datetime import date
 from typing import Awaitable, Optional
 
 from apps.order.domain.order import Order
@@ -15,4 +16,6 @@ class OrderRepository:
     @abstractmethod
     def save_order(self, order: Order) -> Awaitable[None]:
         pass
-    
+    @abstractmethod
+    def get_orders_in_range(self, start: date, end: date) -> Awaitable[list[Order]]:
+        pass

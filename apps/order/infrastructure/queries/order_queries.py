@@ -28,6 +28,21 @@ GET_ORDER_BY_ID = """
             o.id
 """
 
+GET_ORDERS_BY_RANGE = """
+    SELECT
+            o.id,
+            o.final_price as price,
+            json_agg(json_build_object('plate_id', od.fk_plate, 'quantity', od.quantity)) AS plates,
+            o.order_date as date,
+            o.fk_user as user_id
+        FROM
+            "order" as o, order_detail as od
+        where 
+            o.id = od.fk_order and o.order_date between cast(:start as DATE) and cast(:end as DATE)
+        group by
+            o.id
+"""
+
 INSERT_NEW_ORDER = """
     INSERT INTO "order" ( id , order_date, final_price, fk_user) values(:id, :date, :price, :user_id);
 """

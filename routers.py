@@ -7,7 +7,7 @@ from apps.store.infrastructure.routes.store_routes import store_router
 from apps.user.infrastructure.routes.user_routes import user_router
 from apps.order.infrastructure.routes.order_routes import orders_router
 from apps.notifications.infrastructure.routes.notification_routes import notifications_router
-
+from apps.reports.infrastructure.routes.reports_routes import report_router
 
 
 
@@ -19,3 +19,4 @@ router.include_router(plates_router)
 router.include_router(store_router)
 router.include_router(orders_router)
 router.include_router(notifications_router)
+router.include_router(report_router)

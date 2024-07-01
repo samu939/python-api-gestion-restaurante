@@ -1,4 +1,5 @@
 
+from datetime import date
 from typing import Awaitable
 from databases import Database
 
@@ -48,3 +49,8 @@ class DbOrdersRepository(OrderRepository):
                 'plate_id': str(plate.value['plate_id'].value),
                 'quantity': plate.value['quantity'].value
             })
+
+    async def get_orders_in_range(self, start: date, end: date) -> Awaitable[list[Order]]:
+        from apps.order.infrastructure.queries.order_queries import GET_ORDERS_BY_RANGE
+        records = await self.db.fetch_all(query=GET_ORDERS_BY_RANGE, values={'start': start, 'end': end})
+        return [self.order_mapper.from_persistence_to_domain(record) for record in records]
