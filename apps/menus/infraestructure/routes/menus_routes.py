@@ -44,7 +44,7 @@ async def getMenus(
     
     return GetAllMenusResponse(menus=menus)
 
-@menus_router.get("get/{id}", response_model=GetMenuWithPlatesResponse, name="menu:getById")
+@menus_router.get("/get/{id}", response_model=GetMenuWithPlatesResponse, name="menu:getById")
 async def getPlateById(
     id: UUID,
     db: Database = Depends(get_database),
