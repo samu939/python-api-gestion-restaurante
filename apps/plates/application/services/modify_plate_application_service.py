@@ -1,26 +1,30 @@
 from typing import Awaitable
-from uuid import uuid4
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
-from apps.plates.application.dtos.create_plate_dto import CreatePlateDto
+from apps.plates.application.dtos.modify_plate_dto import ModifyPlateDto
+from apps.plates.application.errors.plate_not_found import PlateNotFoundApplicatonError
 from apps.plates.domain.plate import Plate
 from apps.plates.domain.repositories.plates_repository import PlateRepository
 from apps.plates.domain.value_objects.ingredient_for_plate_quantity import IngredientForPlateQuantity
-from apps.plates.domain.value_objects.plate_description import PlateDescription
 from apps.plates.domain.value_objects.plate_id import PlateId
 from apps.plates.domain.value_objects.plate_ingredient import PlateIngredient
-from apps.plates.domain.value_objects.plate_name import PlateName
 from apps.plates.domain.value_objects.plate_price import PlatePrice
 from core.application.events.event_handler import EventHandler
 from core.application.results.result_wrapper import Result
 from core.application.services.application_service import ApplicationService
 
 
-class CreatePlateApplicationService(ApplicationService[CreatePlateDto, str]):
+class ModifyplateApplicationService(ApplicationService[ModifyPlateDto, str]):
     def __init__(self, plates_repository: PlateRepository, event_handler: EventHandler) -> None:
         self.plates_repository = plates_repository
         self.event_handler = event_handler
 
-    async def execute(self, input: CreatePlateDto) -> Awaitable[Result[str]]:
+    async def execute(self, input: ModifyPlateDto) -> Awaitable[Result[str]]:
+
+        plate = await self.plates_repository.get_plate_by_id(PlateId(input.id))
+        if plate is None:
+            return Result[str].failure(
+                error=PlateNotFoundApplicatonError(PlateId(input.id))
+            )
 
         domain_plate_ingredients = []
 
@@ -30,8 +34,8 @@ class CreatePlateApplicationService(ApplicationService[CreatePlateDto, str]):
                 'quantity': IngredientForPlateQuantity(ingredient.quantity)
             }))
 
-        domain_plate = Plate(PlateId(str(uuid4())), PlateName(input.name), PlateDescription(input.description),
+        modified_plate = Plate(plate.id, plate.name, plate.description,
                              PlatePrice(input.price), domain_plate_ingredients)
-        await self.event_handler.publish_events(domain_plate.pull_events())
-        await self.plates_repository.save_plate(domain_plate)
-        return Result[str].success(value="Plato guardado") # type: ignore
+        await self.event_handler.publish_events(modified_plate.pull_events())
+        await self.plates_repository.update(modified_plate)
+        return Result[str].success(value="Plato guardado")

@@ -25,19 +25,20 @@ class DbPlatesRepository(PlateRepository):
         from apps.plates.infrastructure.queries.plates_queries import GET_PLATE_BY_ID
         record = await self.db.fetch_one(query=GET_PLATE_BY_ID, values={'id': str(id.value)})
 
+        if (not record):
+            return None
+
         return self.plates_mapper.from_persistence_to_domain(record)
 
     async def save_plate(self, plate: Plate) -> Awaitable[None]:
         from apps.plates.infrastructure.queries.plates_queries import INSERT_NEW_PLATE, INSERT_NEW_PLATE_INGREDIENTS
 
-        res = await self.db.execute(query=INSERT_NEW_PLATE, values={
+        await self.db.execute(query=INSERT_NEW_PLATE, values={
             'id': plate.id.value,
             'name': plate.name.value,
             'description': plate.description.value,
             'price': plate.price.value
         })
-
-        print(res)
 
         for ingredient in plate.ingredients:
             await self.db.execute(query=INSERT_NEW_PLATE_INGREDIENTS, values={
@@ -45,3 +46,23 @@ class DbPlatesRepository(PlateRepository):
                 'ingredient_id': str(ingredient.value['ingredient_id'].value),
                 'quantity': ingredient.value['quantity'].value
             })
+        
+    async def update(self, plate: Plate) -> Awaitable[None]:
+        from apps.plates.infrastructure.queries.plates_queries import INSERT_NEW_PLATE_INGREDIENTS, UPDATE_PLATE, DELETE_PLATE_INGREDIENTS
+
+        await self.db.execute(query=UPDATE_PLATE, values={
+            'id': str(plate.id.value),
+            'price': plate.price.value
+        })
+        
+        await self.db.execute(query=DELETE_PLATE_INGREDIENTS, values={
+            'id': str(plate.id.value)
+        })
+        for ingredient in plate.ingredients:
+            await self.db.execute(query=INSERT_NEW_PLATE_INGREDIENTS, values={
+            'plate_id': str(plate.id.value),
+            'ingredient_id': str(ingredient.value['ingredient_id'].value),
+            'quantity': ingredient.value['quantity'].value
+        })
+
+

@@ -19,7 +19,7 @@ from apps.order.infrastructure.entries.create_order_entry import CreateOrderEntr
 from apps.order.infrastructure.mappers.orders_mapper import OrderMapper
 from apps.order.infrastructure.repositories.db_orders_repository import DbOrdersRepository
 from apps.order.infrastructure.responses.order_responses import GetAllOrdersResponse, GetOrderPlateResponse, GetOrderResponse, SaveOrderResponse
-from apps.plates.infrastructure.dtos.cook_plate_dto import CookPlateDto
+from apps.plates.application.dtos.cook_plate_dto import CookPlateDto
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.user.infrastructure.db_entity.user_in_db import UserInDB
 from core.application.decorators.exception_decorator import ExceptionDecorator

@@ -10,7 +10,6 @@ from apps.notifications.application.dto.get_all_user_notifications_dto import Ge
 from apps.notifications.application.dto.get_all_user_notifications_reponse_dto import GetAllUserNotificationsResponse
 from apps.notifications.application.dto.save_notification_dto import SaveNotificationDto
 from apps.notifications.application.services.get_all_user_notifications_application_service import GetAllUserNotificationsApplicationService
-from apps.plates.infrastructure.dtos.cook_plate_dto import CookPlateDto
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.user.infrastructure.db_entity.user_in_db import UserInDB
 from core.application.decorators.exception_decorator import ExceptionDecorator

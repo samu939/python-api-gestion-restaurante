@@ -3,17 +3,20 @@ from databases import Database
 from fastapi import APIRouter, Depends
 
 from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.plates.application.dtos.cook_plate_dto import CookPlateDto
+from apps.plates.application.dtos.create_plate_dto import CreatePlateDto
+from apps.plates.application.dtos.modify_plate_dto import ModifyPlateDto
 from apps.plates.application.services.cook_plate_application_service import CookPlateApplicationService
+from apps.plates.application.services.modify_plate_application_service import ModifyplateApplicationService
 from apps.plates.domain.value_objects.plate_quantity import PlateQuantity
-from apps.plates.infrastructure.dtos.create_plate_dto import CreatePlateDto
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
 from apps.plates.application.services.get_plate_by_id_application_service import GetPlateByIdApplicationService
 from apps.plates.application.services.create_plate_application_service import CreatePlateApplicationService
 from apps.plates.application.services.get_all_plates_application_service import GetAllPlatesApplicationService
 from apps.plates.domain.value_objects.plate_id import PlateId
-from apps.plates.infrastructure.dtos.cook_plate_dto import CookPlateDto
 from apps.plates.infrastructure.entries.create_plate_entry import CookPlateEntry, CreatePlateEntry
+from apps.plates.infrastructure.entries.modify_plate_entry import ModifyPlateEntry
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.plates.infrastructure.repositories.db_plates_repository import DbPlatesRepository
 from apps.plates.infrastructure.responses.plates_responses import GetPlatesIngredientResponse, SavePlateResponse
@@ -48,7 +51,7 @@ async def getPlates(
     
     return GetAllPlatesResponse(plates=plates)
 
-@plates_router.get("get/{id}", response_model=GetPlateResponse, name="plate:getById")
+@plates_router.get("/get/{id}", response_model=GetPlateResponse, name="plate:getById")
 async def getPlateById(
     id: UUID,
     db: Database = Depends(get_database),
@@ -85,5 +88,19 @@ async def cookPlate(
     print(plate_to_cook)
     plate = CookPlateDto(plate_id=PlateId(plate_to_cook.plate_id), quantity=PlateQuantity(plate_to_cook.quantity))
     service = ExceptionDecorator(CookPlateApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()), ingredients_repository= DbIngredientsRepository(db, IngredientMapper()),event_handler=event_handler))
+
+    return SavePlateResponse(response=((await service.execute(plate)).unwrap()))
+
+@plates_router.put("/modify/{id}", response_model=SavePlateResponse, name="plate:modify")
+async def modifyPlate(
+    id: UUID,
+    modified_plate: ModifyPlateEntry,
+    db: Database = Depends(get_database),
+    current_user: UserInDB = Depends(get_current_active_user)
+):
+    event_handler = NativeEventHandler()
+    print(modified_plate)
+    plate = ModifyPlateDto(id=id, price=modified_plate.price, ingredients=modified_plate.ingredients)
+    service = ExceptionDecorator(ModifyplateApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()),event_handler=event_handler))
 
     return SavePlateResponse(response=((await service.execute(plate)).unwrap()))
