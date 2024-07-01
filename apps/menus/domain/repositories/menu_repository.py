@@ -14,4 +14,7 @@ class MenuRepository:
     @abstractmethod
     def save_menu(self, menu: Menu) -> Awaitable[None]:
         pass
+    @abstractmethod
+    def update(self, menu: Menu) -> Awaitable[None]:
+        pass
     

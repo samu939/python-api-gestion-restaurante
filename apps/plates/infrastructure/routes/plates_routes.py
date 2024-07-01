@@ -3,18 +3,18 @@ from databases import Database
 from fastapi import APIRouter, Depends
 
 from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.plates.application.dtos.cook_plate_dto import CookPlateDto
+from apps.plates.application.dtos.create_plate_dto import CreatePlateDto
+from apps.plates.application.dtos.modify_plate_dto import ModifyPlateDto
 from apps.plates.application.services.cook_plate_application_service import CookPlateApplicationService
 from apps.plates.application.services.modify_plate_application_service import ModifyplateApplicationService
 from apps.plates.domain.value_objects.plate_quantity import PlateQuantity
-from apps.plates.infrastructure.dtos.create_plate_dto import CreatePlateDto
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
 from apps.plates.application.services.get_plate_by_id_application_service import GetPlateByIdApplicationService
 from apps.plates.application.services.create_plate_application_service import CreatePlateApplicationService
 from apps.plates.application.services.get_all_plates_application_service import GetAllPlatesApplicationService
 from apps.plates.domain.value_objects.plate_id import PlateId
-from apps.plates.infrastructure.dtos.cook_plate_dto import CookPlateDto
-from apps.plates.infrastructure.dtos.modify_plate_dto import ModifyPlateDto
 from apps.plates.infrastructure.entries.create_plate_entry import CookPlateEntry, CreatePlateEntry
 from apps.plates.infrastructure.entries.modify_plate_entry import ModifyPlateEntry
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
