@@ -15,4 +15,7 @@ class PlateRepository:
     @abstractmethod
     def save_plate(self, plate: Plate) -> Awaitable[None]:
         pass
+    @abstractmethod
+    def update(self, plate: Plate) -> Awaitable[None]:
+        pass
     
