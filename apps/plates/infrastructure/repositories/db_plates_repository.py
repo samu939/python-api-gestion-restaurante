@@ -59,6 +59,10 @@ class DbPlatesRepository(PlateRepository):
             'id': str(plate.id.value)
         })
         for ingredient in plate.ingredients:
+<<<<<<< HEAD
+=======
+            print('INGREDIENTE = ', ingredient.value['ingredient_id'].value)
+>>>>>>> 9d6328e (modificar platos calidad)
             await self.db.execute(query=INSERT_NEW_PLATE_INGREDIENTS, values={
             'plate_id': str(plate.id.value),
             'ingredient_id': str(ingredient.value['ingredient_id'].value),
