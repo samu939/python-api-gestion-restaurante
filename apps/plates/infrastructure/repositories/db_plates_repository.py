@@ -60,7 +60,6 @@ class DbPlatesRepository(PlateRepository):
             'id': str(plate.id.value)
         })
         for ingredient in plate.ingredients:
-            print('INGREDIENTE = ', ingredient.value['ingredient_id'].value)
             await self.db.execute(query=INSERT_NEW_PLATE_INGREDIENTS, values={
             'plate_id': str(plate.id.value),
             'ingredient_id': str(ingredient.value['ingredient_id'].value),
