@@ -1,9 +1,6 @@
 from typing import Awaitable
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
-<<<<<<< HEAD
 from apps.plates.application.dtos.modify_plate_dto import ModifyPlateDto
-=======
->>>>>>> 9d6328e (modificar platos calidad)
 from apps.plates.application.errors.plate_not_found import PlateNotFoundApplicatonError
 from apps.plates.domain.plate import Plate
 from apps.plates.domain.repositories.plates_repository import PlateRepository
@@ -11,10 +8,6 @@ from apps.plates.domain.value_objects.ingredient_for_plate_quantity import Ingre
 from apps.plates.domain.value_objects.plate_id import PlateId
 from apps.plates.domain.value_objects.plate_ingredient import PlateIngredient
 from apps.plates.domain.value_objects.plate_price import PlatePrice
-<<<<<<< HEAD
-=======
-from apps.plates.infrastructure.dtos.modify_plate_dto import ModifyPlateDto
->>>>>>> 9d6328e (modificar platos calidad)
 from core.application.events.event_handler import EventHandler
 from core.application.results.result_wrapper import Result
 from core.application.services.application_service import ApplicationService
