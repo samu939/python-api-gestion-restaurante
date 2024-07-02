@@ -1,7 +1,6 @@
-# from fastapi import FastAPI
-# import pytest
-# from fastapi.testclient import TestClient
-# from schemas.blog_schemas import BlogCreate
+from fastapi import FastAPI
+import pytest
+from fastapi.testclient import TestClient
 
 # @pytest.fixture
 # def new_blog():
@@ -12,10 +11,15 @@
 #   )
 
 
-# @pytest.fixture
-# def app() -> FastAPI:
-#     from main import get_application
-#     return get_application()
+@pytest.fixture
+def app() -> FastAPI:
+    from main import get_application
+    return get_application()
+
+@pytest.fixture
+def client(app: FastAPI) -> FastAPI:
+    client = TestClient(app)
+    return client
 
 # @pytest.fixture
 
