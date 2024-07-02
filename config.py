@@ -22,6 +22,11 @@ POSTGRES_SERVER = config("POSTGRES_SERVER", cast=str, default="db")
 POSTGRES_PORT = config("POSTGRES_PORT", cast=str, default="5432")
 POSTGRES_DB = config("POSTGRES_DB", cast=str)
 
+TEST_DATABASE_URL = config(
+    "TEST_DATABASE_URL",
+    cast=DatabaseURL,
+    default=f"sqlite:///./test.db",
+)
 # auth and jwt
 SECRET_KEY = config("SECRET_KEY", cast=Secret)
 ACCESS_TOKEN_EXPIRE_MINUTES = config("ACCESS_TOKEN_EXPIRE_MINUTES", cast=int)

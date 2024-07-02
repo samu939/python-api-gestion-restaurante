@@ -1,4 +1,5 @@
 from apps.ingredients.domain.exceptions.ingredient_name_not_valid_exception import IngredientNameNotValid
+from apps.store.domain.exceptions.inventory_name_not_valid_exception import InventoryNameNotValid
 from core.domain.value_objects.value_object import ValueObject
 
 
@@ -12,5 +13,5 @@ class StoreName (ValueObject[str]):
         return self.value.strip() == other.value.strip()    
     
     def ensureValidState (self):
-        if (self.value == None):
-            raise IngredientNameNotValid()
+        if (len(self.value) < 2):
+            raise InventoryNameNotValid()

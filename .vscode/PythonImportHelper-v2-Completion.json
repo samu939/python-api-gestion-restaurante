@@ -105,6 +105,14 @@
         "documentation": {}
     },
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
         "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
@@ -847,6 +855,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Awaitable",
         "importPath": "typing",
         "description": "typing",
@@ -1476,6 +1492,15 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "loguru",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "loguru",
+        "description": "loguru",
+        "detail": "loguru",
         "documentation": {}
     },
     {
@@ -1720,6 +1745,14 @@
         "documentation": {}
     },
     {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "JWT_ALGORITHM",
         "importPath": "config",
         "description": "config",
@@ -1729,6 +1762,14 @@
     },
     {
         "label": "JWT_AUDIENCE",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -1753,6 +1794,22 @@
     },
     {
         "label": "DB_MAX_SIZE",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "JWT_TOKEN_PREFIX",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -1960,14 +2017,6 @@
         "documentation": {}
     },
     {
-        "label": "loginDto",
-        "importPath": "apps.auth.application.dto.login_dto",
-        "description": "apps.auth.application.dto.login_dto",
-        "isExtraImport": true,
-        "detail": "apps.auth.application.dto.login_dto",
-        "documentation": {}
-    },
-    {
         "label": "AuthResponse",
         "importPath": "apps.auth.application.dto.login_response",
         "description": "apps.auth.application.dto.login_response",
@@ -2501,6 +2550,14 @@
         "description": "core.application.services.application_service",
         "isExtraImport": true,
         "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "databases",
+        "description": "databases",
+        "isExtraImport": true,
+        "detail": "databases",
         "documentation": {}
     },
     {
@@ -2888,47 +2945,7 @@
         "documentation": {}
     },
     {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
+        "label": "roleEnum",
         "importPath": "apps.user.infrastructure.db_entity.user_in_db",
         "description": "apps.user.infrastructure.db_entity.user_in_db",
         "isExtraImport": true,
@@ -2961,6 +2978,102 @@
     },
     {
         "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
         "importPath": "apps.user.infrastructure.db_entity.user_in_db",
         "description": "apps.user.infrastructure.db_entity.user_in_db",
         "isExtraImport": true,
@@ -3176,6 +3289,62 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -3224,7 +3393,7 @@
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordRequestForm",
+        "label": "OAuth2PasswordBearer",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
         "isExtraImport": true,
@@ -3232,11 +3401,11 @@
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordBearer",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
+        "label": "AuthService",
+        "importPath": "apps.auth.infraestructure.service.auth_services",
+        "description": "apps.auth.infraestructure.service.auth_services",
         "isExtraImport": true,
-        "detail": "fastapi.security",
+        "detail": "apps.auth.infraestructure.service.auth_services",
         "documentation": {}
     },
     {
@@ -3288,6 +3457,22 @@
         "documentation": {}
     },
     {
+        "label": "UserMapper",
+        "importPath": "apps.user.infrastructure.mappers.user_mapper",
+        "description": "apps.user.infrastructure.mappers.user_mapper",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.mappers.user_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "dbUserRepository",
+        "importPath": "apps.user.infrastructure.repositories.db_user_repository",
+        "description": "apps.user.infrastructure.repositories.db_user_repository",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.repositories.db_user_repository",
+        "documentation": {}
+    },
+    {
         "label": "dbUserRepository",
         "importPath": "apps.user.infrastructure.repositories.db_user_repository",
         "description": "apps.user.infrastructure.repositories.db_user_repository",
@@ -3425,6 +3610,30 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -3609,6 +3818,22 @@
         "documentation": {}
     },
     {
+        "label": "JWTCreds",
+        "importPath": "apps.auth.infraestructure.entities.token",
+        "description": "apps.auth.infraestructure.entities.token",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.entities.token",
+        "documentation": {}
+    },
+    {
+        "label": "JWTMeta",
+        "importPath": "apps.auth.infraestructure.entities.token",
+        "description": "apps.auth.infraestructure.entities.token",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.entities.token",
+        "documentation": {}
+    },
+    {
         "label": "JWTPayload",
         "importPath": "apps.auth.infraestructure.entities.token",
         "description": "apps.auth.infraestructure.entities.token",
@@ -3638,22 +3863,6 @@
         "description": "apps.auth.application.services.login_service",
         "isExtraImport": true,
         "detail": "apps.auth.application.services.login_service",
-        "documentation": {}
-    },
-    {
-        "label": "loginService",
-        "importPath": "apps.auth.application.services.login_service",
-        "description": "apps.auth.application.services.login_service",
-        "isExtraImport": true,
-        "detail": "apps.auth.application.services.login_service",
-        "documentation": {}
-    },
-    {
-        "label": "jwtGenerator",
-        "importPath": "apps.auth.infraestructure.jwt.jwt_generator",
-        "description": "apps.auth.infraestructure.jwt.jwt_generator",
-        "isExtraImport": true,
-        "detail": "apps.auth.infraestructure.jwt.jwt_generator",
         "documentation": {}
     },
     {
@@ -4282,10 +4491,19 @@
         "documentation": {}
     },
     {
-        "label": "Ingredient",
+        "label": "IngredientsNotFoundApplicatonError",
+        "importPath": "apps.ingredients.application.errors.ingredients_not_found",
+        "description": "apps.ingredients.application.errors.ingredients_not_found",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.errors.ingredients_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "apps.ingredients.domain.ingredient",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "apps.ingredients.domain.ingredient",
         "description": "apps.ingredients.domain.ingredient",
-        "isExtraImport": true,
         "detail": "apps.ingredients.domain.ingredient",
         "documentation": {}
     },
@@ -5626,7 +5844,23 @@
         "documentation": {}
     },
     {
+        "label": "role_required",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
         "label": "get_current_active_user",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
+        "label": "role_required",
         "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "isExtraImport": true,
@@ -5650,7 +5884,23 @@
         "documentation": {}
     },
     {
+        "label": "role_required",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
         "label": "get_current_active_user",
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "isExtraImport": true,
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
+        "label": "role_required",
         "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "isExtraImport": true,
@@ -5727,14 +5977,6 @@
         "description": "apps.ingredients.application.services.ingress_ingredient",
         "isExtraImport": true,
         "detail": "apps.ingredients.application.services.ingress_ingredient",
-        "documentation": {}
-    },
-    {
-        "label": "IngredientInDB",
-        "importPath": "apps.ingredients.infrastructure.db_entity.ingredient_in_db",
-        "description": "apps.ingredients.infrastructure.db_entity.ingredient_in_db",
-        "isExtraImport": true,
-        "detail": "apps.ingredients.infrastructure.db_entity.ingredient_in_db",
         "documentation": {}
     },
     {
@@ -8619,6 +8861,22 @@
         "documentation": {}
     },
     {
+        "label": "InventoryNameNotValid",
+        "importPath": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
+        "description": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
+        "documentation": {}
+    },
+    {
+        "label": "InventoryNameNotValid",
+        "importPath": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
+        "description": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
+        "documentation": {}
+    },
+    {
         "label": "StoreCreatedEvent",
         "importPath": "apps.store.domain.events.store_created",
         "description": "apps.store.domain.events.store_created",
@@ -8922,6 +9180,113 @@
         "description": "sqlalchemy.engine.reflection",
         "isExtraImport": true,
         "detail": "sqlalchemy.engine.reflection",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "LifespanManager",
+        "importPath": "asgi_lifespan",
+        "description": "asgi_lifespan",
+        "isExtraImport": true,
+        "detail": "asgi_lifespan",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "alembic.config",
+        "description": "alembic.config",
+        "isExtraImport": true,
+        "detail": "alembic.config",
+        "documentation": {}
+    },
+    {
+        "label": "pytest_asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest_asyncio",
+        "description": "pytest_asyncio",
+        "detail": "pytest_asyncio",
         "documentation": {}
     },
     {
@@ -9763,6 +10128,69 @@
         "documentation": {}
     },
     {
+        "label": "create_admin",
+        "kind": 2,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "def create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )\ndef upgrade() -> None:\n    create_admin()",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "def upgrade() -> None:\n    create_admin()\ndef downgrade() -> None:\n    op.execute('DELETE FROM \"public\".\"user\" WHERE username = \"admin\"')",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "def downgrade() -> None:\n    op.execute('DELETE FROM \"public\".\"user\" WHERE username = \"admin\"')",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "revision = 'f49c2d6139f9'\ndown_revision = '5a21f63564b0'\nbranch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "down_revision = '5a21f63564b0'\nbranch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "alembic.versions.f49c2d6139f9_create_admin",
+        "description": "alembic.versions.f49c2d6139f9_create_admin",
+        "peekOfCode": "depends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )\ndef upgrade() -> None:",
+        "detail": "alembic.versions.f49c2d6139f9_create_admin",
+        "documentation": {}
+    },
+    {
         "label": "run_migrations_online",
         "kind": 2,
         "importPath": "alembic.env",
@@ -9857,7 +10285,16 @@
         "kind": 2,
         "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
-        "peekOfCode": "def get_current_active_user(\n    current_user: UserInDB = Depends(get_user_from_token),\n) -> UserInDB | None:\n    if not current_user:\n        raise AuthExceptions.AuthUnauthorizedException()\n    return current_user",
+        "peekOfCode": "def get_current_active_user(\n    current_user: UserInDB = Depends(get_user_from_token),\n) -> UserInDB | None:\n    if not current_user:\n        raise AuthExceptions.AuthUnauthorizedException()\n    return current_user\ndef role_required(allowed_roles: List[roleEnum]):\n    def role_verifier(current_user: UserInDB = Depends(get_current_active_user)):\n        if current_user.role not in allowed_roles:\n            raise HTTPException(",
+        "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "documentation": {}
+    },
+    {
+        "label": "role_required",
+        "kind": 2,
+        "importPath": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "description": "apps.auth.infraestructure.dependecies.auth_dependecies",
+        "peekOfCode": "def role_required(allowed_roles: List[roleEnum]):\n    def role_verifier(current_user: UserInDB = Depends(get_current_active_user)):\n        if current_user.role not in allowed_roles:\n            raise HTTPException(\n                status_code=status.HTTP_403_FORBIDDEN,\n                detail=f\"User role '{current_user.role.name}' does not have access\"\n            )\n        return current_user\n    return role_verifier",
         "detail": "apps.auth.infraestructure.dependecies.auth_dependecies",
         "documentation": {}
     },
@@ -10073,7 +10510,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception",
         "description": "apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception",
-        "peekOfCode": "class IngredientIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del ingrediente no valido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class IngredientIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del ingrediente no valido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.ingredients.domain.exceptions.ingredient_id_not_valid_exception",
         "documentation": {}
     },
@@ -10082,7 +10519,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.domain.exceptions.ingredient_name_not_valid_exception",
         "description": "apps.ingredients.domain.exceptions.ingredient_name_not_valid_exception",
-        "peekOfCode": "class IngredientNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del ingrediente no valido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class IngredientNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del ingrediente no valido\"\n            super().__init__(msg, 400, self.__class__.__name__)",
         "detail": "apps.ingredients.domain.exceptions.ingredient_name_not_valid_exception",
         "documentation": {}
     },
@@ -10091,7 +10528,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.domain.exceptions.ingredient_quantity_not_valid_exception",
         "description": "apps.ingredients.domain.exceptions.ingredient_quantity_not_valid_exception",
-        "peekOfCode": "class IngredientQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad del ingrediente no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class IngredientQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad del ingrediente no valida\"\n            super().__init__( msg, 400, self.__class__.__name__)",
         "detail": "apps.ingredients.domain.exceptions.ingredient_quantity_not_valid_exception",
         "documentation": {}
     },
@@ -10298,7 +10735,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.routes.ingredients_routes",
         "description": "apps.ingredients.infrastructure.routes.ingredients_routes",
-        "peekOfCode": "ingredient_router = APIRouter(\n    prefix=\"/ingredient\",\n    tags=[\"ingredient\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@ingredient_router.get(\"/get/{id}\", response_model=GetIngredientResponse, name=\"ingredient:getById\")\nasync def getIngredientById(\n    id: UUID,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user),",
+        "peekOfCode": "ingredient_router = APIRouter(\n    prefix=\"/ingredient\",\n    tags=[\"ingredient\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@ingredient_router.get(\"/get/{id}\", response_model=GetIngredientResponse, name=\"ingredient:getById\")\nasync def getIngredientById(\n    id: UUID,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef, roleEnum.camarero])),",
         "detail": "apps.ingredients.infrastructure.routes.ingredients_routes",
         "documentation": {}
     },
@@ -10370,7 +10807,7 @@
         "kind": 6,
         "importPath": "apps.menus.domain.exceptions.menu_id_not_valid_exception",
         "description": "apps.menus.domain.exceptions.menu_id_not_valid_exception",
-        "peekOfCode": "class MenuIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del menú no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class MenuIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del menú no válido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.menus.domain.exceptions.menu_id_not_valid_exception",
         "documentation": {}
     },
@@ -10379,7 +10816,7 @@
         "kind": 6,
         "importPath": "apps.menus.domain.exceptions.menu_name_not_valid_exception",
         "description": "apps.menus.domain.exceptions.menu_name_not_valid_exception",
-        "peekOfCode": "class MenuNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del Menú no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class MenuNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del Menú no válido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.menus.domain.exceptions.menu_name_not_valid_exception",
         "documentation": {}
     },
@@ -10559,7 +10996,7 @@
         "kind": 5,
         "importPath": "apps.menus.infraestructure.routes.menus_routes",
         "description": "apps.menus.infraestructure.routes.menus_routes",
-        "peekOfCode": "menus_router = APIRouter(\n    prefix=\"/menus\",\n    tags=[\"menu\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@menus_router.get(\"/getall\", response_model=GetAllMenusResponse, name=\"menu:getAll\")\nasync def getMenus(\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user)\n):",
+        "peekOfCode": "menus_router = APIRouter(\n    prefix=\"/menus\",\n    tags=[\"menu\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@menus_router.get(\"/getall\", response_model=GetAllMenusResponse, name=\"menu:getAll\")\nasync def getMenus(\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef, roleEnum.camarero, roleEnum.cliente])),\n):",
         "detail": "apps.menus.infraestructure.routes.menus_routes",
         "documentation": {}
     },
@@ -10838,7 +11275,7 @@
         "kind": 6,
         "importPath": "apps.order.domain.exceptions.invalid_order",
         "description": "apps.order.domain.exceptions.invalid_order",
-        "peekOfCode": "class OrderNotValid(DomainException):\n        def __init__(self): \n            msg = \"orden no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class OrderNotValid(DomainException):\n        def __init__(self): \n            msg = \"orden no valida\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.order.domain.exceptions.invalid_order",
         "documentation": {}
     },
@@ -10847,7 +11284,7 @@
         "kind": 6,
         "importPath": "apps.order.domain.exceptions.invalid_order_date",
         "description": "apps.order.domain.exceptions.invalid_order_date",
-        "peekOfCode": "class OrderDateNotValid(DomainException):\n        def __init__(self): \n            msg = \"fecha de la orden no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class OrderDateNotValid(DomainException):\n        def __init__(self): \n            msg = \"fecha de la orden no valida\"\n            super().__init__( msg, 400, self.__class__.__name__)",
         "detail": "apps.order.domain.exceptions.invalid_order_date",
         "documentation": {}
     },
@@ -10856,7 +11293,7 @@
         "kind": 6,
         "importPath": "apps.order.domain.exceptions.invalid_order_id_exception",
         "description": "apps.order.domain.exceptions.invalid_order_id_exception",
-        "peekOfCode": "class OrderIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id de la orden no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class OrderIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id de la orden no válido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.order.domain.exceptions.invalid_order_id_exception",
         "documentation": {}
     },
@@ -10865,7 +11302,7 @@
         "kind": 6,
         "importPath": "apps.order.domain.exceptions.invalid_order_price",
         "description": "apps.order.domain.exceptions.invalid_order_price",
-        "peekOfCode": "class OrderPriceNotValid(DomainException):\n        def __init__(self): \n            msg = \"precio de la orden no valido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class OrderPriceNotValid(DomainException):\n        def __init__(self): \n            msg = \"precio de la orden no valido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.order.domain.exceptions.invalid_order_price",
         "documentation": {}
     },
@@ -10874,7 +11311,7 @@
         "kind": 6,
         "importPath": "apps.order.domain.exceptions.order_plate_not_valid",
         "description": "apps.order.domain.exceptions.order_plate_not_valid",
-        "peekOfCode": "class OrderPlateNotValid(DomainException):\n        def __init__(self): \n            msg = \"plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class OrderPlateNotValid(DomainException):\n        def __init__(self): \n            msg = \"plato no válido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.order.domain.exceptions.order_plate_not_valid",
         "documentation": {}
     },
@@ -10883,7 +11320,7 @@
         "kind": 6,
         "importPath": "apps.order.domain.exceptions.order_plate_quantity_not_valid",
         "description": "apps.order.domain.exceptions.order_plate_quantity_not_valid",
-        "peekOfCode": "class OrderPlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad de platos no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class OrderPlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad de platos no valida\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.order.domain.exceptions.order_plate_quantity_not_valid",
         "documentation": {}
     },
@@ -11072,7 +11509,7 @@
         "kind": 5,
         "importPath": "apps.order.infrastructure.routes.order_routes",
         "description": "apps.order.infrastructure.routes.order_routes",
-        "peekOfCode": "orders_router = APIRouter(\n    prefix=\"/orders\",\n    tags=[\"order\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@orders_router.post(\"/create\", response_model=SaveOrderResponse, name=\"order:create\")\nasync def createOrder(\n    new_order: CreateOrderEntry,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user)",
+        "peekOfCode": "orders_router = APIRouter(\n    prefix=\"/orders\",\n    tags=[\"order\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@orders_router.post(\"/create\", response_model=SaveOrderResponse, name=\"order:create\")\nasync def createOrder(\n    new_order: CreateOrderEntry,\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.cliente])),",
         "detail": "apps.order.infrastructure.routes.order_routes",
         "documentation": {}
     },
@@ -11189,7 +11626,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
         "description": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
-        "peekOfCode": "class IngredientForPlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad del ingrediente no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class IngredientForPlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"cantidad del ingrediente no valida\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.ingredient_for_plate_quantity_not_valid",
         "documentation": {}
     },
@@ -11198,7 +11635,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.plate_description_not_valid_exception",
         "description": "apps.plates.domain.exceptions.plate_description_not_valid_exception",
-        "peekOfCode": "class PlateDescriptionNotValid(DomainException):\n        def __init__(self): \n            msg = \"Descripción del plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class PlateDescriptionNotValid(DomainException):\n        def __init__(self): \n            msg = \"Descripción del plato no válido\"\n            super().__init__( msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.plate_description_not_valid_exception",
         "documentation": {}
     },
@@ -11207,7 +11644,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.plate_id_not_valid_exception",
         "description": "apps.plates.domain.exceptions.plate_id_not_valid_exception",
-        "peekOfCode": "class PlateIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class PlateIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del plato no válido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.plate_id_not_valid_exception",
         "documentation": {}
     },
@@ -11216,7 +11653,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.plate_ingredient_not_valid",
         "description": "apps.plates.domain.exceptions.plate_ingredient_not_valid",
-        "peekOfCode": "class PlateIngredientNotValid(DomainException):\n        def __init__(self): \n            msg = \"Ingrediente para el plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class PlateIngredientNotValid(DomainException):\n        def __init__(self): \n            msg = \"Ingrediente para el plato no válido\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.plate_ingredient_not_valid",
         "documentation": {}
     },
@@ -11225,7 +11662,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.plate_name_not_valid_exception",
         "description": "apps.plates.domain.exceptions.plate_name_not_valid_exception",
-        "peekOfCode": "class PlateNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del plato no válido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class PlateNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del plato no válido\"\n            super().__init__( msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.plate_name_not_valid_exception",
         "documentation": {}
     },
@@ -11234,7 +11671,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.plate_price_not_valid",
         "description": "apps.plates.domain.exceptions.plate_price_not_valid",
-        "peekOfCode": "class PlatePriceNotValid(DomainException):\n        def __init__(self): \n            msg = \"precio del plato no valida\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class PlatePriceNotValid(DomainException):\n        def __init__(self): \n            msg = \"precio del plato no valida\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.plate_price_not_valid",
         "documentation": {}
     },
@@ -11243,7 +11680,7 @@
         "kind": 6,
         "importPath": "apps.plates.domain.exceptions.plate_quantity_not_valid_exception",
         "description": "apps.plates.domain.exceptions.plate_quantity_not_valid_exception",
-        "peekOfCode": "class PlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"Debe existir una cantidad de platos\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class PlateQuantityNotValid(DomainException):\n        def __init__(self): \n            msg = \"Debe existir una cantidad de platos\"\n            super().__init__(  msg, 400, self.__class__.__name__)",
         "detail": "apps.plates.domain.exceptions.plate_quantity_not_valid_exception",
         "documentation": {}
     },
@@ -11486,7 +11923,7 @@
         "kind": 5,
         "importPath": "apps.plates.infrastructure.routes.plates_routes",
         "description": "apps.plates.infrastructure.routes.plates_routes",
-        "peekOfCode": "plates_router = APIRouter(\n    prefix=\"/plates\",\n    tags=[\"plate\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@plates_router.get(\"/getall\", response_model=GetAllPlatesResponse, name=\"plate:getAll\")\nasync def getPlates(\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user)\n):",
+        "peekOfCode": "plates_router = APIRouter(\n    prefix=\"/plates\",\n    tags=[\"plate\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@plates_router.get(\"/getall\", response_model=GetAllPlatesResponse, name=\"plate:getAll\")\nasync def getPlates(\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.cliente, roleEnum.camarero, roleEnum.chef])),\n):",
         "detail": "apps.plates.infrastructure.routes.plates_routes",
         "documentation": {}
     },
@@ -11612,16 +12049,16 @@
         "kind": 6,
         "importPath": "apps.store.domain.exceptions.inventory_id_not_valid_exception",
         "description": "apps.store.domain.exceptions.inventory_id_not_valid_exception",
-        "peekOfCode": "class InventoryIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del inventario no valido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class InventoryIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del inventario no valido\"\n            super().__init__( msg, 400, self.__class__.__name__)",
         "detail": "apps.store.domain.exceptions.inventory_id_not_valid_exception",
         "documentation": {}
     },
     {
-        "label": "InventoryIdNotValid",
+        "label": "InventoryNameNotValid",
         "kind": 6,
         "importPath": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
         "description": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
-        "peekOfCode": "class InventoryIdNotValid(DomainException):\n        def __init__(self): \n            msg = \"Id del inventario no valido\"\n            super().__init__(self,  msg, 400, self.__class__.__name__)",
+        "peekOfCode": "class InventoryNameNotValid(DomainException):\n        def __init__(self): \n            msg = \"Nombre del inventario no valido\"\n            super().__init__(msg, 400, self.__class__.__name__)",
         "detail": "apps.store.domain.exceptions.inventory_name_not_valid_exception",
         "documentation": {}
     },
@@ -11648,7 +12085,7 @@
         "kind": 6,
         "importPath": "apps.store.domain.value_objects.store_name",
         "description": "apps.store.domain.value_objects.store_name",
-        "peekOfCode": "class StoreName (ValueObject[str]):\n    def __init__ (self, value: str):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[str]) -> bool:\n        return self.value.strip() == other.value.strip()    \n    def ensureValidState (self):\n        if (self.value == None):\n            raise IngredientNameNotValid()",
+        "peekOfCode": "class StoreName (ValueObject[str]):\n    def __init__ (self, value: str):\n        super().__init__(value)\n        self.ensureValidState()\n    def equals(self, other: ValueObject[str]) -> bool:\n        return self.value.strip() == other.value.strip()    \n    def ensureValidState (self):\n        if (len(self.value) < 2):\n            raise InventoryNameNotValid()",
         "detail": "apps.store.domain.value_objects.store_name",
         "documentation": {}
     },
@@ -12346,6 +12783,87 @@
         "documentation": {}
     },
     {
+        "label": "TestIngredientsRoute",
+        "kind": 6,
+        "importPath": "tests.ingredient_tests.test_ingredients",
+        "description": "tests.ingredient_tests.test_ingredients",
+        "peekOfCode": "class TestIngredientsRoute:\n    async def test_get_all_ingredients_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/ingredient/getall\")\n        assert res.status_code == 200\n    async def test_get_ingredient_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/ingredient/get/3fa85f64-5717-4562-b3fc-2c963f66afa6\")\n        except Exception as e:",
+        "detail": "tests.ingredient_tests.test_ingredients",
+        "documentation": {}
+    },
+    {
+        "label": "pytestmark",
+        "kind": 5,
+        "importPath": "tests.ingredient_tests.test_ingredients",
+        "description": "tests.ingredient_tests.test_ingredients",
+        "peekOfCode": "pytestmark = pytest.mark.asyncio\nclass TestIngredientsRoute:\n    async def test_get_all_ingredients_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/ingredient/getall\")\n        assert res.status_code == 200\n    async def test_get_ingredient_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/ingredient/get/3fa85f64-5717-4562-b3fc-2c963f66afa6\")",
+        "detail": "tests.ingredient_tests.test_ingredients",
+        "documentation": {}
+    },
+    {
+        "label": "TestStoreRoute",
+        "kind": 6,
+        "importPath": "tests.store_tests.test_store",
+        "description": "tests.store_tests.test_store",
+        "peekOfCode": "class TestStoreRoute:\n    async def test_get_all_stores_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/store/getall\")\n        assert res.status_code == 200\n    async def test_create_store_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        store = {\n            \"name\": \"Store 1\"\n            }",
+        "detail": "tests.store_tests.test_store",
+        "documentation": {}
+    },
+    {
+        "label": "pytestmark",
+        "kind": 5,
+        "importPath": "tests.store_tests.test_store",
+        "description": "tests.store_tests.test_store",
+        "peekOfCode": "pytestmark = pytest.mark.asyncio\nclass TestStoreRoute:\n    async def test_get_all_stores_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/store/getall\")\n        assert res.status_code == 200\n    async def test_create_store_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        store = {\n            \"name\": \"Store 1\"",
+        "detail": "tests.store_tests.test_store",
+        "documentation": {}
+    },
+    {
+        "label": "apply_migrations",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def apply_migrations():\n    warnings.filterwarnings(\"ignore\", category=DeprecationWarning)\n    os.environ[\"TESTING\"] = \"1\"\n    config = Config(\"alembic.ini\")\n    alembic.command.upgrade(config, \"head\")\n    yield\n    alembic.command.downgrade(config, \"base\")\n# Se crea una nueva aplicación para pruebas\n@pytest.fixture\ndef app(apply_migrations: None) -> FastAPI:",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def app(apply_migrations: None) -> FastAPI:\n    from main import get_application\n    return get_application()\n# Se obtiene una referencia a la base de datos cuando se haga necesario\n@pytest.fixture\ndef db(app: FastAPI) -> Database:\n    return app.state._db\n@pytest_asyncio.fixture\nasync def client(app: FastAPI) -> AsyncClient:\n    async with LifespanManager(app):",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def db(app: FastAPI) -> Database:\n    return app.state._db\n@pytest_asyncio.fixture\nasync def client(app: FastAPI) -> AsyncClient:\n    async with LifespanManager(app):\n        async with AsyncClient(\n            app=app,\n            base_url=\"http://testserver\",\n            headers={\"Content-Type\": \"application/json\"},\n        ) as client:",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "TestHomeRoute",
+        "kind": 6,
+        "importPath": "tests.test_home",
+        "description": "tests.test_home",
+        "peekOfCode": "class TestHomeRoute:\n    async def test_home_route(self, app: FastAPI, client: AsyncClient) -> None:\n        res = await client.get(\"/\")\n        assert res.status_code == 200\n        assert res.json() == {\"message\": \"Bienvenido al backend del Sistema de Desarrollo de APIs con Python\"}",
+        "detail": "tests.test_home",
+        "documentation": {}
+    },
+    {
+        "label": "pytestmark",
+        "kind": 5,
+        "importPath": "tests.test_home",
+        "description": "tests.test_home",
+        "peekOfCode": "pytestmark = pytest.mark.asyncio\nclass TestHomeRoute:\n    async def test_home_route(self, app: FastAPI, client: AsyncClient) -> None:\n        res = await client.get(\"/\")\n        assert res.status_code == 200\n        assert res.json() == {\"message\": \"Bienvenido al backend del Sistema de Desarrollo de APIs con Python\"}",
+        "detail": "tests.test_home",
+        "documentation": {}
+    },
+    {
         "label": "config",
         "kind": 5,
         "importPath": "config",
@@ -12377,7 +12895,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "VERSION = \"1.0.0\"\nAPI_PREFIX = \"/api/v1\"\nPOSTGRES_USER = config(\"POSTGRES_USER\", cast=str)\nPOSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)",
+        "peekOfCode": "VERSION = \"1.0.0\"\nAPI_PREFIX = \"/api/v1\"\nPOSTGRES_USER = config(\"POSTGRES_USER\", cast=str)\nPOSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,",
         "detail": "config",
         "documentation": {}
     },
@@ -12386,7 +12904,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "API_PREFIX = \"/api/v1\"\nPOSTGRES_USER = config(\"POSTGRES_USER\", cast=str)\nPOSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)",
+        "peekOfCode": "API_PREFIX = \"/api/v1\"\nPOSTGRES_USER = config(\"POSTGRES_USER\", cast=str)\nPOSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",",
         "detail": "config",
         "documentation": {}
     },
@@ -12395,7 +12913,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "POSTGRES_USER = config(\"POSTGRES_USER\", cast=str)\nPOSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)\nJWT_AUDIENCE = config(\"JWT_AUDIENCE\", cast=str)",
+        "peekOfCode": "POSTGRES_USER = config(\"POSTGRES_USER\", cast=str)\nPOSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",\n)",
         "detail": "config",
         "documentation": {}
     },
@@ -12404,7 +12922,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "POSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)\nJWT_AUDIENCE = config(\"JWT_AUDIENCE\", cast=str)\nJWT_TOKEN_PREFIX = config(\"JWT_TOKEN_PREFIX\", cast=str)",
+        "peekOfCode": "POSTGRES_PASSWORD = config(\"POSTGRES_PASSWORD\", cast=Secret)\nPOSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",\n)\n# auth and jwt",
         "detail": "config",
         "documentation": {}
     },
@@ -12413,7 +12931,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "POSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)\nJWT_AUDIENCE = config(\"JWT_AUDIENCE\", cast=str)\nJWT_TOKEN_PREFIX = config(\"JWT_TOKEN_PREFIX\", cast=str)\nAES_KEY = config(\"AES_KEY\", cast=str)",
+        "peekOfCode": "POSTGRES_SERVER = config(\"POSTGRES_SERVER\", cast=str, default=\"db\")\nPOSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",\n)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)",
         "detail": "config",
         "documentation": {}
     },
@@ -12422,7 +12940,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "POSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)\nJWT_AUDIENCE = config(\"JWT_AUDIENCE\", cast=str)\nJWT_TOKEN_PREFIX = config(\"JWT_TOKEN_PREFIX\", cast=str)\nAES_KEY = config(\"AES_KEY\", cast=str)\nAES_BLOCKSIZE = config(\"AES_BLOCKSIZE\", cast=int)",
+        "peekOfCode": "POSTGRES_PORT = config(\"POSTGRES_PORT\", cast=str, default=\"5432\")\nPOSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",\n)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)",
         "detail": "config",
         "documentation": {}
     },
@@ -12431,7 +12949,16 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "POSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)\nJWT_AUDIENCE = config(\"JWT_AUDIENCE\", cast=str)\nJWT_TOKEN_PREFIX = config(\"JWT_TOKEN_PREFIX\", cast=str)\nAES_KEY = config(\"AES_KEY\", cast=str)\nAES_BLOCKSIZE = config(\"AES_BLOCKSIZE\", cast=int)\nDATABASE_URL = config(",
+        "peekOfCode": "POSTGRES_DB = config(\"POSTGRES_DB\", cast=str)\nTEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",\n)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "TEST_DATABASE_URL",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "TEST_DATABASE_URL = config(\n    \"TEST_DATABASE_URL\",\n    cast=DatabaseURL,\n    default=f\"sqlite:///./test.db\",\n)\n# auth and jwt\nSECRET_KEY = config(\"SECRET_KEY\", cast=Secret)\nACCESS_TOKEN_EXPIRE_MINUTES = config(\"ACCESS_TOKEN_EXPIRE_MINUTES\", cast=int)\nJWT_ALGORITHM = config(\"JWT_ALGORITHM\", cast=str)\nJWT_AUDIENCE = config(\"JWT_AUDIENCE\", cast=str)",
         "detail": "config",
         "documentation": {}
     },
@@ -12548,7 +13075,7 @@
         "kind": 5,
         "importPath": "routers",
         "description": "routers",
-        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth_router)\nrouter.include_router(user_router)\nrouter.include_router(ingredient_router)\nrouter.include_router(plates_router)\nrouter.include_router(store_router)\nrouter.include_router(orders_router)\nrouter.include_router(notifications_router)\nrouter.include_router(report_router)\nrouter.include_router(menus_router)",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(auth_router)\nrouter.include_router(user_router)\nrouter.include_router(ingredient_router)\nrouter.include_router(plates_router)\nrouter.include_router(store_router)\nrouter.include_router(menus_router)\nrouter.include_router(orders_router)\nrouter.include_router(notifications_router)\nrouter.include_router(report_router)",
         "detail": "routers",
         "documentation": {}
     }
