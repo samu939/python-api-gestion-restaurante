@@ -18,14 +18,9 @@ router.include_router(user_router)
 router.include_router(ingredient_router)
 router.include_router(plates_router)
 router.include_router(store_router)
-<<<<<<< HEAD
-router.include_router(orders_router)
-router.include_router(notifications_router)
-=======
 router.include_router(menus_router)
 router.include_router(orders_router)
 router.include_router(orders_router)
 router.include_router(notifications_router)
 router.include_router(notifications_router)
->>>>>>> menusBranch
 router.include_router(menus_router)
