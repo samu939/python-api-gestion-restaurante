@@ -1,11 +1,7 @@
 from uuid import UUID
 from databases import Database
 from fastapi import APIRouter, Depends
-from fastapi.security import OAuth2PasswordRequestForm
-from apps.auth.application.dto.login_dto import loginDto
-from apps.auth.application.services.login_service import loginService
-from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
-from apps.auth.infraestructure.jwt.jwt_generator import jwtGenerator
+from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user, role_required
 from apps.ingredients.application.dto.create_ingredient_dto import CreateIngredientDto
 from apps.ingredients.application.dto.ingredient_change_store_dto import IngredientChangeStoreDto
 from apps.ingredients.application.dto.modify_ingredient_quantity_dto import ModifyIngredientQuantityDto
@@ -15,16 +11,14 @@ from apps.ingredients.application.services.egress_ingredient import EgressIngred
 from apps.ingredients.application.services.get_all_ingredients import GetAllIngredientsApplicationService
 from apps.ingredients.application.services.get_ingredient import GetIngredientApplicationService
 from apps.ingredients.application.services.ingress_ingredient import IngressIngredientApplicationService
-from apps.ingredients.domain.ingredient import Ingredient
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
-from apps.ingredients.infrastructure.db_entity.ingredient_in_db import IngredientInDB
 from apps.ingredients.infrastructure.entries.create_ingredient_entry import CreateIngredientEntry
 from apps.ingredients.infrastructure.entries.modify_quantity_entry import ModifyQuantityEntry
 from apps.ingredients.infrastructure.entries.modify_store_entry import ModifyStoreEntry
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
 from apps.ingredients.infrastructure.responses.ingredients_responses import GetAllIngredientsResponse, GetIngredientResponse, SaveIngredientResponse
-from apps.user.infrastructure.db_entity.user_in_db import UserInDB
+from apps.user.infrastructure.db_entity.user_in_db import UserInDB, roleEnum
 from core.application.decorators.exception_decorator import ExceptionDecorator
 from core.infrastructure.events.event_handler_native import NativeEventHandler
 from db.db_dependencies import get_database
@@ -40,7 +34,7 @@ ingredient_router = APIRouter(
 async def getIngredientById(
     id: UUID,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user),
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef, roleEnum.camarero])),
 ):
 
     service = ExceptionDecorator(GetIngredientApplicationService(ingredient_repository= DbIngredientsRepository(db,IngredientMapper())))
@@ -50,7 +44,7 @@ async def getIngredientById(
 @ingredient_router.get("/getall", response_model=GetAllIngredientsResponse, name="ingredient:getAll")
 async def getIngredients(
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user),
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef, roleEnum.camarero])),
 ):
 
     service = ExceptionDecorator(GetAllIngredientsApplicationService(ingredient_repository= DbIngredientsRepository(db,IngredientMapper())))
@@ -65,7 +59,7 @@ async def getIngredients(
 async def createIngredient(
     new_ingredient: CreateIngredientEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user),
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     print(new_ingredient)
@@ -79,7 +73,7 @@ async def ingressIngredient(
     id: UUID,
     quantity: ModifyQuantityEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user),
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     logger.info(quantity)
     event_handler = NativeEventHandler()
@@ -95,7 +89,7 @@ async def ingressIngredient(
     id: UUID,
     quantity: ModifyQuantityEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user),
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     service = ExceptionDecorator(EgressIngredientApplicationService(DbIngredientsRepository(db,IngredientMapper()),event_handler)
@@ -109,7 +103,7 @@ async def ingressIngredient(
     id: UUID,
     store_id: ModifyStoreEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user),
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     service = ExceptionDecorator(ChangeIngredientStoreApplicationService(DbIngredientsRepository(db,IngredientMapper()),event_handler)

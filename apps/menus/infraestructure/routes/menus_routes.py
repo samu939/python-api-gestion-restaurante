@@ -2,7 +2,7 @@ from uuid import UUID
 from databases import Database
 from fastapi import APIRouter, Depends
 
-from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user, role_required
 from apps.menus.application.dtos.create_menu_dto import CreateMenuDto
 from apps.menus.application.dtos.modify_menu_dto import ModifyMenuDto
 from apps.menus.application.services.create_menu_application_service import CreateMenuApplicationService
@@ -17,7 +17,7 @@ from apps.menus.infraestructure.repositories.db_menus_repository import DbMenusR
 from apps.menus.infraestructure.responses.menus_responses import GetAllMenusResponse, GetMenuResponse, GetMenuWithPlatesResponse, SaveMenuResponse
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.plates.infrastructure.repositories.db_plates_repository import DbPlatesRepository
-from apps.user.infrastructure.db_entity.user_in_db import UserInDB
+from apps.user.infrastructure.db_entity.user_in_db import UserInDB, roleEnum
 from core.application.decorators.exception_decorator import ExceptionDecorator
 from core.infrastructure.events.event_handler_native import NativeEventHandler
 from db.db_dependencies import get_database
@@ -32,7 +32,7 @@ menus_router = APIRouter(
 @menus_router.get("/getall", response_model=GetAllMenusResponse, name="menu:getAll")
 async def getMenus(
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef, roleEnum.camarero, roleEnum.cliente])),
 ):
     
     service = ExceptionDecorator(GetAllMenusApplicationService(menus_repository= DbMenusRepository(db, MenuMapper())))
@@ -48,10 +48,10 @@ async def getMenus(
     return GetAllMenusResponse(menus=menus)
 
 @menus_router.get("/get/{id}", response_model=GetMenuWithPlatesResponse, name="menu:getById")
-async def getPlateById(
+async def getMenuById(
     id: UUID,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef, roleEnum.camarero, roleEnum.cliente])),
 ):
     service = ExceptionDecorator(GetMenuByIdApplicationService(menus_repository=DbMenusRepository(db, MenuMapper()), plates_repository=DbPlatesRepository(db, PlateMapper())))
     response = (await service.execute(MenuId(id))).unwrap()
@@ -61,7 +61,7 @@ async def getPlateById(
 async def createMenu(
     new_menu: CreateMenuEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     print(new_menu)
@@ -75,7 +75,7 @@ async def modifyPlate(
     id: UUID,
     modified_menu: ModifyMenuEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     print(modified_menu)

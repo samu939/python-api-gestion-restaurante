@@ -2,7 +2,7 @@ from uuid import UUID
 from databases import Database
 from fastapi import APIRouter, Depends
 
-from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user, role_required
 from apps.plates.application.dtos.cook_plate_dto import CookPlateDto
 from apps.plates.application.dtos.create_plate_dto import CreatePlateDto
 from apps.plates.application.dtos.modify_plate_dto import ModifyPlateDto
@@ -21,7 +21,7 @@ from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
 from apps.plates.infrastructure.repositories.db_plates_repository import DbPlatesRepository
 from apps.plates.infrastructure.responses.plates_responses import GetPlatesIngredientResponse, SavePlateResponse
 from apps.plates.infrastructure.responses.plates_responses import GetAllPlatesResponse, GetPlateResponse
-from apps.user.infrastructure.db_entity.user_in_db import UserInDB
+from apps.user.infrastructure.db_entity.user_in_db import UserInDB, roleEnum
 from core.application.decorators.exception_decorator import ExceptionDecorator
 from core.infrastructure.events.event_handler_native import NativeEventHandler
 from db.db_dependencies import get_database
@@ -36,7 +36,7 @@ plates_router = APIRouter(
 @plates_router.get("/getall", response_model=GetAllPlatesResponse, name="plate:getAll")
 async def getPlates(
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.cliente, roleEnum.camarero, roleEnum.chef])),
 ):
     
     service = ExceptionDecorator(GetAllPlatesApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper())))
@@ -55,7 +55,7 @@ async def getPlates(
 async def getPlateById(
     id: UUID,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.cliente, roleEnum.camarero, roleEnum.chef])),
 ):
     service = ExceptionDecorator(GetPlateByIdApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper())))
     response = (await service.execute(PlateId(id))).unwrap()
@@ -68,7 +68,7 @@ async def getPlateById(
 async def createPlate(
     new_plate: CreatePlateEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     print(new_plate)
@@ -81,7 +81,7 @@ async def createPlate(
 async def cookPlate(
     plate_to_cook: CookPlateEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     
     event_handler = NativeEventHandler()
@@ -96,7 +96,7 @@ async def modifyPlate(
     id: UUID,
     modified_plate: ModifyPlateEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
     print(modified_plate)

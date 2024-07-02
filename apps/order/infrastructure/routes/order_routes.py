@@ -2,7 +2,7 @@ from uuid import UUID
 from databases import Database
 from fastapi import APIRouter, Depends
 
-from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user
+from apps.auth.infraestructure.dependecies.auth_dependecies import get_current_active_user, role_required
 
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
@@ -21,7 +21,7 @@ from apps.order.infrastructure.repositories.db_orders_repository import DbOrders
 from apps.order.infrastructure.responses.order_responses import GetAllOrdersResponse, GetOrderPlateResponse, GetOrderResponse, SaveOrderResponse
 from apps.plates.application.dtos.cook_plate_dto import CookPlateDto
 from apps.plates.infrastructure.mappers.plates_mapper import PlateMapper
-from apps.user.infrastructure.db_entity.user_in_db import UserInDB
+from apps.user.infrastructure.db_entity.user_in_db import UserInDB, roleEnum
 from core.application.decorators.exception_decorator import ExceptionDecorator
 from core.infrastructure.events.event_handler_native import NativeEventHandler
 from db.db_dependencies import get_database
@@ -45,7 +45,7 @@ orders_router = APIRouter(
 async def createOrder(
     new_order: CreateOrderEntry,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.cliente])),
 ):
     event_handler = NativeEventHandler()
     
@@ -77,7 +77,7 @@ async def createOrder(
 async def getOrders(
     user_id: UUID,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.camarero])),
 ):
     
     service = ExceptionDecorator(GetAllUserOrdersApplicationService(orders_repository= DbOrdersRepository(db, OrderMapper())))
@@ -99,7 +99,7 @@ async def getOrders(
 async def getOrders(
     id: UUID,
     db: Database = Depends(get_database),
-    current_user: UserInDB = Depends(get_current_active_user)
+    current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.camarero])),
 ):
     
     service = ExceptionDecorator(GetOrderByIdApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()),orders_repository= DbOrdersRepository(db, OrderMapper())))    
