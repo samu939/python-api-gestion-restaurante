@@ -21,11 +21,16 @@ class TestPlatesRoute:
         client = await authorized_client
         res = await client.get("/api/v1/plates/getall")
         assert res.status_code == 200
-
+    
     async def test_get_plate_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:
         client = await authorized_client
+        res = await client.get("/api/v1/plates/get/a40f5bc4-398f-446c-a11b-b6d45815840e")
+        assert res.status_code == 200
+
+    async def test_get_invalid_plate_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:
+        client = await authorized_client
         try:
-            res = await client.get("/api/v1/plates/get/a40f5bc4-398f-446c-a11b-b6d45815840e")
+            res = await client.get("/api/v1/plates/get/a40f6bc4-398f-446c-a11b-b6d45815840e")
         except Exception as e:
             assert isinstance(e, PlateNotFoundApplicatonError)
         

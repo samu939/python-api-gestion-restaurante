@@ -40,4 +40,5 @@ def downgrade() -> None:
     op.execute("""
                 DELETE FROM "public"."menu_plate" 
                 DELETE FROM "public"."menu"
+                DELETE FROM "public"."plate"
                """)
