@@ -79,6 +79,42 @@ class TestIngredientsRoute:
         except Exception as e:
             assert isinstance(e, IngredientQuantityNotValid)
             
+    async def test_egress_ingredient_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:
+        client = await authorized_client
+        data = {
+            "quantity": 1
+        }
+        res = await client.post("/api/v1/ingredient/egress/3fa85f64-5717-4562-b3fc-2c963f66afa6", json=data)
+        assert res.status_code == 200
+    
+    async def test_egress_ingredient_route_with_invalid_quantity(self, app: FastAPI, authorized_client: AsyncClient) -> None:
+        client = await authorized_client
+        data = {
+            "quantity": -1
+        }
+        try:
+            res = await client.post("/api/v1/ingredient/egress/3fa85f64-5717-4562-b3fc-2c963f66afa6", json=data)
+        except Exception as e:
+            assert isinstance(e, IngredientQuantityNotValid)
+    
+    
+    async def test_change_store_ingredient_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:
+        client = await authorized_client
+        data = {
+            "store_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+        res = await client.post("/api/v1/ingredient/changestore/3fa85f64-5717-4562-b3fc-2c963f66afa6", json=data)
+        assert res.status_code == 200
+        
+    async def test_change_store_ingredient_route_with_invalid_store_id(self, app: FastAPI, authorized_client: AsyncClient) -> None:
+        client = await authorized_client
+        data = {
+            "store_id": "3fa85f64-5717-4562-b3fc-2c963f66afa7"
+        }
+        try:
+            res = await client.post("/api/v1/ingredient/changestore/3fa85f64-5717-4562-b3fc-2c963f66afa6", json=data)
+        except Exception as e:
+            assert isinstance(e, StoreNotFoundApplicatonError)
 
             
         

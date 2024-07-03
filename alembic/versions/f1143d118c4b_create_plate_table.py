@@ -21,7 +21,7 @@ def create_plate_table():
                  create table if not exists plate(
 	id varchar PRIMARY KEY DEFAULT uuid_generate_v4(),
 	name varchar(20) UNIQUE NOT NULL,
-	description varchar(60) NOT NULL,
+	description varchar(200) NOT NULL,
 	price float NOT NULL,
 	constraint price_greater_than_cero CHECK (price > 0)
 );

@@ -11,10 +11,10 @@ class IngredientMapper(Mapper[Ingredient, dict[str, str]]):
 
     def from_domain_to_persistence(self, domain_entity: Ingredient) -> dict[str, str]:
         return {
-            'id': domain_entity.id.value,
+            'id': str(domain_entity.id.value),
             'name': domain_entity.name.value,
             'quantity': domain_entity.quantity.value,
-            'store_id': domain_entity.storeId.value
+            'store_id': str(domain_entity.storeId.value)
         }
 
     def from_persistence_to_domain(self, persistence_entity: dict[str, str]) -> Ingredient:

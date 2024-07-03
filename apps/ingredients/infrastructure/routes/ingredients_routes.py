@@ -108,7 +108,7 @@ async def ingressIngredient(
     current_user: UserInDB = Depends(role_required([roleEnum.administrador, roleEnum.chef])),
 ):
     event_handler = NativeEventHandler()
-    service = ExceptionDecorator(ChangeIngredientStoreApplicationService(DbIngredientsRepository(db,IngredientMapper()),event_handler)
+    service = ExceptionDecorator(ChangeIngredientStoreApplicationService(DbIngredientsRepository(db,IngredientMapper()),store_repository=DbStoreRepository(db, StoreMapper()),event_handler=event_handler)
     )
     service_dto = IngredientChangeStoreDto(ingredient_id=id, store_id=store_id.store_id)
     response = (await service.execute(service_dto)).unwrap()

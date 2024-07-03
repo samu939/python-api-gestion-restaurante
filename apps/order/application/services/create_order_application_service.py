@@ -15,6 +15,7 @@ from apps.user.domain.value_objects.user_id import UserId
 from core.application.events.event_handler import EventHandler
 from core.application.results.result_wrapper import Result
 from core.application.services.application_service import ApplicationService
+from apps.plates.application.errors.plate_not_found import PlateNotFoundApplicatonError
 
 
 class CreateOrderApplicationService(ApplicationService[CreateOrderDto, str]):
@@ -32,6 +33,8 @@ class CreateOrderApplicationService(ApplicationService[CreateOrderDto, str]):
                 'quantity': OrderPlateQuantity(plate.quantity)
             }))
             plt = await self.plates_repository.get_plate_by_id(PlateId(plate.id))
+            if plt is None:
+                return Result[str].failure(error= PlateNotFoundApplicatonError(PlateId(plate.id)))
             price += plt.price.value * plate.quantity
         
         

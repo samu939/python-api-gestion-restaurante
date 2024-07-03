@@ -28,7 +28,8 @@ class DbOrdersRepository(OrderRepository):
         from apps.order.infrastructure.queries.order_queries import GET_ORDER_BY_ID
         
         record = await self.db.fetch_one(query=GET_ORDER_BY_ID, values={'id': str(id.value)})
-
+        if not record:
+            return None
         return self.order_mapper.from_persistence_to_domain(record)
 
     async def save_order(self, order: Order) -> Awaitable[None]:
@@ -40,8 +41,6 @@ class DbOrdersRepository(OrderRepository):
             'price': order.price.value,
             'user_id': str(order.user_id.value)
         })
-
-        print(res)
 
         for plate in order.plates:
             await self.db.execute(query=INSERT_NEW_ORDER_DETAIL, values={

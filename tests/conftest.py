@@ -19,7 +19,7 @@ from apps.user.infrastructure.mappers.user_mapper import UserMapper
 # Aplicar migraciones al comienzo y fin de la sesión de pruebas
 @pytest.fixture(scope="session")
 def apply_migrations():
-    warnings.filterwarnings("ignore", category=DeprecationWarning)
+    warnings.filterwarnings("ignore")
     os.environ["TESTING"] = "1"
     config = Config("alembic.ini")
 
@@ -42,7 +42,7 @@ def db(app: FastAPI) -> Database:
 
 
 @pytest_asyncio.fixture
-async def client(app: FastAPI) -> AsyncClient:
+async def client(app: FastAPI) -> AsyncClient: #type: ignore
     async with LifespanManager(app):
         async with AsyncClient(
             app=app,

@@ -17,6 +17,11 @@ class TestStoreRoute:
         client = await authorized_client
         res = await client.get("/api/v1/store/getall")
         assert res.status_code == 200
+        
+    async def test_get_store_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:
+        client = await authorized_client
+        res = await client.get("/api/v1/store/get/3fa85f64-5717-4562-b3fc-2c963f66afa6")
+        assert res.status_code == 200
     
     async def test_create_store_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:
         client = await authorized_client
