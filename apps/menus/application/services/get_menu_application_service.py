@@ -1,5 +1,6 @@
 
 from typing import Awaitable
+from apps.menus.application.errors.menu_not_found import MenuNotFoundApplicatonError
 from apps.menus.domain.menu import Menu
 from apps.menus.domain.repositories.menu_repository import MenuRepository
 from apps.menus.domain.value_objects.menu_id import MenuId
@@ -17,6 +18,10 @@ class GetMenuByIdApplicationService(ApplicationService[MenuId, GetMenuWithPlates
 
     async def execute(self, input: MenuId) -> Awaitable[Result[GetMenuWithPlatesResponse]]:
         menu: Menu = await self.menus_repository.get_menu_by_id(input)
+
+        if not menu:
+            return Result[Menu].failure(
+                error=MenuNotFoundApplicatonError(input))
         
         domain_plates: list[Plate] = []
 

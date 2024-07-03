@@ -73,7 +73,7 @@ async def createPlate(
     event_handler = NativeEventHandler()
     print(new_plate)
     plate = CreatePlateDto(**new_plate.dict())
-    service = ExceptionDecorator(CreatePlateApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()), event_handler=event_handler))
+    service = ExceptionDecorator(CreatePlateApplicationService(plates_repository= DbPlatesRepository(db, PlateMapper()), ingredients_repository=DbIngredientsRepository(db, IngredientMapper()), event_handler=event_handler))
 
     return SavePlateResponse(response=((await service.execute(plate)).unwrap()))
 

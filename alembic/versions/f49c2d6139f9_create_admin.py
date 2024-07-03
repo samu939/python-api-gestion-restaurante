@@ -20,7 +20,7 @@ def create_admin():
     conn.execute(
         """
         INSERT INTO "public"."user" ("id", "name", "username", "password", "role") VALUES
-('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');
+        ('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');
         """
     )
 
@@ -29,4 +29,6 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
-    op.execute('DELETE FROM "public"."user" WHERE username = "admin"')
+    op.execute("""
+                DELETE FROM "public"."user" WHERE username = 'admin'
+               """)

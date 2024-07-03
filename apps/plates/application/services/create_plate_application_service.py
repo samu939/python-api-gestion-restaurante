@@ -1,5 +1,7 @@
 from typing import Awaitable
 from uuid import uuid4
+from apps.ingredients.application.errors.ingredients_not_found import IngredientsNotFoundApplicatonError
+from apps.ingredients.domain.repositories.ingredient_repository import IngredientRepository
 from apps.ingredients.domain.value_objects.ingredient_id import IngredientId
 from apps.plates.application.dtos.create_plate_dto import CreatePlateDto
 from apps.plates.domain.plate import Plate
@@ -16,15 +18,20 @@ from core.application.services.application_service import ApplicationService
 
 
 class CreatePlateApplicationService(ApplicationService[CreatePlateDto, str]):
-    def __init__(self, plates_repository: PlateRepository, event_handler: EventHandler) -> None:
+    def __init__(self, plates_repository: PlateRepository, ingredients_repository: IngredientRepository, event_handler: EventHandler) -> None:
         self.plates_repository = plates_repository
         self.event_handler = event_handler
+        self.ingredients_repository = ingredients_repository
 
     async def execute(self, input: CreatePlateDto) -> Awaitable[Result[str]]:
 
         domain_plate_ingredients = []
 
         for ingredient in input.ingredients:
+            domain_ingredient = await self.ingredients_repository.get_ingredient_by_id(IngredientId(ingredient.id))
+            if domain_ingredient is None:
+                return Result[str].failure(IngredientsNotFoundApplicatonError(IngredientId(ingredient.id)))
+
             domain_plate_ingredients.append(PlateIngredient({
                 'ingredient_id': IngredientId(ingredient.id),
                 'quantity': IngredientForPlateQuantity(ingredient.quantity)
