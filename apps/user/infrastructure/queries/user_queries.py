@@ -9,3 +9,8 @@ GET_USER_BY_ID = """
     FROM "user" AS us
     WHERE us.id = :id;
 """
+
+ADD_USER = """
+    INSERT INTO "user" (id, username, password, name, role)
+    VALUES (:id, :username, :password, :name, :role);
+"""

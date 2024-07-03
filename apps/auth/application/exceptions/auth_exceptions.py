@@ -24,6 +24,17 @@ class AuthExceptions:
             msg = "No se ha ingresado una clave de ingreso"
             AppExceptionCase.__init__(self, status_code, msg)
 
+    class AuthNoRoleException(AppExceptionCase):
+        """_
+        Auth no role
+        """
+
+        def __init__(self, msg: str = ""):  # context: dict = None):
+            status_code = 422
+            # context = {"message": "No se ha ingresado una clave de ingreso"}
+            msg = "No se ha ingresado un role de usuario"
+            AppExceptionCase.__init__(self, status_code, msg)
+
     class AuthNoValidCredencialsException(AppExceptionCase):
         """_
         Auth no valid credentials
@@ -33,6 +44,17 @@ class AuthExceptions:
             status_code = 401
             # context = {"message": "Credenciales no válidas"}
             msg = "Credenciales inválidas"
+            AppExceptionCase.__init__(self, status_code, msg)
+
+    class AuthDuplicatedUsernameException(AppExceptionCase):
+        """_
+        Auth no valid credentials
+        """
+
+        def __init__(self, msg: str = ""):  # context: dict = None):
+            status_code = 401
+            # context = {"message": "Credenciales no válidas"}
+            msg = "Username already exists"
             AppExceptionCase.__init__(self, status_code, msg)
 
     class AuthNoValidTokenCredentialsException(AppExceptionCase):

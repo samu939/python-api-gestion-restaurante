@@ -41,3 +41,12 @@ class dbUserRepository (UserRepository):
             return None
 
         return UserInDB( id = record.id, name = record.name, username=record.username, password= record.password, role= record.role)
+    
+    async def add_user(self, user: UserInDB) -> Awaitable[UserInDB | None]:
+        from apps.user.infrastructure.queries.user_queries import ADD_USER
+
+        values = {"id": str(user.id), "username": user.username, "password": user.password, "name": user.name, "role": user.role}
+
+        await self.db.execute(query=ADD_USER, values=values)
+
+        return UserInDB( id = user.id, name = user.name, username=user.username, password= user.password, role= user.role)

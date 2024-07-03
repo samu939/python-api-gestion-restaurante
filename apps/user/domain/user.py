@@ -17,4 +17,3 @@ class User(Aggregate[UserId]):
     def validate_state(self) -> None:
         if not self._name or not self._id:
             raise InvalidUserException()
-    
