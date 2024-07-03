@@ -14,3 +14,5 @@ class PlatePrice (ValueObject[float]):
     def ensureValidState (self):
         if (self.value == None):
             raise PlatePriceNotValid()
+        if (self.value <= 0):
+            raise PlatePriceNotValid()
