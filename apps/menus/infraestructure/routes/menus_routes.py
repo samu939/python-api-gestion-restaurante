@@ -66,7 +66,7 @@ async def createMenu(
     event_handler = NativeEventHandler()
     print(new_menu)
     menu = CreateMenuDto(**new_menu.dict())
-    service = ExceptionDecorator(CreateMenuApplicationService(menu_repository= DbMenusRepository(db, MenuMapper()), event_handler=event_handler))
+    service = ExceptionDecorator(CreateMenuApplicationService(menu_repository= DbMenusRepository(db, MenuMapper()), plates_repository=DbPlatesRepository(db, PlateMapper()) ,event_handler=event_handler))
 
     return SaveMenuResponse(response=((await service.execute(menu)).unwrap()))
 
@@ -80,6 +80,6 @@ async def modifyPlate(
     event_handler = NativeEventHandler()
     print(modified_menu)
     menu = ModifyMenuDto(id=id, name=modified_menu.name, plates=modified_menu.plates)
-    service = ExceptionDecorator(ModifyMenuApplicationService(menus_repository= DbMenusRepository(db, MenuMapper()), event_handler=event_handler))
+    service = ExceptionDecorator(ModifyMenuApplicationService(menus_repository= DbMenusRepository(db, MenuMapper()), plates_repository=DbPlatesRepository(db, PlateMapper()), event_handler=event_handler))
 
     return SaveMenuResponse(response=((await service.execute(menu)).unwrap()))

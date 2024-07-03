@@ -5,6 +5,7 @@ from apps.menus.domain.menu import Menu
 from apps.menus.domain.repositories.menu_repository import MenuRepository
 from apps.menus.domain.value_objects.menu_id import MenuId
 from apps.menus.infraestructure.responses.menus_responses import GetMenuWithPlatesResponse, MenuPlates
+from apps.plates.application.errors.plate_not_found import PlateNotFoundApplicatonError
 from apps.plates.domain.plate import Plate
 from apps.plates.domain.repositories.plates_repository import PlateRepository
 from core.application.results.result_wrapper import Result
@@ -26,7 +27,11 @@ class GetMenuByIdApplicationService(ApplicationService[MenuId, GetMenuWithPlates
         domain_plates: list[Plate] = []
 
         for plate in menu.plates:
-            domain_plates.append(await self.plates_repository.get_plate_by_id(plate))
+            domain_plate = await self.plates_repository.get_plate_by_id(plate)
+            if domain_plate is None:
+                return Result[Plate].failure(
+                    error=PlateNotFoundApplicatonError(plate))
+            domain_plates.append(domain_plate) 
         
         plates: list[MenuPlates] = []
         
