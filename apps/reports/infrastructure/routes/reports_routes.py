@@ -53,10 +53,12 @@ async def AnualSellsReport(
         
     service = ExceptionDecorator(GetSellsInRangeApplicationService(orders_repository=DbOrdersRepository(db, order_mapper=OrderMapper())))
     sells = []
+    total = 0
     sells.append(('Month', 'Sells'))
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October','November', 'December']
     for i in range(1, 13):
         sell = (await service.execute(input=GetSellsInRangeDto( begin=init_dates[i-1], end=end_dates[i-1]))).unwrap()
+        total += sell
         sells.append((f'{months[i-1]}',f'{sell}$'))
     
     pdf = FPDF()
@@ -74,8 +76,10 @@ async def AnualSellsReport(
             row = table.row()
             for datum in data_row:
                 row.cell(datum)
-    pdf.output(f'sales_report_{year}.pdf')
-    return FileResponse(f'sales_report_{year}.pdf', media_type='application/octet-stream',filename=f'sales_report_{year}.pdf')
+    pdf.set_font("Times", size=20)
+    pdf.cell(0, 10, f"Total Sales: {total}", align="R")
+    pdf.output(f'reports/sales_report_{year}.pdf')
+    return FileResponse(f'reports/sales_report_{year}.pdf', media_type='application/octet-stream',filename=f'sales_report_{year}.pdf')
 
 
 @report_router.post("/ordersInRange", name="report")
@@ -113,8 +117,8 @@ async def OrdersInRangeReport(
             row = table.row()
             for datum in data_row:
                 row.cell(datum)
-    pdf.output(f'orders_from_{entry.from_date}_to_{entry.to_date}_report.pdf')
-    return FileResponse(f'orders_from_{entry.from_date}_to_{entry.to_date}_report.pdf', media_type='application/octet-stream',filename=f'orders_from_{entry.from_date}_to_{entry.to_date}_report.pdf')
+    pdf.output(f'reports/orders_from_{entry.from_date}_to_{entry.to_date}_report.pdf')
+    return FileResponse(f'reports/orders_from_{entry.from_date}_to_{entry.to_date}_report.pdf', media_type='application/octet-stream',filename=f'orders_from_{entry.from_date}_to_{entry.to_date}_report.pdf')
 
 @report_router.get("/ingredientsInventory", name="report")
 async def InventoryReport(
@@ -146,5 +150,5 @@ async def InventoryReport(
                 row = table.row()
                 for datum in data_row:
                     row.cell(datum)
-    pdf.output(f'inventory_report_{date.today()}.pdf')
-    return FileResponse(f'inventory_report_{date.today()}.pdf', media_type='application/octet-stream',filename=f'inventory_report_{date.today()}.pdf')
+    pdf.output(f'reports/inventory_report_{date.today()}.pdf')
+    return FileResponse(f'reports/inventory_report_{date.today()}.pdf', media_type='application/octet-stream',filename=f'inventory_report_{date.today()}.pdf')
