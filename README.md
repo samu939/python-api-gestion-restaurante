@@ -1,4 +1,4 @@
-# python-api-gestion-restaurante 🍝
+# API Gestión de Restaurante 🍝
 
 ## Ejecución del proyecto:
 🐳 Docker: 
