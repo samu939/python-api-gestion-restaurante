@@ -13,7 +13,7 @@ from config import (
 
 async def connect_to_db(app: FastAPI) -> None:
     try:
-        DB_URL = f"{DATABASE_URL}_test" if os.environ.get("TESTING") else DATABASE_URL
+        DB_URL = f"{DATABASE_URL}_test_2" if os.environ.get("TESTING") else DATABASE_URL
         database = Database(DB_URL, min_size=DB_MIN_SIZE, max_size=DB_MAX_SIZE)
         logger.info(f"Database connection - starting {DATABASE_URL}")
         await database.connect()

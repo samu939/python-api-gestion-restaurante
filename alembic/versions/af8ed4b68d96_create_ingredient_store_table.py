@@ -19,14 +19,17 @@ branch_labels = None
 depends_on = None
 
 def create_ingredient_store_table():
-    if not table_exists("ingredient_store"):
-        op.create_table(
-            'ingredient_store',
-            sa.Column('id', sa.String(),  primary_key=True, default=uuid4()),
-            sa.Column('fk_ingredient', sa.String(), sa.ForeignKey('ingredient.id'), nullable=False),
-            sa.Column('fk_store', sa.String(), sa.ForeignKey('store.id'), nullable=False),
-            sa.Column('quantity', sa.Float, nullable=False)
-        )
+    conn = op.get_bind()
+    conn.execute(""" create table if not exists ingredient_store(
+	id varchar PRIMARY KEY DEFAULT uuid_generate_v4(),
+	quantity int NOT NULL,
+	fk_store varchar NOT NULL,
+	fk_ingredient varchar NOT NULL,
+	constraint fk_store FOREIGN KEY(fk_store) REFERENCES store(id),
+	constraint fk_ingredient FOREIGN KEY(fk_ingredient) REFERENCES ingredient(id),
+	constraint store_ingredient_quantity_greater_than_cero CHECK (quantity > 0)
+    );
+    """)
 
 def upgrade() -> None:
     create_ingredient_store_table()

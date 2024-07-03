@@ -113,6 +113,14 @@
         "documentation": {}
     },
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
         "label": "sqlalchemy",
         "kind": 6,
         "isExtraImport": true,
@@ -3321,6 +3329,38 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -4451,6 +4491,14 @@
         "documentation": {}
     },
     {
+        "label": "ApplicationError",
+        "importPath": "core.application.errors.application_errors",
+        "description": "core.application.errors.application_errors",
+        "isExtraImport": true,
+        "detail": "core.application.errors.application_errors",
+        "documentation": {}
+    },
+    {
         "label": "IngredientChangeStoreDto",
         "importPath": "apps.ingredients.application.dto.ingredient_change_store_dto",
         "description": "apps.ingredients.application.dto.ingredient_change_store_dto",
@@ -4464,6 +4512,30 @@
         "description": "apps.ingredients.application.dto.ingredient_change_store_dto",
         "isExtraImport": true,
         "detail": "apps.ingredients.application.dto.ingredient_change_store_dto",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientsNotFoundApplicatonError",
+        "importPath": "apps.ingredients.application.errors.ingredients_not_found",
+        "description": "apps.ingredients.application.errors.ingredients_not_found",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.errors.ingredients_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientsNotFoundApplicatonError",
+        "importPath": "apps.ingredients.application.errors.ingredients_not_found",
+        "description": "apps.ingredients.application.errors.ingredients_not_found",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.errors.ingredients_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientsNotFoundApplicatonError",
+        "importPath": "apps.ingredients.application.errors.ingredients_not_found",
+        "description": "apps.ingredients.application.errors.ingredients_not_found",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.application.errors.ingredients_not_found",
         "documentation": {}
     },
     {
@@ -4700,6 +4772,14 @@
         "documentation": {}
     },
     {
+        "label": "IngredientRepository",
+        "importPath": "apps.ingredients.domain.repositories.ingredient_repository",
+        "description": "apps.ingredients.domain.repositories.ingredient_repository",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.repositories.ingredient_repository",
+        "documentation": {}
+    },
+    {
         "label": "IngredientQuantity",
         "importPath": "apps.ingredients.domain.value_objects.ingredient_quantity",
         "description": "apps.ingredients.domain.value_objects.ingredient_quantity",
@@ -5081,6 +5161,62 @@
         "description": "apps.ingredients.application.dto.create_ingredient_dto",
         "isExtraImport": true,
         "detail": "apps.ingredients.application.dto.create_ingredient_dto",
+        "documentation": {}
+    },
+    {
+        "label": "StoreNotFoundApplicatonError",
+        "importPath": "apps.store.application.errors.store_not_found",
+        "description": "apps.store.application.errors.store_not_found",
+        "isExtraImport": true,
+        "detail": "apps.store.application.errors.store_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "StoreNotFoundApplicatonError",
+        "importPath": "apps.store.application.errors.store_not_found",
+        "description": "apps.store.application.errors.store_not_found",
+        "isExtraImport": true,
+        "detail": "apps.store.application.errors.store_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "StoreRepository",
+        "importPath": "apps.store.domain.repositories.store_repository",
+        "description": "apps.store.domain.repositories.store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.repositories.store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "StoreRepository",
+        "importPath": "apps.store.domain.repositories.store_repository",
+        "description": "apps.store.domain.repositories.store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.repositories.store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "StoreRepository",
+        "importPath": "apps.store.domain.repositories.store_repository",
+        "description": "apps.store.domain.repositories.store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.repositories.store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "StoreRepository",
+        "importPath": "apps.store.domain.repositories.store_repository",
+        "description": "apps.store.domain.repositories.store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.repositories.store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "StoreRepository",
+        "importPath": "apps.store.domain.repositories.store_repository",
+        "description": "apps.store.domain.repositories.store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.domain.repositories.store_repository",
         "documentation": {}
     },
     {
@@ -5636,6 +5772,14 @@
         "documentation": {}
     },
     {
+        "label": "IngredientQuantityNotValid",
+        "importPath": "apps.ingredients.domain.exceptions.ingredient_quantity_not_valid_exception",
+        "description": "apps.ingredients.domain.exceptions.ingredient_quantity_not_valid_exception",
+        "isExtraImport": true,
+        "detail": "apps.ingredients.domain.exceptions.ingredient_quantity_not_valid_exception",
+        "documentation": {}
+    },
+    {
         "label": "IngredientChangedStoreEvent",
         "importPath": "apps.ingredients.domain.events.ingredient_changed_store",
         "description": "apps.ingredients.domain.events.ingredient_changed_store",
@@ -6076,11 +6220,59 @@
         "documentation": {}
     },
     {
-        "label": "NativeEventHandler",
-        "importPath": "core.infrastructure.events.event_handler_native",
-        "description": "core.infrastructure.events.event_handler_native",
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
         "isExtraImport": true,
-        "detail": "core.infrastructure.events.event_handler_native",
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "StoreMapper",
+        "importPath": "apps.store.infrastructure.mappers.store_mapper",
+        "description": "apps.store.infrastructure.mappers.store_mapper",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.mappers.store_mapper",
+        "documentation": {}
+    },
+    {
+        "label": "DbStoreRepository",
+        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
+        "description": "apps.store.infrastructure.repositories.db_store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.repositories.db_store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DbStoreRepository",
+        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
+        "description": "apps.store.infrastructure.repositories.db_store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.repositories.db_store_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DbStoreRepository",
+        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
+        "description": "apps.store.infrastructure.repositories.db_store_repository",
+        "isExtraImport": true,
+        "detail": "apps.store.infrastructure.repositories.db_store_repository",
         "documentation": {}
     },
     {
@@ -6121,6 +6313,94 @@
         "description": "core.infrastructure.events.event_handler_native",
         "isExtraImport": true,
         "detail": "core.infrastructure.events.event_handler_native",
+        "documentation": {}
+    },
+    {
+        "label": "NativeEventHandler",
+        "importPath": "core.infrastructure.events.event_handler_native",
+        "description": "core.infrastructure.events.event_handler_native",
+        "isExtraImport": true,
+        "detail": "core.infrastructure.events.event_handler_native",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
+        "documentation": {}
+    },
+    {
+        "label": "MenuId",
+        "importPath": "apps.menus.domain.value_objects.menu_id",
+        "description": "apps.menus.domain.value_objects.menu_id",
+        "isExtraImport": true,
+        "detail": "apps.menus.domain.value_objects.menu_id",
         "documentation": {}
     },
     {
@@ -6220,78 +6500,6 @@
         "documentation": {}
     },
     {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
-        "label": "MenuId",
-        "importPath": "apps.menus.domain.value_objects.menu_id",
-        "description": "apps.menus.domain.value_objects.menu_id",
-        "isExtraImport": true,
-        "detail": "apps.menus.domain.value_objects.menu_id",
-        "documentation": {}
-    },
-    {
         "label": "MenuName",
         "importPath": "apps.menus.domain.value_objects.menu_name",
         "description": "apps.menus.domain.value_objects.menu_name",
@@ -7009,6 +7217,22 @@
         "description": "apps.plates.domain.repositories.plates_repository",
         "isExtraImport": true,
         "detail": "apps.plates.domain.repositories.plates_repository",
+        "documentation": {}
+    },
+    {
+        "label": "MenuNotFoundApplicatonError",
+        "importPath": "apps.menus.application.errors.menu_not_found",
+        "description": "apps.menus.application.errors.menu_not_found",
+        "isExtraImport": true,
+        "detail": "apps.menus.application.errors.menu_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "MenuNotFoundApplicatonError",
+        "importPath": "apps.menus.application.errors.menu_not_found",
+        "description": "apps.menus.application.errors.menu_not_found",
+        "isExtraImport": true,
+        "detail": "apps.menus.application.errors.menu_not_found",
         "documentation": {}
     },
     {
@@ -7073,6 +7297,22 @@
         "description": "apps.menus.application.dtos.modify_menu_dto",
         "isExtraImport": true,
         "detail": "apps.menus.application.dtos.modify_menu_dto",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNotFoundApplicatonError",
+        "importPath": "apps.plates.application.errors.plate_not_found",
+        "description": "apps.plates.application.errors.plate_not_found",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.errors.plate_not_found",
+        "documentation": {}
+    },
+    {
+        "label": "PlateNotFoundApplicatonError",
+        "importPath": "apps.plates.application.errors.plate_not_found",
+        "description": "apps.plates.application.errors.plate_not_found",
+        "isExtraImport": true,
+        "detail": "apps.plates.application.errors.plate_not_found",
         "documentation": {}
     },
     {
@@ -8629,46 +8869,6 @@
         "documentation": {}
     },
     {
-        "label": "StoreMapper",
-        "importPath": "apps.store.infrastructure.mappers.store_mapper",
-        "description": "apps.store.infrastructure.mappers.store_mapper",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.mappers.store_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "StoreMapper",
-        "importPath": "apps.store.infrastructure.mappers.store_mapper",
-        "description": "apps.store.infrastructure.mappers.store_mapper",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.mappers.store_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "StoreMapper",
-        "importPath": "apps.store.infrastructure.mappers.store_mapper",
-        "description": "apps.store.infrastructure.mappers.store_mapper",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.mappers.store_mapper",
-        "documentation": {}
-    },
-    {
-        "label": "DbStoreRepository",
-        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
-        "description": "apps.store.infrastructure.repositories.db_store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.repositories.db_store_repository",
-        "documentation": {}
-    },
-    {
-        "label": "DbStoreRepository",
-        "importPath": "apps.store.infrastructure.repositories.db_store_repository",
-        "description": "apps.store.infrastructure.repositories.db_store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.infrastructure.repositories.db_store_repository",
-        "documentation": {}
-    },
-    {
         "label": "GetSellsInRangeApplicationService",
         "importPath": "apps.order.application.services.get_sells_in_range_application_service",
         "description": "apps.order.application.services.get_sells_in_range_application_service",
@@ -8690,38 +8890,6 @@
         "description": "apps.store.application.dto.create_store_dto",
         "isExtraImport": true,
         "detail": "apps.store.application.dto.create_store_dto",
-        "documentation": {}
-    },
-    {
-        "label": "StoreRepository",
-        "importPath": "apps.store.domain.repositories.store_repository",
-        "description": "apps.store.domain.repositories.store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.repositories.store_repository",
-        "documentation": {}
-    },
-    {
-        "label": "StoreRepository",
-        "importPath": "apps.store.domain.repositories.store_repository",
-        "description": "apps.store.domain.repositories.store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.repositories.store_repository",
-        "documentation": {}
-    },
-    {
-        "label": "StoreRepository",
-        "importPath": "apps.store.domain.repositories.store_repository",
-        "description": "apps.store.domain.repositories.store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.repositories.store_repository",
-        "documentation": {}
-    },
-    {
-        "label": "StoreRepository",
-        "importPath": "apps.store.domain.repositories.store_repository",
-        "description": "apps.store.domain.repositories.store_repository",
-        "isExtraImport": true,
-        "detail": "apps.store.domain.repositories.store_repository",
         "documentation": {}
     },
     {
@@ -9212,6 +9380,38 @@
         "description": "fastapi.testclient",
         "isExtraImport": true,
         "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
         "documentation": {}
     },
     {
@@ -10006,7 +10206,7 @@
         "kind": 2,
         "importPath": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "description": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
-        "peekOfCode": "def create_ingredient_store_table():\n    if not table_exists(\"ingredient_store\"):\n        op.create_table(\n            'ingredient_store',\n            sa.Column('id', sa.String(),  primary_key=True, default=uuid4()),\n            sa.Column('fk_ingredient', sa.String(), sa.ForeignKey('ingredient.id'), nullable=False),\n            sa.Column('fk_store', sa.String(), sa.ForeignKey('store.id'), nullable=False),\n            sa.Column('quantity', sa.Float, nullable=False)\n        )\ndef upgrade() -> None:",
+        "peekOfCode": "def create_ingredient_store_table():\n    conn = op.get_bind()\n    conn.execute(\"\"\" create table if not exists ingredient_store(\n\tid varchar PRIMARY KEY DEFAULT uuid_generate_v4(),\n\tquantity int NOT NULL,\n\tfk_store varchar NOT NULL,\n\tfk_ingredient varchar NOT NULL,\n\tconstraint fk_store FOREIGN KEY(fk_store) REFERENCES store(id),\n\tconstraint fk_ingredient FOREIGN KEY(fk_ingredient) REFERENCES ingredient(id),\n\tconstraint store_ingredient_quantity_greater_than_cero CHECK (quantity > 0)",
         "detail": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "documentation": {}
     },
@@ -10033,7 +10233,7 @@
         "kind": 5,
         "importPath": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "description": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
-        "peekOfCode": "revision = 'af8ed4b68d96'\ndown_revision = '71f65961713f'\nbranch_labels = None\ndepends_on = None\ndef create_ingredient_store_table():\n    if not table_exists(\"ingredient_store\"):\n        op.create_table(\n            'ingredient_store',\n            sa.Column('id', sa.String(),  primary_key=True, default=uuid4()),\n            sa.Column('fk_ingredient', sa.String(), sa.ForeignKey('ingredient.id'), nullable=False),",
+        "peekOfCode": "revision = 'af8ed4b68d96'\ndown_revision = '71f65961713f'\nbranch_labels = None\ndepends_on = None\ndef create_ingredient_store_table():\n    conn = op.get_bind()\n    conn.execute(\"\"\" create table if not exists ingredient_store(\n\tid varchar PRIMARY KEY DEFAULT uuid_generate_v4(),\n\tquantity int NOT NULL,\n\tfk_store varchar NOT NULL,",
         "detail": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "documentation": {}
     },
@@ -10042,7 +10242,7 @@
         "kind": 5,
         "importPath": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "description": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
-        "peekOfCode": "down_revision = '71f65961713f'\nbranch_labels = None\ndepends_on = None\ndef create_ingredient_store_table():\n    if not table_exists(\"ingredient_store\"):\n        op.create_table(\n            'ingredient_store',\n            sa.Column('id', sa.String(),  primary_key=True, default=uuid4()),\n            sa.Column('fk_ingredient', sa.String(), sa.ForeignKey('ingredient.id'), nullable=False),\n            sa.Column('fk_store', sa.String(), sa.ForeignKey('store.id'), nullable=False),",
+        "peekOfCode": "down_revision = '71f65961713f'\nbranch_labels = None\ndepends_on = None\ndef create_ingredient_store_table():\n    conn = op.get_bind()\n    conn.execute(\"\"\" create table if not exists ingredient_store(\n\tid varchar PRIMARY KEY DEFAULT uuid_generate_v4(),\n\tquantity int NOT NULL,\n\tfk_store varchar NOT NULL,\n\tfk_ingredient varchar NOT NULL,",
         "detail": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "documentation": {}
     },
@@ -10051,7 +10251,7 @@
         "kind": 5,
         "importPath": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "description": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
-        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef create_ingredient_store_table():\n    if not table_exists(\"ingredient_store\"):\n        op.create_table(\n            'ingredient_store',\n            sa.Column('id', sa.String(),  primary_key=True, default=uuid4()),\n            sa.Column('fk_ingredient', sa.String(), sa.ForeignKey('ingredient.id'), nullable=False),\n            sa.Column('fk_store', sa.String(), sa.ForeignKey('store.id'), nullable=False),\n            sa.Column('quantity', sa.Float, nullable=False)",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef create_ingredient_store_table():\n    conn = op.get_bind()\n    conn.execute(\"\"\" create table if not exists ingredient_store(\n\tid varchar PRIMARY KEY DEFAULT uuid_generate_v4(),\n\tquantity int NOT NULL,\n\tfk_store varchar NOT NULL,\n\tfk_ingredient varchar NOT NULL,\n\tconstraint fk_store FOREIGN KEY(fk_store) REFERENCES store(id),",
         "detail": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "documentation": {}
     },
@@ -10060,8 +10260,71 @@
         "kind": 5,
         "importPath": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
         "description": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
-        "peekOfCode": "depends_on = None\ndef create_ingredient_store_table():\n    if not table_exists(\"ingredient_store\"):\n        op.create_table(\n            'ingredient_store',\n            sa.Column('id', sa.String(),  primary_key=True, default=uuid4()),\n            sa.Column('fk_ingredient', sa.String(), sa.ForeignKey('ingredient.id'), nullable=False),\n            sa.Column('fk_store', sa.String(), sa.ForeignKey('store.id'), nullable=False),\n            sa.Column('quantity', sa.Float, nullable=False)\n        )",
+        "peekOfCode": "depends_on = None\ndef create_ingredient_store_table():\n    conn = op.get_bind()\n    conn.execute(\"\"\" create table if not exists ingredient_store(\n\tid varchar PRIMARY KEY DEFAULT uuid_generate_v4(),\n\tquantity int NOT NULL,\n\tfk_store varchar NOT NULL,\n\tfk_ingredient varchar NOT NULL,\n\tconstraint fk_store FOREIGN KEY(fk_store) REFERENCES store(id),\n\tconstraint fk_ingredient FOREIGN KEY(fk_ingredient) REFERENCES ingredient(id),",
         "detail": "alembic.versions.af8ed4b68d96_create_ingredient_store_table",
+        "documentation": {}
+    },
+    {
+        "label": "create_ingredient",
+        "kind": 2,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "def create_ingredient():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"ingredient\" (\"id\", \"name\") VALUES\n        ('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'ingredient 1');\n        INSERT INTO \"public\".\"store\" (id, name) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'store 1');\n        INSERT INTO \"public\".\"ingredient_store\" (id, fk_ingredient, fk_store, quantity) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', '3fa85f64-5717-4562-b3fc-2c963f66afa6', '3fa85f64-5717-4562-b3fc-2c963f66afa6', 10)\n        \"\"\"\n    )",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "def upgrade() -> None:\n    create_ingredient()\ndef downgrade() -> None:\n    op.execute(\"\"\"\n                DELETE FROM \"public\".\"ingredient_store\" WHERE fk_ingredient = '3fa85f64-5717-4562-b3fc-2c963f66afa6';\n                DELETE FROM \"public\".\"store\" WHERE name = 'store 1';\n                DELETE FROM \"public\".\"ingredient_plate\" WHERE fk_ingredient = '3fa85f64-5717-4562-b3fc-2c963f66afa6';\n                DELETE FROM \"public\".\"ingredient\" WHERE name = 'ingredient 1';\n               \"\"\")",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "def downgrade() -> None:\n    op.execute(\"\"\"\n                DELETE FROM \"public\".\"ingredient_store\" WHERE fk_ingredient = '3fa85f64-5717-4562-b3fc-2c963f66afa6';\n                DELETE FROM \"public\".\"store\" WHERE name = 'store 1';\n                DELETE FROM \"public\".\"ingredient_plate\" WHERE fk_ingredient = '3fa85f64-5717-4562-b3fc-2c963f66afa6';\n                DELETE FROM \"public\".\"ingredient\" WHERE name = 'ingredient 1';\n               \"\"\")",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "revision = 'e02c58ab7132'\ndown_revision = 'f49c2d6139f9'\nbranch_labels = None\ndepends_on = None\ndef create_ingredient():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"ingredient\" (\"id\", \"name\") VALUES\n        ('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'ingredient 1');",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "down_revision = 'f49c2d6139f9'\nbranch_labels = None\ndepends_on = None\ndef create_ingredient():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"ingredient\" (\"id\", \"name\") VALUES\n        ('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'ingredient 1');\n        INSERT INTO \"public\".\"store\" (id, name) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'store 1');",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef create_ingredient():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"ingredient\" (\"id\", \"name\") VALUES\n        ('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'ingredient 1');\n        INSERT INTO \"public\".\"store\" (id, name) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'store 1');\n        INSERT INTO \"public\".\"ingredient_store\" (id, fk_ingredient, fk_store, quantity) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', '3fa85f64-5717-4562-b3fc-2c963f66afa6', '3fa85f64-5717-4562-b3fc-2c963f66afa6', 10)",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "alembic.versions.e02c58ab7132_create_ingredient",
+        "description": "alembic.versions.e02c58ab7132_create_ingredient",
+        "peekOfCode": "depends_on = None\ndef create_ingredient():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"ingredient\" (\"id\", \"name\") VALUES\n        ('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'ingredient 1');\n        INSERT INTO \"public\".\"store\" (id, name) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', 'store 1');\n        INSERT INTO \"public\".\"ingredient_store\" (id, fk_ingredient, fk_store, quantity) VALUES('3fa85f64-5717-4562-b3fc-2c963f66afa6', '3fa85f64-5717-4562-b3fc-2c963f66afa6', '3fa85f64-5717-4562-b3fc-2c963f66afa6', 10)\n        \"\"\"",
+        "detail": "alembic.versions.e02c58ab7132_create_ingredient",
         "documentation": {}
     },
     {
@@ -10132,7 +10395,7 @@
         "kind": 2,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "def create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )\ndef upgrade() -> None:\n    create_admin()",
+        "peekOfCode": "def create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n        ('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )\ndef upgrade() -> None:\n    create_admin()",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10141,7 +10404,7 @@
         "kind": 2,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "def upgrade() -> None:\n    create_admin()\ndef downgrade() -> None:\n    op.execute('DELETE FROM \"public\".\"user\" WHERE username = \"admin\"')",
+        "peekOfCode": "def upgrade() -> None:\n    create_admin()\ndef downgrade() -> None:\n    op.execute(\"\"\"\n                DELETE FROM \"public\".\"user\" WHERE username = 'admin'\n               \"\"\")",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10150,7 +10413,7 @@
         "kind": 2,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "def downgrade() -> None:\n    op.execute('DELETE FROM \"public\".\"user\" WHERE username = \"admin\"')",
+        "peekOfCode": "def downgrade() -> None:\n    op.execute(\"\"\"\n                DELETE FROM \"public\".\"user\" WHERE username = 'admin'\n               \"\"\")",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10159,7 +10422,7 @@
         "kind": 5,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "revision = 'f49c2d6139f9'\ndown_revision = '5a21f63564b0'\nbranch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');",
+        "peekOfCode": "revision = 'f49c2d6139f9'\ndown_revision = '5a21f63564b0'\nbranch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n        ('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10168,7 +10431,7 @@
         "kind": 5,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "down_revision = '5a21f63564b0'\nbranch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"",
+        "peekOfCode": "down_revision = '5a21f63564b0'\nbranch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n        ('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10177,7 +10440,7 @@
         "kind": 5,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n        ('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10186,7 +10449,7 @@
         "kind": 5,
         "importPath": "alembic.versions.f49c2d6139f9_create_admin",
         "description": "alembic.versions.f49c2d6139f9_create_admin",
-        "peekOfCode": "depends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )\ndef upgrade() -> None:",
+        "peekOfCode": "depends_on = None\ndef create_admin():\n    conn = op.get_bind()\n    conn.execute(\n        \"\"\"\n        INSERT INTO \"public\".\"user\" (\"id\", \"name\", \"username\", \"password\", \"role\") VALUES\n        ('2ea9c01c-4c71-4d8c-9dd7-3e6f2e2243e0', 'admin', 'admin', '$2a$12$MIYapjwU9TQZBmpSGU6ppuJffYleEEjeVOGF7TaJb3w8STa4hmsGa', 'administrador');\n        \"\"\"\n    )\ndef upgrade() -> None:",
         "detail": "alembic.versions.f49c2d6139f9_create_admin",
         "documentation": {}
     },
@@ -10195,7 +10458,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    DB_URL = f\"{DATABASE_URL}_test\" if os.environ.get(\"TESTING\") else str(DATABASE_URL)",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    DB_URL = f\"{DATABASE_URL}_test_2\" if os.environ.get(\"TESTING\") else str(DATABASE_URL)",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -10384,7 +10647,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.application.dto.create_ingredient_dto",
         "description": "apps.ingredients.application.dto.create_ingredient_dto",
-        "peekOfCode": "class CreateIngredientDto (BaseModel):\n    name: str\n    quantity: int\n    storeID: str",
+        "peekOfCode": "class CreateIngredientDto (BaseModel):\n    name: str\n    quantity: int\n    store_id: str",
         "detail": "apps.ingredients.application.dto.create_ingredient_dto",
         "documentation": {}
     },
@@ -10429,7 +10692,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.application.services.create_ingredient",
         "description": "apps.ingredients.application.services.create_ingredient",
-        "peekOfCode": "class CreateIngredientApplicationService(ApplicationService[CreateIngredientDto, str]):\n    def __init__(self, ingredient_repository: IngredientRepository, event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n    async def execute(self, input: CreateIngredientDto) -> Awaitable[Result[str]]:\n        domain_ingredient = Ingredient(IngredientId(str(uuid4())), IngredientName(input.name), IngredientQuantity(input.quantity), StoreId(input.storeID))\n        await self.event_handler.publish_events(domain_ingredient.pull_events())\n        ingredient = await self.ingredient_repository.save_ingredient(domain_ingredient)\n        return Result[str].success(value=\"ingrediente guardado\") # type: ignore",
+        "peekOfCode": "class CreateIngredientApplicationService(ApplicationService[CreateIngredientDto, str]):\n    def __init__(self, ingredient_repository: IngredientRepository, store_repository: StoreRepository,event_handler: EventHandler):\n        self.ingredient_repository = ingredient_repository\n        self.event_handler = event_handler\n        self.store_repository = store_repository\n    async def execute(self, input: CreateIngredientDto) -> Awaitable[Result[str]]:\n        store = await self.store_repository.get_store_by_id(StoreId(input.store_id))\n        if store is None:\n            return Result[Ingredient].failure(\n                error=StoreNotFoundApplicatonError(StoreId(input.store_id))",
         "detail": "apps.ingredients.application.services.create_ingredient",
         "documentation": {}
     },
@@ -10591,7 +10854,7 @@
         "kind": 6,
         "importPath": "apps.ingredients.infrastructure.entries.create_ingredient_entry",
         "description": "apps.ingredients.infrastructure.entries.create_ingredient_entry",
-        "peekOfCode": "class CreateIngredientEntry (BaseModel):\n    name: str\n    quantity: float\n    storeID: str",
+        "peekOfCode": "class CreateIngredientEntry (BaseModel):\n    name: str\n    quantity: float\n    store_id: str",
         "detail": "apps.ingredients.infrastructure.entries.create_ingredient_entry",
         "documentation": {}
     },
@@ -10758,6 +11021,15 @@
         "documentation": {}
     },
     {
+        "label": "MenuNotFoundApplicatonError",
+        "kind": 6,
+        "importPath": "apps.menus.application.errors.menu_not_found",
+        "description": "apps.menus.application.errors.menu_not_found",
+        "peekOfCode": "class MenuNotFoundApplicatonError(ApplicationError):\n    def __init__(self, menu_id: MenuId):\n        super().__init__(f\"Menú con el id {menu_id.value} no fue encontrado\", 404, self.__class__.__name__)",
+        "detail": "apps.menus.application.errors.menu_not_found",
+        "documentation": {}
+    },
+    {
         "label": "CreateMenuApplicationService",
         "kind": 6,
         "importPath": "apps.menus.application.services.create_menu_application_service",
@@ -10780,7 +11052,7 @@
         "kind": 6,
         "importPath": "apps.menus.application.services.get_menu_application_service",
         "description": "apps.menus.application.services.get_menu_application_service",
-        "peekOfCode": "class GetMenuByIdApplicationService(ApplicationService[MenuId, GetMenuWithPlatesResponse]):\n    def __init__(self, menus_repository: MenuRepository, plates_repository: PlateRepository) -> MenuId:\n        self.menus_repository = menus_repository\n        self.plates_repository = plates_repository\n    async def execute(self, input: MenuId) -> Awaitable[Result[GetMenuWithPlatesResponse]]:\n        menu: Menu = await self.menus_repository.get_menu_by_id(input)\n        domain_plates: list[Plate] = []\n        for plate in menu.plates:\n            domain_plates.append(await self.plates_repository.get_plate_by_id(plate))\n        plates: list[MenuPlates] = []",
+        "peekOfCode": "class GetMenuByIdApplicationService(ApplicationService[MenuId, GetMenuWithPlatesResponse]):\n    def __init__(self, menus_repository: MenuRepository, plates_repository: PlateRepository) -> MenuId:\n        self.menus_repository = menus_repository\n        self.plates_repository = plates_repository\n    async def execute(self, input: MenuId) -> Awaitable[Result[GetMenuWithPlatesResponse]]:\n        menu: Menu = await self.menus_repository.get_menu_by_id(input)\n        if not menu:\n            return Result[Menu].failure(\n                error=MenuNotFoundApplicatonError(input))\n        domain_plates: list[Plate] = []",
         "detail": "apps.menus.application.services.get_menu_application_service",
         "documentation": {}
     },
@@ -11581,7 +11853,7 @@
         "kind": 6,
         "importPath": "apps.plates.application.services.create_plate_application_service",
         "description": "apps.plates.application.services.create_plate_application_service",
-        "peekOfCode": "class CreatePlateApplicationService(ApplicationService[CreatePlateDto, str]):\n    def __init__(self, plates_repository: PlateRepository, event_handler: EventHandler) -> None:\n        self.plates_repository = plates_repository\n        self.event_handler = event_handler\n    async def execute(self, input: CreatePlateDto) -> Awaitable[Result[str]]:\n        domain_plate_ingredients = []\n        for ingredient in input.ingredients:\n            domain_plate_ingredients.append(PlateIngredient({\n                'ingredient_id': IngredientId(ingredient.id),\n                'quantity': IngredientForPlateQuantity(ingredient.quantity)",
+        "peekOfCode": "class CreatePlateApplicationService(ApplicationService[CreatePlateDto, str]):\n    def __init__(self, plates_repository: PlateRepository, ingredients_repository: IngredientRepository, event_handler: EventHandler) -> None:\n        self.plates_repository = plates_repository\n        self.event_handler = event_handler\n        self.ingredients_repository = ingredients_repository\n    async def execute(self, input: CreatePlateDto) -> Awaitable[Result[str]]:\n        domain_plate_ingredients = []\n        for ingredient in input.ingredients:\n            domain_ingredient = await self.ingredients_repository.get_ingredient_by_id(IngredientId(ingredient.id))\n            if domain_ingredient is None:",
         "detail": "apps.plates.application.services.create_plate_application_service",
         "documentation": {}
     },
@@ -12798,6 +13070,42 @@
         "description": "tests.ingredient_tests.test_ingredients",
         "peekOfCode": "pytestmark = pytest.mark.asyncio\nclass TestIngredientsRoute:\n    async def test_get_all_ingredients_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/ingredient/getall\")\n        assert res.status_code == 200\n    async def test_get_ingredient_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/ingredient/get/3fa85f64-5717-4562-b3fc-2c963f66afa6\")",
         "detail": "tests.ingredient_tests.test_ingredients",
+        "documentation": {}
+    },
+    {
+        "label": "TestMenusRoute",
+        "kind": 6,
+        "importPath": "tests.menu_tests.test_menus",
+        "description": "tests.menu_tests.test_menus",
+        "peekOfCode": "class TestMenusRoute:\n    async def test_get_all_menus_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/menus/getall\")\n        assert res.status_code == 200\n    async def test_get_menu_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/menus/get/1ccc98db-af71-4127-bbc2-d4e0e4449961\")\n        except Exception as e:",
+        "detail": "tests.menu_tests.test_menus",
+        "documentation": {}
+    },
+    {
+        "label": "pytestmark",
+        "kind": 5,
+        "importPath": "tests.menu_tests.test_menus",
+        "description": "tests.menu_tests.test_menus",
+        "peekOfCode": "pytestmark = pytest.mark.asyncio\nclass TestMenusRoute:\n    async def test_get_all_menus_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/menus/getall\")\n        assert res.status_code == 200\n    async def test_get_menu_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/menus/get/1ccc98db-af71-4127-bbc2-d4e0e4449961\")",
+        "detail": "tests.menu_tests.test_menus",
+        "documentation": {}
+    },
+    {
+        "label": "TestPlatesRoute",
+        "kind": 6,
+        "importPath": "tests.plate_tests.test_plates",
+        "description": "tests.plate_tests.test_plates",
+        "peekOfCode": "class TestPlatesRoute:\n    async def test_get_all_plates_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/plates/getall\")\n        assert res.status_code == 200\n    async def test_get_plate_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/plates/get/a40f5bc4-398f-446c-a11b-b6d45815840e\")\n        except Exception as e:",
+        "detail": "tests.plate_tests.test_plates",
+        "documentation": {}
+    },
+    {
+        "label": "pytestmark",
+        "kind": 5,
+        "importPath": "tests.plate_tests.test_plates",
+        "description": "tests.plate_tests.test_plates",
+        "peekOfCode": "pytestmark = pytest.mark.asyncio\nclass TestPlatesRoute:\n    async def test_get_all_plates_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        res = await client.get(\"/api/v1/plates/getall\")\n        assert res.status_code == 200\n    async def test_get_plate_by_id_route(self, app: FastAPI, authorized_client: AsyncClient) -> None:\n        client = await authorized_client\n        try:\n            res = await client.get(\"/api/v1/plates/get/a40f5bc4-398f-446c-a11b-b6d45815840e\")",
+        "detail": "tests.plate_tests.test_plates",
         "documentation": {}
     },
     {

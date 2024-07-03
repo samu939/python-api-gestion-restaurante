@@ -18,6 +18,8 @@ from apps.ingredients.infrastructure.entries.modify_store_entry import ModifySto
 from apps.ingredients.infrastructure.mappers.ingredient_mapper import IngredientMapper
 from apps.ingredients.infrastructure.repositories.db_ingredients_repository import DbIngredientsRepository
 from apps.ingredients.infrastructure.responses.ingredients_responses import GetAllIngredientsResponse, GetIngredientResponse, SaveIngredientResponse
+from apps.store.infrastructure.mappers.store_mapper import StoreMapper
+from apps.store.infrastructure.repositories.db_store_repository import DbStoreRepository
 from apps.user.infrastructure.db_entity.user_in_db import UserInDB, roleEnum
 from core.application.decorators.exception_decorator import ExceptionDecorator
 from core.infrastructure.events.event_handler_native import NativeEventHandler
@@ -64,7 +66,7 @@ async def createIngredient(
     event_handler = NativeEventHandler()
     print(new_ingredient)
     ingredient = CreateIngredientDto(**new_ingredient.dict())
-    service = ExceptionDecorator(CreateIngredientApplicationService(DbIngredientsRepository(db,IngredientMapper()), event_handler))
+    service = ExceptionDecorator(CreateIngredientApplicationService(DbIngredientsRepository(db,IngredientMapper()), store_repository= DbStoreRepository(db,StoreMapper()), event_handler=event_handler))
     
     return SaveIngredientResponse(response=((await service.execute(ingredient)).unwrap()))
 
