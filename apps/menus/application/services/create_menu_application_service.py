@@ -33,8 +33,7 @@ class CreateMenuApplicationService(ApplicationService[CreateMenuDto, str]):
         for plate in input.plates:
             domain_plate = await self.plates_repository.get_plate_by_id(PlateId(plate))
             if domain_plate is None:
-                return Result[Plate].failure(
-                    error=PlateNotFoundApplicatonError(plate))
+                return Result[str].failure(error=PlateNotFoundApplicatonError(PlateId(plate)))
             plates_id.append(PlateId(plate))
 
         domain_menu = Menu(id=MenuId(str(uuid4())), name=MenuName(input.name), plates=plates_id)
