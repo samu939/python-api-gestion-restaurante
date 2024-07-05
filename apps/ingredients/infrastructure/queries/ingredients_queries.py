@@ -42,5 +42,5 @@ SEARCH_ING_STORE_RELATION = """
 UPDATE_QUANTITY = """
     UPDATE ingredient_store
     SET quantity = :quantity 
-    WHERE id = :id
+    WHERE fk_ingredient = :id
 """

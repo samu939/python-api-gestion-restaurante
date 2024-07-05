@@ -235,6 +235,14 @@
         "documentation": {}
     },
     {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "UUID",
         "importPath": "uuid",
         "description": "uuid",
@@ -1680,6 +1688,14 @@
         "documentation": {}
     },
     {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
         "label": "DatabaseError",
         "importPath": "psycopg2",
         "description": "psycopg2",
@@ -2049,6 +2065,14 @@
         "documentation": {}
     },
     {
+        "label": "loginDto",
+        "importPath": "apps.auth.application.dto.login_dto",
+        "description": "apps.auth.application.dto.login_dto",
+        "isExtraImport": true,
+        "detail": "apps.auth.application.dto.login_dto",
+        "documentation": {}
+    },
+    {
         "label": "AuthResponse",
         "importPath": "apps.auth.application.dto.login_response",
         "description": "apps.auth.application.dto.login_response",
@@ -2062,6 +2086,22 @@
         "description": "apps.auth.application.dto.login_response",
         "isExtraImport": true,
         "detail": "apps.auth.application.dto.login_response",
+        "documentation": {}
+    },
+    {
+        "label": "AuthResponse",
+        "importPath": "apps.auth.application.dto.login_response",
+        "description": "apps.auth.application.dto.login_response",
+        "isExtraImport": true,
+        "detail": "apps.auth.application.dto.login_response",
+        "documentation": {}
+    },
+    {
+        "label": "AuthExceptions",
+        "importPath": "apps.auth.application.exceptions.auth_exceptions",
+        "description": "apps.auth.application.exceptions.auth_exceptions",
+        "isExtraImport": true,
+        "detail": "apps.auth.application.exceptions.auth_exceptions",
         "documentation": {}
     },
     {
@@ -2105,11 +2145,11 @@
         "documentation": {}
     },
     {
-        "label": "UserRepository",
-        "importPath": "apps.user.domain.repositories.user_repository",
-        "description": "apps.user.domain.repositories.user_repository",
+        "label": "tokenGenerator",
+        "importPath": "apps.auth.application.token.token_generator",
+        "description": "apps.auth.application.token.token_generator",
         "isExtraImport": true,
-        "detail": "apps.user.domain.repositories.user_repository",
+        "detail": "apps.auth.application.token.token_generator",
         "documentation": {}
     },
     {
@@ -2137,6 +2177,30 @@
         "documentation": {}
     },
     {
+        "label": "UserRepository",
+        "importPath": "apps.user.domain.repositories.user_repository",
+        "description": "apps.user.domain.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "apps.user.domain.repositories.user_repository",
+        "description": "apps.user.domain.repositories.user_repository",
+        "isExtraImport": true,
+        "detail": "apps.user.domain.repositories.user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "Result",
+        "importPath": "core.application.results.result_wrapper",
+        "description": "core.application.results.result_wrapper",
+        "isExtraImport": true,
+        "detail": "core.application.results.result_wrapper",
+        "documentation": {}
+    },
+    {
         "label": "Result",
         "importPath": "core.application.results.result_wrapper",
         "description": "core.application.results.result_wrapper",
@@ -2582,6 +2646,22 @@
         "description": "core.application.services.application_service",
         "isExtraImport": true,
         "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "ApplicationService",
+        "importPath": "core.application.services.application_service",
+        "description": "core.application.services.application_service",
+        "isExtraImport": true,
+        "detail": "core.application.services.application_service",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "databases",
+        "description": "databases",
+        "isExtraImport": true,
+        "detail": "databases",
         "documentation": {}
     },
     {
@@ -2785,6 +2865,239 @@
         "documentation": {}
     },
     {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "roleEnum",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserInDB",
+        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
+        "description": "apps.user.infrastructure.db_entity.user_in_db",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.db_entity.user_in_db",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterUserEntry",
+        "importPath": "apps.user.infrastructure.register_entry",
+        "description": "apps.user.infrastructure.register_entry",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.register_entry",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterUserEntry",
+        "importPath": "apps.user.infrastructure.register_entry",
+        "description": "apps.user.infrastructure.register_entry",
+        "isExtraImport": true,
+        "detail": "apps.user.infrastructure.register_entry",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -2950,174 +3263,6 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "roleEnum",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
-        "documentation": {}
-    },
-    {
-        "label": "UserInDB",
-        "importPath": "apps.user.infrastructure.db_entity.user_in_db",
-        "description": "apps.user.infrastructure.db_entity.user_in_db",
-        "isExtraImport": true,
-        "detail": "apps.user.infrastructure.db_entity.user_in_db",
         "documentation": {}
     },
     {
@@ -3946,11 +4091,11 @@
         "documentation": {}
     },
     {
-        "label": "jwtGenerator",
-        "importPath": "apps.auth.infraestructure.jwt.jwt_generator",
-        "description": "apps.auth.infraestructure.jwt.jwt_generator",
+        "label": "registerService",
+        "importPath": "apps.auth.application.services.register_service",
+        "description": "apps.auth.application.services.register_service",
         "isExtraImport": true,
-        "detail": "apps.auth.infraestructure.jwt.jwt_generator",
+        "detail": "apps.auth.application.services.register_service",
         "documentation": {}
     },
     {
@@ -3970,11 +4115,11 @@
         "documentation": {}
     },
     {
-        "label": "ExceptionDecorator",
-        "importPath": "core.application.decorators.exception_decorator",
-        "description": "core.application.decorators.exception_decorator",
+        "label": "jwtGenerator",
+        "importPath": "apps.auth.infraestructure.jwt.jwt_generator",
+        "description": "apps.auth.infraestructure.jwt.jwt_generator",
         "isExtraImport": true,
-        "detail": "core.application.decorators.exception_decorator",
+        "detail": "apps.auth.infraestructure.jwt.jwt_generator",
         "documentation": {}
     },
     {
@@ -4034,16 +4179,23 @@
         "documentation": {}
     },
     {
-        "label": "bcrypt",
-        "kind": 6,
+        "label": "ExceptionDecorator",
+        "importPath": "core.application.decorators.exception_decorator",
+        "description": "core.application.decorators.exception_decorator",
         "isExtraImport": true,
-        "importPath": "bcrypt",
-        "description": "bcrypt",
-        "detail": "bcrypt",
+        "detail": "core.application.decorators.exception_decorator",
         "documentation": {}
     },
     {
         "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -10876,6 +11028,24 @@
         "documentation": {}
     },
     {
+        "label": "registerServic",
+        "kind": 6,
+        "importPath": "apps.auth.application.services.register_service",
+        "description": "apps.auth.application.services.register_service",
+        "peekOfCode": "class registerService (ApplicationService):\n    def __init__(self, db: Database, user_repository: UserRepository, token_generator: tokenGenerator) -> None:\n        self.db = db\n        self.user_repository = user_repository\n        self.token_generator = token_generator\n        super().__init__()\n    def verify_password(self, password: str, hashed_pw: str) -> bool:\n        return pwd_context.verify(password, hashed_pw)\n    async def execute (self, input: RegisterUserEntry)-> Result[AuthResponse]:\n        if not input.name:",
+        "detail": "apps.auth.application.services.register_service",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "apps.auth.application.services.register_service",
+        "description": "apps.auth.application.services.register_service",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass registerService (ApplicationService):\n    def __init__(self, db: Database, user_repository: UserRepository, token_generator: tokenGenerator) -> None:\n        self.db = db\n        self.user_repository = user_repository\n        self.token_generator = token_generator\n        super().__init__()\n    def verify_password(self, password: str, hashed_pw: str) -> bool:\n        return pwd_context.verify(password, hashed_pw)\n    async def execute (self, input: RegisterUserEntry)-> Result[AuthResponse]:",
+        "detail": "apps.auth.application.services.register_service",
+        "documentation": {}
+    },
+    {
         "label": "tokenGenerator",
         "kind": 6,
         "importPath": "apps.auth.application.token.token_generator",
@@ -11285,7 +11455,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "SEARCH_ING_STORE_RELATION = \"\"\"\n    SELECT * FROM ingredient_store\n    WHERE fk_ingredient = :fk_ingredient\n    AND fk_store = :fk_store\n\"\"\"\nUPDATE_QUANTITY = \"\"\"\n    UPDATE ingredient_store\n    SET quantity = :quantity \n    WHERE id = :id\n\"\"\"",
+        "peekOfCode": "SEARCH_ING_STORE_RELATION = \"\"\"\n    SELECT * FROM ingredient_store\n    WHERE fk_ingredient = :fk_ingredient\n    AND fk_store = :fk_store\n\"\"\"\nUPDATE_QUANTITY = \"\"\"\n    UPDATE ingredient_store\n    SET quantity = :quantity \n    WHERE fk_ingredient = :id\n\"\"\"",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },
@@ -11294,7 +11464,7 @@
         "kind": 5,
         "importPath": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "description": "apps.ingredients.infrastructure.queries.ingredients_queries",
-        "peekOfCode": "UPDATE_QUANTITY = \"\"\"\n    UPDATE ingredient_store\n    SET quantity = :quantity \n    WHERE id = :id\n\"\"\"",
+        "peekOfCode": "UPDATE_QUANTITY = \"\"\"\n    UPDATE ingredient_store\n    SET quantity = :quantity \n    WHERE fk_ingredient = :id\n\"\"\"",
         "detail": "apps.ingredients.infrastructure.queries.ingredients_queries",
         "documentation": {}
     },
@@ -12860,7 +13030,7 @@
         "kind": 6,
         "importPath": "apps.user.domain.repositories.user_repository",
         "description": "apps.user.domain.repositories.user_repository",
-        "peekOfCode": "class UserRepository:\n    @abstractmethod\n    def get_user_by_id(self, id: UserId) -> Awaitable[Optional[User]]:\n        pass",
+        "peekOfCode": "class UserRepository:\n    @abstractmethod\n    def get_user_by_id(self, id: UserId) -> Awaitable[Optional[User]]:\n        pass\n    @abstractmethod\n    def add_user(self, user: UserInDB) -> Awaitable[Optional[User]]:\n        pass",
         "detail": "apps.user.domain.repositories.user_repository",
         "documentation": {}
     },
@@ -12932,7 +13102,16 @@
         "kind": 5,
         "importPath": "apps.user.infrastructure.queries.user_queries",
         "description": "apps.user.infrastructure.queries.user_queries",
-        "peekOfCode": "GET_USER_BY_ID = \"\"\"\n    SELECT us.id, us.name, us.username, us.password, us.role\n    FROM \"user\" AS us\n    WHERE us.id = :id;\n\"\"\"",
+        "peekOfCode": "GET_USER_BY_ID = \"\"\"\n    SELECT us.id, us.name, us.username, us.password, us.role\n    FROM \"user\" AS us\n    WHERE us.id = :id;\n\"\"\"\nADD_USER = \"\"\"\n    INSERT INTO \"user\" (id, username, password, name, role)\n    VALUES (:id, :username, :password, :name, :role);\n\"\"\"",
+        "detail": "apps.user.infrastructure.queries.user_queries",
+        "documentation": {}
+    },
+    {
+        "label": "ADD_USER",
+        "kind": 5,
+        "importPath": "apps.user.infrastructure.queries.user_queries",
+        "description": "apps.user.infrastructure.queries.user_queries",
+        "peekOfCode": "ADD_USER = \"\"\"\n    INSERT INTO \"user\" (id, username, password, name, role)\n    VALUES (:id, :username, :password, :name, :role);\n\"\"\"",
         "detail": "apps.user.infrastructure.queries.user_queries",
         "documentation": {}
     },
@@ -12961,6 +13140,15 @@
         "description": "apps.user.infrastructure.routes.user_routes",
         "peekOfCode": "user_router = APIRouter(\n    prefix=\"/user\",\n    tags=[\"user\"],\n    responses={404: {\"description\": \"Not found\"}},\n)\n@user_router.post(\"/get\", response_model=GetUserResponse, name=\"user:getById\")\nasync def getUserById(\n    db: Database = Depends(get_database),\n    current_user: UserInDB = Depends(get_current_active_user),\n):",
         "detail": "apps.user.infrastructure.routes.user_routes",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterUserEntry",
+        "kind": 6,
+        "importPath": "apps.user.infrastructure.register_entry",
+        "description": "apps.user.infrastructure.register_entry",
+        "peekOfCode": "class RegisterUserEntry(BaseModel):\n    name: str\n    password: str\n    role: roleEnum\n    username: str",
+        "detail": "apps.user.infrastructure.register_entry",
         "documentation": {}
     },
     {

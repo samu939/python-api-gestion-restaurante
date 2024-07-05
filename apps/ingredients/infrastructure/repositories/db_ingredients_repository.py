@@ -49,7 +49,7 @@ class DbIngredientsRepository (IngredientRepository):
 
         if (ingredient_store_relation_in_db):
             await self.db.execute(query=UPDATE_QUANTITY, values={
-                'id': ingredient_store_relation_in_db.id,
+                'id': ingredient.id.value,
                 'quantity': values['quantity']
             })
             return

@@ -27,4 +27,5 @@ class EgressIngredientApplicationService(ApplicationService[ModifyIngredientQuan
         ingredient.rest_quantity(IngredientQuantity(input.quantity))
         await self.event_handler.publish_events(ingredient.pull_events())
         await self.ingredient_repository.save_ingredient(ingredient)
+        
         return Result[Ingredient].success(value=ingredient) # type: ignore
